@@ -1,0 +1,7 @@
+mqInputµÿ÷∑
+≤‚ ‘¡¥Ω”
+http://192.168.10.143:8080/MQInput/itgService/inbound.do
+
+≤‚ ‘:
+
+

@@ -1,0 +1,8 @@
+D:\Documents\WeChat Files\wangzhiwenjohn\Files
+
+
+
+C:\Program Files\Java\jdk1.8.0_121\lib\tools.jar;C:\Program Files\Java\jdk1.8.0_121\lib\dt.jar
+
+LinuxÔËÐÐjar°ü 
+nohup java -jar ....jar start 8080 8081 

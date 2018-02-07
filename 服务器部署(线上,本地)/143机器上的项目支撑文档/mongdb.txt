@@ -1,0 +1,32 @@
+关闭
+ps  -ef |grep mongodb  
+
+或者
+
+./mongo
+use  admin
+db.shutdownServer();】
+
+开启
+/root/mongodb/bin/mongod -f /root/mongodb/bin/mongodb.conf
+
+
+演示项目地址
+http://121.42.8.141:8080/ops/index.jsp
+
+admin  123456
+
+
+db.createUser(
+...   {
+...     user: "oms",
+...     pwd: "oms",
+...     roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+...   }
+... )
+
+
+
+如果出错,解决办法的博客
+
+http://www.cnblogs.com/timelesszhuang/p/4324461.html

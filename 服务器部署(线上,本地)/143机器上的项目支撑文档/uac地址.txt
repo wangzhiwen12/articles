@@ -1,0 +1,6 @@
+uac 
+http://192.168.10.143:8888/uac/user/getList.do
+
+
+Æô¶¯uac
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /root/wangfujing/uac/uac-server.jar  start 8888 8343 >> nohup.log 2>&1 &

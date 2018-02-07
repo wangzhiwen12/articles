@@ -1,0 +1,20 @@
+schema准备好之后，我们要在配置文件中，把这个schema包含进去，让这个schema生效。
+在配置文件slapd.conf中间的开始部分加入这样的一句：
+include /usr/local/openldap/etc/openldap/schema/kunmail.schema
+应该注意，上面这句话之前应确保有一句：
+include /usr/local/openldap/etc/openldap/schema/core.schema
+因为kunmail.schema里面有些东西是依赖core.schema的。 
+
+
+
+
+include /usr/local/openldap/etc/openldap/schema/user.schema
+
+
+/usr/bin/ldapadd -x -W -D "cn=Manager,dc=wangfujing,dc=com" -f yanshi.ldif
+
+
+ladp启动
+
+su root
+service slapd start
