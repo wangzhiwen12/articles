@@ -1,0 +1,814 @@
+Message-ID: <731271919.1319.1489473322110.JavaMail.root@localhost.localdomain>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1318_577833779.1489473322110"
+
+------=_Part_1318_577833779.1489473322110
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E5=90=84=E7=B3=BB=E7=BB=9F=E7=B3=BB=E7=BB=9F=E7=A0=81</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E5=90=84=E7=B3=BB=E7=BB=9F=E7=B3=BB=E7=BB=9F=E7=A0=81</h1>
+    <div class=3D"Section1">
+        <p><span style=3D"color: rgb(255,204,0);">=E9=AB=98=E4=BA=AE</span>=
+=E4=B8=BA=E5=8D=A0=E4=BD=8D=E9=A2=84=E5=AE=9A=E7=B3=BB=E7=BB=9F=E7=A0=81</p=
+>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">=E7=B3=BB=E7=BB=9F=E7=A0=81</th>
+<th class=3D"confluenceTh">=E7=B3=BB=E7=BB=9F=E5=90=8D=E7=A7=B0</th>
+<th class=3D"confluenceTh">=E7=B3=BB=E7=BB=9F=E8=AF=B4=E6=98=8E</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">01</td>
+<td colspan=3D"1" class=3D"confluenceTd">netty-test</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E7=94=A8=E4=BA=8E=E6=B5=8B=E8=AF=
+=95=E4=BD=BF=E7=94=A8</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">02</td>
+<td colspan=3D"1" class=3D"confluenceTd">wfj-ic</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">03</td>
+<td colspan=3D"1" class=3D"confluenceTd">wfjpay-outer</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">04</td>
+<td class=3D"confluenceTd">edi_yz_erp_forpay</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">05</td>
+<td class=3D"confluenceTd">storeMan-sev</td>
+<td class=3D"confluenceTd">=E9=97=A8=E5=BA=97=E5=90=8E=E5=8F=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">06</td>
+<td class=3D"confluenceTd">edi_ezr_erp</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">07</td>
+<td class=3D"confluenceTd">photoMan-sev</td>
+<td class=3D"confluenceTd">=E6=8B=8D=E7=85=A7=E5=90=8E=E5=8F=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">08</td>
+<td class=3D"confluenceTd"><span>edi_ezr_erp_forpay</span></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">09</td>
+<td class=3D"confluenceTd">excel-sev</td>
+<td class=3D"confluenceTd">EXCEL=E6=9C=8D=E5=8A=A1</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10</td>
+<td class=3D"confluenceTd">pcm-admin-sdc</td>
+<td class=3D"confluenceTd">pcm-admin-sdc</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">11</td>
+<td class=3D"confluenceTd">pcm-admin</td>
+<td class=3D"confluenceTd">pcm-admin</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">12</td>
+<td class=3D"confluenceTd">pcm-core</td>
+<td class=3D"confluenceTd">pcm-core</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">13</td>
+<td class=3D"confluenceTd">pcm-import</td>
+<td class=3D"confluenceTd">pcm-import</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">14</td>
+<td class=3D"confluenceTd">pcm-inner</td>
+<td class=3D"confluenceTd">pcm-inner</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">15</td>
+<td class=3D"confluenceTd">pcm-inner-sdc</td>
+<td class=3D"confluenceTd">pcm-inner-sdc</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">16</td>
+<td class=3D"confluenceTd">pos-inner-taiyuan</td>
+<td class=3D"confluenceTd"><span>=E5=A4=AA=E5=8E=9FPOS=E4=B8=AD=E9=97=B4=E4=
+=BB=B6</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">17</td>
+<td class=3D"confluenceTd">pcm-outer-sdc</td>
+<td class=3D"confluenceTd">pcm-outer-sdc</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">18</td>
+<td class=3D"confluenceTd">pcm-syn</td>
+<td class=3D"confluenceTd">pcm-syn</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">19</td>
+<td class=3D"confluenceTd">ops</td>
+<td class=3D"confluenceTd">ops</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">20</td>
+<td class=3D"confluenceTd">oms-core</td>
+<td class=3D"confluenceTd">oms-core</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">21</td>
+<td class=3D"confluenceTd">oms-core-sdc</td>
+<td class=3D"confluenceTd">oms-core-sdc</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">22</td>
+<td class=3D"confluenceTd">oms-prefix-core</td>
+<td class=3D"confluenceTd">oms-prefix-core</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">23</td>
+<td class=3D"confluenceTd">oms-admin</td>
+<td class=3D"confluenceTd">o<span style=3D"color: rgb(51,51,51);">ms-admin<=
+/span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">24</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">pcm-search</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">PCM=E5=88=97=E8=A1=A8=E6=90=9C=E7=B4=A2=E6=94=AF=E6=8C=81</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">25</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">oms-syn</td>
+<td colspan=3D"1" class=3D"confluenceTd">oms-syn</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">26</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">shoppe-search</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">=E4=B8=93=E6=9F=9C=E6=90=9C=E7=B4=A2</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">27</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">shoppe-index</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">=E4=B8=93=E6=9F=9C=E6=90=9C=E7=B4=A2=E7=B4=A2=E5=BC=95</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">28</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">shoppe-manage-console</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">=E4=B8=93=E6=9F=9C=E6=90=9C=E7=B4=A2=E7=AE=A1=E7=90=86</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">29</td>
+<td class=3D"confluenceTd">wfj-trade-service</td>
+<td class=3D"confluenceTd">wfj-trade-service</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">30</td>
+<td class=3D"confluenceTd">EDIOrder</td>
+<td class=3D"confluenceTd">EDI=E6=94=B6=E5=8D=95=E7=B3=BB=E7=BB=9F</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">31</td>
+<td class=3D"confluenceTd"><span>wmsMan-K100-sev</span></td>
+<td class=3D"confluenceTd"><span>=E5=BF=AB=E9=80=92100=E6=9C=8D=E5=8A=A1</s=
+pan></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">32</td>
+<td class=3D"confluenceTd">wmsMan-sev</td>
+<td class=3D"confluenceTd">wmsMan-sev</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">33</td>
+<td class=3D"confluenceTd">supplier-portal-sev</td>
+<td class=3D"confluenceTd"><pre class=3D"js_message_plain ng-binding">=E4=
+=BE=9B=E5=BA=94=E5=95=86=E9=97=A8=E6=88=B7=E5=90=8E=E5=8F=B0</pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">34</td>
+<td class=3D"confluenceTd">supplier-cooperate-sev</td>
+<td class=3D"confluenceTd"><pre class=3D"js_message_plain ng-binding">=E4=
+=BE=9B=E5=BA=94=E5=95=86=E5=8D=8F=E5=90=8C=E5=90=8E=E5=8F=B0</pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">35</td>
+<td class=3D"confluenceTd">supplier-portal-web</td>
+<td class=3D"confluenceTd"><pre class=3D"js_message_plain ng-binding">=E4=
+=BE=9B=E5=BA=94=E5=95=86=E9=97=A8=E6=88=B7=E5=89=8D=E7=AB=AF</pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">36</td>
+<td class=3D"confluenceTd">supplier-portal-member</td>
+<td class=3D"confluenceTd"><pre class=3D"js_message_plain ng-binding">=E4=
+=BE=9B=E5=BA=94=E5=95=86=E9=97=A8=E6=88=B7=E4=BC=9A=E5=91=98=E5=90=8E=E5=8F=
+=B0</pre></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">37</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre class=3D"js_message_plain ng-=
+binding">supplier-cooperate-web</pre></td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre class=3D"js_message_plain ng-=
+binding">=E4=BE=9B=E5=BA=94=E5=95=86=E5=8D=8F=E5=90=8C=E5=89=8D=E7=AB=AF</p=
+re></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">38</td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre class=3D"js_message_plain ng-=
+binding">supplier-jbpm </pre></td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre class=3D"js_message_plain ng-=
+binding">=E4=BE=9B=E5=BA=94=E5=95=86=E5=B7=A5=E4=BD=9C=E6=B5=81=E5=90=8E=E5=
+=8F=B0</pre></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51=
+);">39</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre class=3D"js_message_plain ng-=
+binding">supplierService</pre></td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre class=3D"js_message_plain ng-=
+binding">=E7=AC=AC=E4=B8=89=E6=96=B9=E4=BE=9B=E5=BA=94=E5=95=86API=E5=AF=B9=
+=E6=8E=A5</pre></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">40</td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51);">online-ind=
+ex</span></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(51,51,51);">=E7=BA=BF=
+=E4=B8=8A=E7=B4=A2=E5=BC=95</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">41</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>pcm-index</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>PCM=E5=88=97=E8=A1=A8=E6=90=
+=9C=E7=B4=A2=E7=B4=A2=E5=BC=95</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">42</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>online-web-search</span></td=
+>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E7=BA=BF=E4=B8=8A=E6=90=9C=
+=E7=B4=A2</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">43</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>online-manage-console</span>=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E7=BA=BF=E4=B8=8A=E6=90=9C=
+=E7=B4=A2=E7=AE=A1=E7=90=86</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">44</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>edi_server</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">EDI=E9=98=BF=E9=87=8C=E6=B8=A0=E9=
+=81=93</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">45</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>edi_server_yz</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">EDI=E6=9C=89=E8=B5=9E=E9=97=A8=E5=
+=BA=97</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">46</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>edi_yz_erp</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">EDI=E6=9C=89=E8=B5=9EERP</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">47</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>edi_server_jm</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">EDI=E8=81=9A=E7=BE=8E=E6=B8=A0=E9=
+=81=93</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">48</td>
+<td colspan=3D"1" class=3D"confluenceTd">wfjpay-verify</td>
+<td colspan=3D"1" class=3D"confluenceTd">wfjpay-verify</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">49</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>edi_cps</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">EDI=E5=B9=BF=E5=91=8A=E5=95=86=E8=
+=81=94=E7=9B=9F</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">50</td>
+<td class=3D"confluenceTd">EDIOrder</td>
+<td class=3D"confluenceTd">EDI=E6=94=B6=E5=8D=95=E7=B3=BB=E7=BB=9F</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">51</td>
+<td colspan=3D"1" class=3D"confluenceTd">UAC</td>
+<td colspan=3D"1" class=3D"confluenceTd">UAC</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">52</td>
+<td colspan=3D"1" class=3D"confluenceTd">edi_tower</td>
+<td colspan=3D"1" class=3D"confluenceTd">EDI=E8=81=9A=E7=9F=B3=E5=A1=94</td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd">53</td>
+<td class=3D"confluenceTd">cms-staticPage</td>
+<td class=3D"confluenceTd">cms-staticPage</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">54</td>
+<td class=3D"confluenceTd">cms-admin</td>
+<td class=3D"confluenceTd">cms-admin</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">55</td>
+<td class=3D"confluenceTd">cms-front</td>
+<td class=3D"confluenceTd">cms-front</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">56</td>
+<td class=3D"confluenceTd">pp-service-impl</td>
+<td class=3D"confluenceTd">pp-service-impl</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">57</td>
+<td class=3D"confluenceTd">wfjpay</td>
+<td class=3D"confluenceTd">wfjpay</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">58</td>
+<td class=3D"confluenceTd">paytiming</td>
+<td class=3D"confluenceTd">paytiming</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">59</td>
+<td class=3D"confluenceTd">paymedium</td>
+<td class=3D"confluenceTd">paymedium</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">60</td>
+<td class=3D"confluenceTd">member-core</td>
+<td class=3D"confluenceTd">member-core</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">61</td>
+<td class=3D"confluenceTd">member-comment</td>
+<td class=3D"confluenceTd">member-comment</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">62</td>
+<td class=3D"confluenceTd">member-admin</td>
+<td class=3D"confluenceTd">member-admin</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">63</td>
+<td class=3D"confluenceTd">member-outer</td>
+<td class=3D"confluenceTd">member-outer</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">64</td>
+<td class=3D"confluenceTd">member-ops</td>
+<td class=3D"confluenceTd">member-ops</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">65</td>
+<td colspan=3D"1" class=3D"confluenceTd">edi_okbuy</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E5=A5=BD=E4=B9=90=E4=B9=B0=
+=E6=B8=A0=E9=81=93</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">66</td>
+<td colspan=3D"1" class=3D"confluenceTd">trade-web</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=B4=AD=E7=89=A9=E8=BD=A6web=E6=
+=9C=8D=E5=8A=A1</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">67</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>console</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>IT=E7=9B=91=E6=8E=A7=E6=8E=
+=A7=E5=88=B6=E5=8F=B0</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">68</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>common-service</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>IT=E7=9B=91=E6=8E=A7=E5=85=
+=AC=E6=9C=89=E6=9C=8D=E5=8A=A1</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">69</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>monitor-service</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>IT=E7=9B=91=E6=8E=A7=E5=AE=
+=9E=E4=BE=8B=E7=8A=B6=E6=80=81=E6=9C=8D=E5=8A=A1</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">70</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>exception-service</span></td=
+>
+<td colspan=3D"1" class=3D"confluenceTd"><span>IT=E7=9B=91=E6=8E=A7=E5=BC=
+=82=E5=B8=B8=E4=BF=A1=E6=81=AF=E6=9C=8D=E5=8A=A1</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">71</td>
+<td colspan=3D"1" class=3D"confluenceTd">log-analytics</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E8=A1=8C=E4=B8=BA=E6=97=A5=E5=BF=
+=97=E6=9C=8D=E5=8A=A1</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">72</td>
+<td colspan=3D"1" class=3D"confluenceTd">wmsMan-KND</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=BF=AB=E9=80=92=E9=B8=9F</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">73</td>
+<td colspan=3D"1" class=3D"confluenceTd">wmsMan-YTO</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=9C=86=E9=80=9A</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">74</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-wsdl</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E5=AF=8C=E5=9F=BA=E8=90=A5=
+=E9=94=80</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">75</td>
+<td colspan=3D"1" class=3D"confluenceTd">omp-event-webin</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E5=AF=8C=E5=9F=BA=E8=90=A5=
+=E9=94=80</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">76</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-info-webin</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=AF=8C=E5=9F=BA=E8=90=A5=E9=94=
+=80</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">77</td>
+<td colspan=3D"1" class=3D"confluenceTd">pos-inner</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E9=9D=9E=E5=85=A8=E6=B8=A0=E9=81=
+=93=E7=B3=BB=E7=BB=9F</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">78</td>
+<td colspan=3D"1" class=3D"confluenceTd">tms-job</td>
+<td colspan=3D"1" class=3D"confluenceTd">tms-job=E9=A1=B9=E7=9B=AE</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">79</td>
+<td colspan=3D"1" class=3D"confluenceTd">wfj-wx-mp</td>
+<td colspan=3D"1" class=3D"confluenceTd">wfj-wx-mp</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">80</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-info-dl</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=A4=A7=E6=A5=BC<span>=E5=BA=97<=
+span>ocm-info</span></span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">81</td>
+<td colspan=3D"1" class=3D"confluenceTd">omp-event-dl</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=A4=A7=E6=A5=BC<span>=E5=BA=97<=
+span>omp-event</span></span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">82</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-info-sa</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=8F=8C=E5=AE=89=E5=BA=97<span>o=
+cm-info</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">83</td>
+<td colspan=3D"1" class=3D"confluenceTd">omp-event-sa</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=8F=8C=E5=AE=89=E5=BA=97<span>o=
+mp-event</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">84</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-info-api</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=B8=AD=E5=8F=B0<span>ocm-info</=
+span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">85</td>
+<td colspan=3D"1" class=3D"confluenceTd">omp-event-api</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=B8=AD=E5=8F=B0omp-event</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">86</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-accnt-api</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=B8=AD=E5=8F=B0ocm-accnt</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">87</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-paypwd-api</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=B8=AD=E5=8F=B0ocm-paypwd</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">88</td>
+<td colspan=3D"1" class=3D"confluenceTd">ocm-tags-api</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=B8=AD=E5=8F=B0ocm-tags</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">89</td>
+<td colspan=3D"1" class=3D"confluenceTd">CRM-ERP</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E4=BC=9A=E5=91=98=E8=90=A5=
+=E9=94=80</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">90</td>
+<td class=3D"confluenceTd">MQInput</td>
+<td class=3D"confluenceTd">MQInput</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">91</td>
+<td class=3D"confluenceTd">MQOutput</td>
+<td class=3D"confluenceTd">MQOutput</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">92</td>
+<td class=3D"confluenceTd">MQServer</td>
+<td class=3D"confluenceTd">MQServer</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">93</td>
+<td class=3D"confluenceTd"><span>oms-admin-sdc</span></td>
+<td class=3D"confluenceTd"><span>oms-admin-sdc</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">94</td>
+<td class=3D"confluenceTd">wmsMan-sev</td>
+<td class=3D"confluenceTd">wmsMan-sev=E5=A4=96=E7=BD=91</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">95</td>
+<td class=3D"confluenceTd">wfjpay-inner</td>
+<td class=3D"confluenceTd">wfjpay-inner</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">96</td>
+<td class=3D"confluenceTd">pad-inner</td>
+<td class=3D"confluenceTd">pad-inner</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">97</td>
+<td class=3D"confluenceTd"><p>oms-inner-online</p></td>
+<td class=3D"confluenceTd">oms-inner-online</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">98</td>
+<td class=3D"confluenceTd">oms-inner-online-sdc</td>
+<td class=3D"confluenceTd">oms-inner-online-sdc</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">99</td>
+<td colspan=3D"1" class=3D"confluenceTd">MQInput_WS</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div>
+MQ&nbsp;webservice
+</div></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">100</td>
+<td colspan=3D"1" class=3D"confluenceTd">perCenter</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>perCenter</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">101</td>
+<td colspan=3D"1" class=3D"confluenceTd">abacus-pages</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>abacus-pages</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">102</td>
+<td colspan=3D"1" class=3D"confluenceTd">abacus-workbench</td>
+<td colspan=3D"1" class=3D"confluenceTd">abacus-workbench</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">103</td>
+<td colspan=3D"1" class=3D"confluenceTd">abacus-common-service</td>
+<td colspan=3D"1" class=3D"confluenceTd">abacus-common-service</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">...</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_1318_577833779.1489473322110--

@@ -1,0 +1,38 @@
+netty-wfj-base
+		
+maven 
+<dependency>
+	<groupId>com.wfj.netty</groupId>
+	<artifactId>netty-wfj-base</artifactId>
+	<version>2.3.5-RELEASE</version>
+</dependency>
+
+ 日志打印 太粗放，全部是 缺少 nettyserver.xml
+
+
+而且打印采用的是log4j
+
+现在工程中，大部分项目采用的 的是 logback打印日志。
+
+
+
+现在对 此插件进行调整： 
+1：增加日志细度
+2：采用logback打印日志
+
+将版本改为 2.3.5.2-RELEASE
+最新maven为
+<dependency>
+	<groupId>com.wfj.netty</groupId>
+	<artifactId>netty-wfj-base</artifactId>
+	<version>2.3.5.2-RELEASE</version>
+</dependency>
+
+
+ 每个引用了 netty-wfj-base 的功能的 logback.xml 中添加
+
+	<logger name="com.wfj.netty.server" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="FILE" />
+	</logger>
+

@@ -1,0 +1,52 @@
+{
+  "properties": {
+    "sid": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "appName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "instanceName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "caller": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "username": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "operation": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "parameter": {
+      "type": "string",
+      "index": "no"
+    },
+    "stamp": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "startTime": {
+      "type": "date",
+      "format": "yyyy-MM-dd HH:mm:ss.SSS||yyyy-MM-dd HH:mm:ss"
+    },
+    "endTime": {
+      "type": "date",
+      "format": "yyyy-MM-dd HH:mm:ss.SSS||yyyy-MM-dd HH:mm:ss"
+    },
+    "status": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": "string",
+      "index": "no"
+    }
+  }
+}

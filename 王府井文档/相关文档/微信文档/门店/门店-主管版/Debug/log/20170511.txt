@@ -1,0 +1,358 @@
+
+ 
+记录时间：2017-05-11 14:55:58,691  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2017-05-11 15:17:27,821  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-11 15:22:19,156  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-11 15:34:43,248  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.30.61.126:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 DataHelper.HttpHelper.PostWebService(String url, HttpType httpType, String Json_input) 位置 f:\王府井项目\StoreMan\DataHelper\HttpHelper.cs:行号 58
+ 
+
+ 
+记录时间：2017-05-11 15:34:43,322  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!原因：System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:34:43,323  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:35:08,916  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-11 15:36:25,731  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-11 15:36:49,602  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.30.61.126:8010
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 DataHelper.HttpHelper.PostWebService(String url, HttpType httpType, String Json_input) 位置 f:\王府井项目\StoreMan\DataHelper\HttpHelper.cs:行号 58
+ 
+
+ 
+记录时间：2017-05-11 15:36:49,671  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!原因：System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:36:49,672  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:38:30,426  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-11 15:38:33,310  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DataHelper.HttpHelper.PostWebService(String url, HttpType httpType, String Json_input) 位置 f:\王府井项目\StoreMan\DataHelper\HttpHelper.cs:行号 63
+ 
+
+ 
+记录时间：2017-05-11 15:38:33,359  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!原因：System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:38:33,361  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:39:12,827  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DataHelper.HttpHelper.PostWebService(String url, HttpType httpType, String Json_input) 位置 f:\王府井项目\StoreMan\DataHelper\HttpHelper.cs:行号 63
+ 
+
+ 
+记录时间：2017-05-11 15:39:12,855  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!原因：System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:39:12,856  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:42:06,704  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-11 15:42:12,556  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DataHelper.HttpHelper.PostWebService(String url, HttpType httpType, String Json_input) 位置 f:\王府井项目\StoreMan\DataHelper\HttpHelper.cs:行号 63
+ 
+
+ 
+记录时间：2017-05-11 15:42:19,723  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!原因：System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:42:21,316  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量提交，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.HandleMemberNotFound(XmlReaderDelegator xmlReader, ExtensionDataObject extensionData, Int32 memberIndex)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.GetJsonMemberIndex(XmlReaderDelegator xmlReader, XmlDictionaryString[] memberNames, Int32 memberIndex, ExtensionDataObject extensionData)
+   在 ReadMQResultFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeBySingleData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 117
+   在 StoreManDAL.WebServiceDAL.SubmitProduct(MainProDataToMQ listProduct) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 1652
+ 
+
+ 
+记录时间：2017-05-11 15:54:29,872  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-11 16:43:27,113  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-11 17:03:11,505  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-11 17:09:24,638  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-11 18:03:27,238  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-11 20:06:34,038  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-11 22:00:53,317  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-11 22:06:39,418  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录失败
+ 

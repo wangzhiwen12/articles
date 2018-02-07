@@ -1,0 +1,192 @@
+{
+  "success": true,
+  "params": {
+    "sysCodes": [
+      "21",
+      "16",
+      "59",
+      "44",
+      "47"
+    ]
+  },
+  "content": {
+    "sysCodes": [
+      {
+        "21": 1306
+      },
+      {
+        "16": 286
+      },
+      {
+        "59": 29
+      },
+      {
+        "44": 11
+      },
+      {
+        "47": 3
+      }
+    ],
+    "usernames": [
+      {
+        "sunwei": 576
+      },
+      {
+        "admin": 495
+      },
+      {
+        "yanbing": 238
+      },
+      {
+        "liuyilin": 70
+      },
+      {
+        "limei": 69
+      },
+      {
+        "liucheng": 54
+      },
+      {
+        "NOT_GIVEN": 34
+      },
+      {
+        "duanwenbing": 33
+      },
+      {
+        "wangliyuan": 21
+      },
+      {
+        "liwei": 17
+      }
+    ],
+    "browserNames": [
+      {
+        "Chrome 49": 866
+      },
+      {
+        "Firefox": 154
+      },
+      {
+        "Firefox 48": 130
+      },
+      {
+        "Chrome 45": 103
+      },
+      {
+        "Firefox 27": 84
+      },
+      {
+        "Chrome 51": 76
+      },
+      {
+        "Internet Explorer 11": 70
+      },
+      {
+        "Chrome": 45
+      },
+      {
+        "Chrome 38": 39
+      },
+      {
+        "Chrome 35": 29
+      }
+    ],
+    "osNames": [
+      {
+        "Windows 7": 1493
+      },
+      {
+        "Windows 8.1": 139
+      },
+      {
+        "Mac OS X": 3
+      }
+    ],
+    "bizNames": [
+      {
+        "21!#!sale-search": 872
+      },
+      {
+        "21!#!needproduct-search": 114
+      },
+      {
+        "21!#!search": 108
+      },
+      {
+        "21!#!order2Return-search": 85
+      },
+      {
+        "16!#!price.priceDetailQuery": 78
+      },
+      {
+        "21!#!sale2Order-search": 61
+      },
+      {
+        "16!#!erpProduct.productQuery": 49
+      },
+      {
+        "16!#!shoppeProduct.productQuery": 36
+      },
+      {
+        "59!#!payMediumSystem-query": 29
+      },
+      {
+        "21!#!return2Apply-search": 26
+      },
+      {
+        "16!#!stock.stockQuery": 24
+      },
+      {
+        "16!#!shoppeProduct.getView": 20
+      },
+      {
+        "21!#!need2Product-search": 18
+      },
+      {
+        "16!#!supplier.selectSupplier": 16
+      },
+      {
+        "16!#!price.priceQuery": 11
+      },
+      {
+        "21!#!export": 10
+      },
+      {
+        "21!#!return-search": 10
+      },
+      {
+        "44!#!tm-search": 7
+      },
+      {
+        "16!#!contractLog.findPageContract": 6
+      },
+      {
+        "16!#!brand.queryBrand": 5
+      },
+      {
+        "16!#!category.categoryQuery": 4
+      },
+      {
+        "44!#!tm-abnormalSearch": 2
+      },
+      {
+        "21!#!exceptionLog-search": 1
+      },
+      {
+        "44!#!tm-obtain": 1
+      },
+      {
+        "44!#!tm-relation": 1
+      },
+      {
+        "47!#!jm-export": 1
+      },
+      {
+        "47!#!jm-refund-obtain": 1
+      },
+      {
+        "47!#!jm-search": 1
+      }
+    ]
+  }
+}

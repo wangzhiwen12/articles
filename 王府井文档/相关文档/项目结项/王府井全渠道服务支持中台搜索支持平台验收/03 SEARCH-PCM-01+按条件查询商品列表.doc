@@ -1,0 +1,479 @@
+Message-ID: <1394621124.427.1480388204524.JavaMail.root@localhost.localdomain>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_426_76874653.1480388204524"
+
+------=_Part_426_76874653.1480388204524
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SEARCH-PCM-01 =E6=8C=89=E6=9D=A1=E4=BB=B6=E6=9F=A5=E8=AF=A2=E5=
+=95=86=E5=93=81=E5=88=97=E8=A1=A8</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SEARCH-PCM-01 =E6=8C=89=E6=9D=A1=E4=BB=B6=E6=9F=A5=E8=AF=A2=E5=95=
+=86=E5=93=81=E5=88=97=E8=A1=A8</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">=E7=89=88=E6=9C=AC</th>
+<th class=3D"confluenceTh">=E5=8F=98=E6=9B=B4</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">1.0.0</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1.0.1</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E5=8E=BB=E9=99=A4=E5=8F=82=E6=
+=95=B0</p><p style=3D"margin-left: 30.0px;"><s>productCode =E4=B8=93=E6=9F=
+=9C=E5=95=86=E5=93=81=E7=BC=96=E7=A0=81</s></p><p>=E5=A2=9E=E5=8A=A0=E5=8F=
+=82=E6=95=B0</p><p style=3D"margin-left: 30.0px;">productCodeStart =E4=B8=
+=93=E6=9F=9C=E5=95=86=E5=93=81=E7=BC=96=E7=A0=81=E5=8C=BA=E9=97=B4=E5=BC=80=
+=E5=A7=8B</p><p style=3D"margin-left: 30.0px;">productCodeEnd =E4=B8=93=E6=
+=9F=9C=E5=95=86=E5=93=81=E7=BC=96=E7=A0=81=E5=8C=BA=E9=97=B4=E7=BB=93=E6=9D=
+=9F</p><p style=3D"margin-left: 30.0px;">skuCodeStart SKU=E7=BC=96=E7=A0=81=
+=E5=BC=80=E5=A7=8B</p><p style=3D"margin-left: 30.0px;">skuCodeEnd SKU=E7=
+=BC=96=E7=A0=81=E7=BB=93=E6=9D=9F</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1.0.2</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E5=A2=9E=E5=8A=A0=E5=8F=82=E6=
+=95=B0</p><p style=3D"margin-left: 30.0px;">isSale =E6=98=AF=E5=90=A6=E5=8F=
+=AF=E5=94=AE</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1.0.3</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E5=A2=9E=E5=8A=A0=E5=8F=82=E6=
+=95=B0</p><p style=3D"margin-left: 30.0px;">managerCategoryCodes =E9=99=90=
+=E5=AE=9A=E7=AE=A1=E7=90=86=E5=88=86=E7=B1=BB=E7=BC=96=E7=A0=81</p><p style=
+=3D"margin-left: 30.0px;">sort =E6=8E=92=E5=BA=8F=E6=96=B9=E5=90=91</p></td=
+>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1.0.4</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E5=A2=9E=E5=8A=A0=E5=8F=82=E6=
+=95=B0</p><p style=3D"margin-left: 30.0px;">supplierCodes =E4=BE=9B=E5=BA=
+=94=E5=95=86=E7=BC=96=E7=A0=81=E5=88=97=E8=A1=A8=EF=BC=88JSONArray=EF=BC=89=
+=E8=BF=87=E6=BB=A4=E6=9D=A1=E4=BB=B6</p><p style=3D"margin-left: 30.0px;">s=
+toreBrandName =E9=97=A8=E5=BA=97=E5=93=81=E7=89=8C=E7=BC=96=E7=A0=81=E6=9F=
+=A5=E8=AF=A2 =E7=9B=B8=E5=BD=93=E4=BA=8ESQL like '%query%'=E7=9A=84=E6=95=
+=88=E6=9E=9C</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">1.0.5</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=E5=A2=9E=E5=8A=A0=E5=8F=82=E6=
+=95=B0</p><p style=3D"margin-left: 30.0px;">xxhcFlag =E6=98=AF=E5=90=A6=E5=
+=85=88=E9=94=80=E5=90=8E=E9=87=87</p><p style=3D"margin-left: 30.0px;">stoc=
+kMode =E5=BA=93=E5=AD=98=E6=96=B9=E5=BC=8F</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"SEARCH-PCM-01=E6=8C=89=E6=9D=A1=E4=BB=B6=E6=9F=A5=E8=AF=A2=E5=95=
+=86=E5=93=81=E5=88=97=E8=A1=A8-=E6=9C=8D=E5=8A=A1=E5=90=8D">=E6=9C=8D=E5=8A=
+=A1=E5=90=8D</h2>
+<p>pcm-item-query</p>
+<h2 id=3D"SEARCH-PCM-01=E6=8C=89=E6=9D=A1=E4=BB=B6=E6=9F=A5=E8=AF=A2=E5=95=
+=86=E5=93=81=E5=88=97=E8=A1=A8-=E8=AF=B7=E6=B1=82=E5=8F=82=E6=95=B0">=E8=AF=
+=B7=E6=B1=82=E5=8F=82=E6=95=B0</h2>
+<p>JSON</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">=E5=8F=82=E6=95=B0=E5=90=8D</th>
+<th class=3D"confluenceTh">=E7=B1=BB=E5=9E=8B</th>
+<th class=3D"confluenceTh">=E6=98=AF=E5=90=A6=E5=BF=85=E9=A1=BB</th>
+<th class=3D"confluenceTh">=E8=AF=B4=E6=98=8E</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">productName</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=B8=93=E6=9F=9C=E5=95=86=E5=93=
+=81=E5=90=8D=E7=A7=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><s>productCode</s></td>
+<td class=3D"confluenceTd"><s>String</s></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd"><s>=E4=B8=93=E6=9F=9C=E5=95=86=E5=93=81=E7=BC=96=
+=E7=A0=81</s></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">counterName</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E4=B8=93=E6=9F=9C=E5=90=8D=E7=A7=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">counterCode</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E4=B8=93=E6=9F=9C=E5=8F=B7</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">storeName</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E9=97=A8=E5=BA=97=E5=90=8D=E7=A7=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">storeCode</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E9=97=A8=E5=BA=97=E7=BC=96=E7=A0=81</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">colorCode</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E9=A2=9C=E8=89=B2=E7=A0=81</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">modelCode</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E6=AC=BE=E5=8F=B7</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">supProductCode</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E4=BE=9B=E5=BA=94=E5=95=86=E5=95=86=E5=93=81=E7=
+=BC=96=E7=A0=81</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">articleNum</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E8=B4=A7=E5=8F=B7</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">isSelling</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E4=B8=8A=E6=9E=B6=E7=8A=B6=E6=80=81 0 =E6=9C=AA=
+=E4=B8=8A=E6=9E=B6 1 =E5=B7=B2=E4=B8=8A=E6=9E=B6 2 =E5=B7=B2=E4=B8=8B=E6=9E=
+=B6</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">brandGroupCode</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E9=9B=86=E5=9B=A2=E5=93=81=E7=89=8C=E5=90=8D=E7=
+=A7=B0</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">supplierCode</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E4=BE=9B=E5=BA=94=E5=95=86=E7=BC=96=E7=A0=81</t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">currentPage</td>
+<td class=3D"confluenceTd">int</td>
+<td class=3D"confluenceTd">=E6=98=AF</td>
+<td class=3D"confluenceTd">=E5=BD=93=E5=89=8D=E9=A1=B5</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">pageSize</td>
+<td class=3D"confluenceTd">int</td>
+<td class=3D"confluenceTd">=E6=98=AF</td>
+<td class=3D"confluenceTd">=E6=AF=8F=E9=A1=B5=E6=95=B0=E9=87=8F</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">productCodeStart</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=B8=93=E6=9F=9C=E5=95=86=E5=93=
+=81=E7=BC=96=E7=A0=81=E5=8C=BA=E9=97=B4=E5=BC=80=E5=A7=8B</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">productCodeEnd</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E4=B8=93=E6=9F=9C=E5=95=86=
+=E5=93=81=E7=BC=96=E7=A0=81=E5=8C=BA=E9=97=B4=E7=BB=93=E6=9D=9F</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">skuCodeStart</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">SKU=E7=BC=96=E7=A0=81=E5=BC=80=E5=
+=A7=8B</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">skuCodeEnd</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">SKU=E7=BC=96=E7=A0=81=E7=BB=93=E6=
+=9D=9F</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">isSale</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=98=AF=E5=90=A6=E5=8F=AF=E5=94=
+=AE</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">managerCategoryCodes</td>
+<td colspan=3D"1" class=3D"confluenceTd">String Array</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E7=AE=A1=E7=90=86=E5=88=86=E7=B1=
+=BB=E7=BC=96=E7=A0=81=E5=88=97=E8=A1=A8</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">sort</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=8E=92=E5=BA=8F=E6=96=B9=E5=90=
+=91=EF=BC=8Casc=E6=88=96desc=E3=80=82=E9=BB=98=E8=AE=A4desc=EF=BC=8C=E9=9D=
+=9E=E6=B3=95=E5=80=BC=E4=BD=9Cdesc=E5=A4=84=E7=90=86</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">supplierCodes</td>
+<td colspan=3D"1" class=3D"confluenceTd">String JSONArray</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E4=BE=9B=E5=BA=94=E5=95=86=E7=BC=
+=96=E7=A0=81=E5=88=97=E8=A1=A8</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">storeBrandName</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>=E9=97=A8=E5=BA=97=E5=93=81=
+=E7=89=8C=E7=BC=96=E7=A0=81=E6=9F=A5=E8=AF=A2 =E7=9B=B8=E5=BD=93=E4=BA=8ESQ=
+L like '%query%'=E7=9A=84=E6=95=88=E6=9E=9C</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">xxhcFlag</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E6=98=AF=E5=90=A6=E5=85=88=E9=94=
+=80=E5=90=8E=E9=87=87</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">stockMode</td>
+<td colspan=3D"1" class=3D"confluenceTd">String</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E5=BA=93=E5=AD=98=E6=96=B9=E5=BC=
+=8F</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"SEARCH-PCM-01=E6=8C=89=E6=9D=A1=E4=BB=B6=E6=9F=A5=E8=AF=A2=E5=95=
+=86=E5=93=81=E5=88=97=E8=A1=A8-JSON=E5=93=8D=E5=BA=94">JSON=E5=93=8D=E5=BA=
+=94</h2>
+<p>=E5=8F=82=E8=80=83=EF=BC=9A<a href=3D"/pages/viewpage.action?pageId=3D43=
+58323">=E5=95=86=E5=93=81=E4=BF=A1=E6=81=AF=E4=B8=8A=E4=BC=A0=E5=88=B0=E6=
+=90=9C=E7=B4=A2</a></p>
+<div>
+<span style=3D"white-space: pre-wrap;"><br /></span>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_426_76874653.1480388204524--

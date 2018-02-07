@@ -1,0 +1,77 @@
+
+ 
+记录时间：2016-06-13 16:02:12,048  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Table 'storedata.tab_roleuac' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 StoreManDAL.MySQLHelper.ExecuteReader(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 345
+SELECT * FROM TAB_ROLEUAC WHERE ROLECODE='StoreMan_GLY'
+ 
+
+ 
+记录时间：2016-06-13 16:02:12,766  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录失败
+ 
+
+ 
+记录时间：2016-06-13 16:02:50,273  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Table 'storedata.tab_roleuac' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 StoreManDAL.MySQLHelper.ExecuteReader(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 345
+SELECT * FROM TAB_ROLEUAC WHERE ROLECODE='StoreMan_GLY'
+ 
+
+ 
+记录时间：2016-06-13 16:03:08,561  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录失败
+ 
+
+ 
+记录时间：2016-06-13 16:04:09,260  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Table 'storedata.tab_roleuac' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 StoreManDAL.MySQLHelper.ExecuteReader(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 345
+SELECT * FROM TAB_ROLEUAC WHERE ROLECODE='StoreMan_GLY'
+ 
+
+ 
+记录时间：2016-06-13 16:04:19,315  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录失败
+ 
+
+ 
+记录时间：2016-06-13 16:04:50,833  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Table 'storedata.tab_roleuac' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 StoreManDAL.MySQLHelper.ExecuteReader(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 345
+SELECT * FROM TAB_ROLEUAC WHERE ROLECODE='StoreMan_GLY'
+ 

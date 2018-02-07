@@ -1,0 +1,56 @@
+
+ 
+记录时间：2016-09-13 10:54:52,580  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-09-13 11:50:20,000  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-09-13 11:55:19,133  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2016-09-13 11:58:46,552  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (504) 网关超时。
+ 
+
+ 
+记录时间：2016-09-13 11:59:05,810  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-09-13 11:59:14,589  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2016-09-13 14:20:52,475  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-09-13 15:06:53,648  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 

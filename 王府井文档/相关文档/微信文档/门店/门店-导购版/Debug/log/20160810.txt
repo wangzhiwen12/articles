@@ -1,0 +1,14 @@
+
+ 
+记录时间：2016-08-10 11:21:22,765  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-10 11:22:12,050  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 

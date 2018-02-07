@@ -1,0 +1,66 @@
+
+ 
+记录时间：2016-06-12 11:57:22,703  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-06-12 11:57:23,058  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量变价，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 ReadArrayOfModProductCategoryFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+   在 System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeByArrayData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 148
+   在 StoreManDAL.WebServiceDAL.GetModProductCategory(String URI_IP) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 123
+ 
+
+ 
+记录时间：2016-06-12 11:58:07,758  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (400) 错误的请求。
+ 
+
+ 
+记录时间：2016-06-12 11:58:41,186  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (400) 错误的请求。
+ 
+
+ 
+记录时间：2016-06-12 11:58:46,657  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (400) 错误的请求。
+ 
+
+ 
+记录时间：2016-06-12 11:59:17,263  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (400) 错误的请求。
+ 
+
+ 
+记录时间：2016-06-12 11:59:41,190  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (400) 错误的请求。
+ 
+
+ 
+记录时间：2016-06-12 12:00:23,629  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (400) 错误的请求。
+ 

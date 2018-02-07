@@ -1,0 +1,28 @@
+
+ 
+记录时间：2016-06-03 14:39:20,406  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-06-03 15:04:06,456  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-06-03 15:24:15,799  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-06-03 16:00:24,147  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录失败
+ 

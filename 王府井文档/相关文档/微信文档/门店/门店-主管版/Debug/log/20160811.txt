@@ -1,0 +1,142 @@
+
+ 
+记录时间：2016-08-11 17:35:29,935  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 17:38:00,852  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Duplicate entry 'StoreMan_GLY' for key 'PRIMARY'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 StoreManDAL.MySQLHelper.ExecuteNonQuery(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 157
+ start transaction;  insert into tab_roleuac(ROLECODE,ROLENAME,REMARKS,SYSTEMNAME,STORECODE,STORENAME) values ('StoreMan_GLY','双安门店管理员','sgy','UAC','21012','双安商场') ;   commit; 
+ 
+
+ 
+记录时间：2016-08-11 17:45:50,811  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-08-11 17:52:38,727  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 17:53:13,974  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin01  登录成功
+ 
+
+ 
+记录时间：2016-08-11 17:59:25,593  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 17:59:45,480  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：testsa  登录成功
+ 
+
+ 
+记录时间：2016-08-11 18:02:29,220  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 18:02:31,085  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：testsa  登录成功
+ 
+
+ 
+记录时间：2016-08-11 18:02:55,902  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 18:03:07,761  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：testsa  登录成功
+ 
+
+ 
+记录时间：2016-08-11 18:05:56,252  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 18:06:00,030  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：testsa  登录成功
+ 
+
+ 
+记录时间：2016-08-11 18:06:27,369  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 18:06:48,818  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：testsa  登录成功
+ 
+
+ 
+记录时间：2016-08-11 18:08:26,448  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 18:10:21,425  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：testsa  登录成功
+ 
+
+ 
+记录时间：2016-08-11 18:10:43,371  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (500) 内部服务器错误。
+ 
+
+ 
+记录时间：2016-08-11 19:07:25,499  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：testsa  登录成功
+ 

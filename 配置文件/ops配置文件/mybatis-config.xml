@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 基础设置 -->
+    <settings>
+        <setting name="lazyLoadingEnabled" value="false"/>
+    </settings>
+    <typeAliases>
+        <typeAlias alias="pcs" type="com.wangfj.back.entity.po.ProConSearch"/>
+        <typeAlias alias="proConSearchVO" type="com.wangfj.back.entity.vo.ProConSearchVO"/>
+        <typeAlias alias="pcsCond" type="com.wangfj.back.entity.cond.ProConSearchCond"/>
+
+        <typeAlias alias="pageLayoutCond" type="com.wangfj.back.entity.cond.PageLayoutCond"/>
+        <typeAlias alias="pageLayout" type="com.wangfj.back.entity.po.PageLayout"/>
+        <typeAlias alias="pageLayoutVO" type="com.wangfj.back.entity.vo.PageLayoutVO"/>
+
+        <typeAlias alias="shopChannelsCond" type="com.wangfj.back.entity.cond.ShopChannelsCond"/>
+        <typeAlias alias="shopChannels" type="com.wangfj.back.entity.po.ShopChannels"/>
+        <typeAlias alias="shopChannelsVO" type="com.wangfj.back.entity.vo.ShopChannelsVO"/>
+
+
+        <typeAlias alias="proBestDetailVO" type="com.wangfj.back.entity.vo.ProBestDetailVO"/>
+        <typeAlias alias="proBestDetailCond" type="com.wangfj.back.entity.cond.ProBestDetailCond"/>
+        <typeAlias alias="proBestDetail" type="com.wangfj.back.entity.po.ProBestDetail"/>
+
+        <typeAlias alias="brandVO" type="com.wangfj.back.entity.vo.BrandVO"/>
+        <typeAlias alias="brandCond" type="com.wangfj.back.entity.cond.BrandCond"/>
+        <typeAlias alias="brand" type="com.wangfj.back.entity.po.Brand"/>
+
+        <typeAlias alias="productResultVO" type="com.wangfj.back.view.ProductResultVO"/>
+
+        <typeAlias alias="productKey" type="com.wangfj.back.view.ProductKey"/>
+
+
+        <typeAlias alias="truleNewVO" type="com.wangfj.back.entity.vo.TRuleNewVO"/>
+        <typeAlias alias="truleNewCond" type="com.wangfj.back.entity.cond.TRuleNewCond"/>
+        <typeAlias alias="truleNew" type="com.wangfj.back.entity.po.TRuleNew"/>
+
+        <typeAlias alias="truleNewChannelVO" type="com.wangfj.back.entity.vo.TRuleNewChannelVO"/>
+        <typeAlias alias="truleNewChannelCond" type="com.wangfj.back.entity.cond.TRuleNewChannelCond"/>
+        <typeAlias alias="truleNewChannel" type="com.wangfj.back.entity.po.TRuleNewChannel"/>
+
+        <typeAlias alias="truleDetailVO" type="com.wangfj.back.entity.vo.TRuleDetailVO"/>
+        <typeAlias alias="truleDetailCond" type="com.wangfj.back.entity.cond.TRuleDetailCond"/>
+        <typeAlias alias="truleDetail" type="com.wangfj.back.entity.po.TRuleDetail"/>
+    </typeAliases>
+</configuration>

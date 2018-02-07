@@ -1,0 +1,14 @@
+
+ 
+记录时间：2017-05-12 13:44:39,536  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:无法连接到远程服务器
+ 
+
+ 
+记录时间：2017-05-12 13:45:04,982  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:无法连接到远程服务器
+ 

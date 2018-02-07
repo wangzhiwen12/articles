@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:c="http://www.springframework.org/schema/c" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/cache
+                           http://www.springframework.org/schema/cache/spring-cache.xsd">
+	<!-- <context:property-placeholder file-encoding="UTF-8" location="classpath*:redis.properties" 
+		ignore-unresolvable="true" /> -->
+	<bean id="propertyConfigurer1"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:redis.properties</value>
+			</list>
+		</property>
+		<property name="fileEncoding" value="UTF-8" />
+	</bean>
+
+	<!-- redis缓存配置开始 -->
+	<bean id="clusterConfig"
+		class="org.springframework.data.redis.connection.RedisClusterConfiguration">
+		<constructor-arg name="propertySource">
+			<bean class="org.springframework.core.env.MapPropertySource">
+				<constructor-arg name="name" value="redis.properties" />
+				<constructor-arg name="source">
+					<map>
+						<entry key="spring.redis.cluster.nodes" value="${spring.redis.cluster.nodes}" />
+						<entry key="spring.redis.cluster.max-redirects" value="${spring.redis.cluster.max-redirects}" />
+					</map>
+				</constructor-arg>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	<bean id="redisConnectionFactory"
+		class="org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"
+		c:clusterConfig-ref="clusterConfig" p:password="${spring.redis.cluster.password}" />
+
+	<bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate"
+		c:connectionFactory-ref="redisConnectionFactory">
+	</bean>
+	<!-- 将session放入redis -->
+	<bean id="redisHttpSessionConfiguration"
+		class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration">
+		<property name="maxInactiveIntervalInSeconds" value="1800" />
+	</bean>
+	<!-- <bean id="cacheManager" class="org.springframework.data.redis.cache.RedisCacheManager" 
+		c:redisOperations-ref="redisTemplate" p:loadRemoteCachesOnStartup="true" 
+		p:usePrefix="true" p:defaultExpiration="180"> <property name="expires"> <map 
+		key-type="java.lang.String" value-type="java.lang.Long"> </map> </property> 
+		</bean> <cache:annotation-driven cache-manager="cacheManager" /> -->
+	<!-- redis缓存配置结束 -->
+</beans>

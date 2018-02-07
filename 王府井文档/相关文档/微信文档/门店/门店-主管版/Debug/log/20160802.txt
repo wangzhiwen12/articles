@@ -1,0 +1,14 @@
+
+ 
+记录时间：2016-08-02 11:07:01,527  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2016-08-02 11:11:37,377  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 

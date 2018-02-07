@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "sid": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "supplierCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "supplierName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "businessPattern": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "storeCode": {
+      "type": "string",
+      "index": "not_analyzed"
+    }
+  }
+}

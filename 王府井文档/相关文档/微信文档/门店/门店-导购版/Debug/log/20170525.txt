@@ -1,0 +1,35 @@
+
+ 
+记录时间：2017-05-25 15:08:09,430  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-25 15:13:08,502  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-25 15:14:21,529  
+日志级别：  ERROR 
+出错类：StoreMan.Pages.KWGLPage property: [(null)] - 
+日志描述：用户：20101001  库位管理查询失败！原因：未将对象引用设置到对象的实例。
+ 
+
+ 
+记录时间：2017-05-25 15:14:21,754  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-25 18:05:21,060  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：20101001  登录成功
+ 

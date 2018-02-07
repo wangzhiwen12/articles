@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netty-server-info xmlns="http://www.wangfujing.com/nettyserver"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.wangfujing.com/nettyserver nettyserver.xsd ">
+	<!--基础配置 -->
+	<base-info>
+		<!--服务名 -->
+		<server-name>pcm-admin</server-name>
+		<!--服务context地址 -->
+		<server-root>/pcm-admin</server-root>
+		<!--系统码 -->
+		<server-code>11</server-code>
+		<!--系统描述，将写入zk -->
+		<server-desc>
+			'{'"version"\:"1.0", "name"\:"wfj-onmi-channel-pcm-admin", "status"\:"{0}"}
+		</server-desc>
+		<!--最大请求数 -->
+		<max-income-thread-count>1000</max-income-thread-count>
+		<!--是否需要安全认证 -->
+		<ssh-info isSSL="false" needClientAuth="false">
+			<!--数字签名文件位置 -->
+			<keystore-path>keystore-path</keystore-path>
+			<!--数字签名密码 -->
+			<keystore-passwd>keystore-passwd</keystore-passwd>
+			<!--数字签名证书密码 -->
+			<keystore-certpasswd>keystore-certpasswd</keystore-certpasswd>
+		</ssh-info>
+		<base-params>
+			<param param-name="contextConfigLocation"
+				param-value="classpath*:applicationContext.xml,classpath*:springmvc-servlet.xml" />
+		</base-params>
+	</base-info>
+	<listener-infos>
+		<listener listener-class="org.springframework.web.context.ContextLoaderListener" />
+	</listener-infos>
+	<filter-infos onStartup="true">
+		<filter filter-class="com.wfj.netty.servlet.filter.Monitor"
+			filter-name="servlet-monitor">
+			<filter-mapping url-pattern="/*" />
+		</filter>
+	</filter-infos>
+	<!--dispatcher配置 -->
+	<dispather-infos>
+		<!--dispatcher对应servlet配置 -->
+		<servlet servlet-class="org.springframework.web.servlet.DispatcherServlet"
+			servlet-name="dispatcher" servlet-suffix="*.htm$,*.html$,*.json,*.do" />
+	</dispather-infos>
+</netty-server-info>

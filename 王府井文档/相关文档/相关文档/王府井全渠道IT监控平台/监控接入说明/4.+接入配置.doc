@@ -1,0 +1,321 @@
+Message-ID: <1659898756.1327.1489473481207.JavaMail.root@localhost.localdomain>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1326_697995810.1489473481207"
+
+------=_Part_1326_697995810.1489473481207
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>4. =E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>4. =E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE</h1>
+    <div class=3D"Section1">
+        <p>=E8=AF=B4=E6=98=8E=EF=BC=9A=E6=9C=AC=E6=96=87=E4=B8=AD=E7=9A=84z=
+ookeeper=E3=80=81kafka=E4=BB=85=E4=B8=8EIT=E7=9B=91=E6=8E=A7=E5=B9=B3=E5=8F=
+=B0=E7=9B=B8=E5=85=B3=EF=BC=8C=E4=B8=9A=E5=8A=A1=E7=B3=BB=E7=BB=9F=E9=9C=80=
+=E8=A6=81=E4=BD=BF=E7=94=A8zookeeper=E6=88=96kafka=EF=BC=8C=E8=AF=B7=E4=BD=
+=BF=E7=94=A8=E7=B3=BB=E7=BB=9F=E9=83=A8=E6=90=AD=E5=BB=BA=E7=9A=84=E7=8E=AF=
+=E5=A2=83=E3=80=82=E4=BF=9D=E8=AF=81=E6=9C=AC=E9=A1=B5=E9=9D=A2=E4=B8=AD=E7=
+=9A=84zookeeper=E9=9B=86=E7=BE=A4=E3=80=81kafka=E9=9B=86=E7=BE=A4=E5=87=BA=
+=E7=8E=B0=E5=AE=95=E6=9C=BA=E3=80=81=E5=81=9C=E6=9C=8D=E5=8A=A1=E7=AD=89=E5=
+=BC=82=E5=B8=B8=E6=83=85=E5=86=B5=EF=BC=8C=E4=BB=85=E5=BD=B1=E5=93=8D=E7=9B=
+=91=E6=8E=A7=E5=8A=9F=E8=83=BD=EF=BC=8C=E4=B8=8D=E5=BD=B1=E5=93=8D=E6=AD=A3=
+=E5=B8=B8=E4=B8=9A=E5=8A=A1=E3=80=82</p>
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1489473481199 {padding: 0px;}
+div.rbtoc1489473481199 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1489473481199 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1489473481199">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1=E7=9B=91=E6=8E=
+=A7=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6">1 =E7=9B=91=E6=
+=8E=A7=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1.1=E6=B5=8B=E8=
+=AF=95=E7=8E=AF=E5=A2=83">1.1 =E6=B5=8B=E8=AF=95=E7=8E=AF=E5=A2=83</a></li>=
+=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1.2=E9=A2=84=E7=
+=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=83">1.2 =E9=A2=84=E7=94=9F=E4=BA=A7=E7=8E=AF=
+=E5=A2=83</a></li>=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1.3=E7=94=9F=E4=
+=BA=A7=E7=8E=AF=E5=A2=83">1.3 =E7=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=83</a></li>=
+=20
+</ul> </li>=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2=E5=BC=82=E5=B8=
+=B8=E5=AE=A2=E6=88=B7=E7=AB=AF=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE=E6=96=87=
+=E4=BB=B6">2 =E5=BC=82=E5=B8=B8=E5=AE=A2=E6=88=B7=E7=AB=AF=E6=8E=A5=E5=85=
+=A5=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2.1=E6=B5=8B=E8=
+=AF=95=E7=8E=AF=E5=A2=83">2.1 =E6=B5=8B=E8=AF=95=E7=8E=AF=E5=A2=83</a></li>=
+=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2.2=E9=A2=84=E7=
+=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=83">2.2 =E9=A2=84=E7=94=9F=E4=BA=A7=E7=8E=AF=
+=E5=A2=83</a></li>=20
+<li><a href=3D"#id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2.3=E7=94=9F=E4=
+=BA=A7=E7=8E=AF=E5=A2=83">2.3 =E7=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=83</a></li>=
+=20
+</ul> </li>=20
+</ul>=20
+</div>
+<p></p>
+<h1 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1=E7=9B=91=E6=8E=A7=E6=
+=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6">1 =E7=9B=91=E6=8E=A7=
+=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</h1>
+<p>=E6=96=87=E4=BB=B6=E5=90=8D=EF=BC=9Awfj-netty.properties<br />=E4=B8=8D=
+=E5=90=8C=E7=8E=AF=E5=A2=83=E9=9C=80=E8=A6=81=E4=BF=AE=E6=94=B9=E7=9A=84=E4=
+=BD=8D=E7=BD=AE=E6=80=BB=E5=85=B1=E6=9C=89=E4=B8=89=E5=A4=84=EF=BC=9Asystem=
+.seeting.monitor.url=EF=BC=88zookeeper=E6=9C=8D=E5=8A=A1=E5=9C=B0=E5=9D=80=
+=EF=BC=89=E3=80=81system.setting.kafka.bootstrap.servers=EF=BC=88kafka=E7=
+=9A=84broker=E5=9C=B0=E5=9D=80=EF=BC=89=E3=80=81system.setting.kafka.sql.to=
+pic=EF=BC=88kafka topic=E5=90=8D=E7=A7=B0=EF=BC=89=E3=80=82</p>
+<h2 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1.1=E6=B5=8B=E8=AF=95=
+=E7=8E=AF=E5=A2=83">1.1 =E6=B5=8B=E8=AF=95=E7=8E=AF=E5=A2=83</h2>
+<p>system.seeting.monitor.url=3D10.6.100.1:2181,10.6.100.2:2181,10.6.100.3:=
+2181<br />system.setting.kafka.bootstrap.servers=3D10.6.100.4:9092,10.6.100=
+.5:9092,10.6.100.6:9092<br />system.setting.kafka.sql.topic=3Dsql-info-test=
+</p>
+<h2 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1.2=E9=A2=84=E7=94=9F=
+=E4=BA=A7=E7=8E=AF=E5=A2=83">1.2 =E9=A2=84=E7=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=
+=83</h2>
+<p>system.seeting.monitor.url=3D10.6.100.14:2181,10.6.100.15:2181,10.6.100.=
+16:2181<br />system.setting.kafka.bootstrap.servers=3D10.6.100.4:9092,10.6.=
+100.5:9092,10.6.100.6:9092<br />system.setting.kafka.sql.topic=3Dsql-info</=
+p>
+<h2 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-1.3=E7=94=9F=E4=BA=A7=
+=E7=8E=AF=E5=A2=83">1.3 =E7=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=83</h2>
+<p>system.seeting.monitor.url=3D10.6.100.18:2181,10.6.100.19:2181,10.6.100.=
+20:2181,10.6.100.21:2181,10.6.100.22:2181<br />system.setting.kafka.bootstr=
+ap.servers=3D10.6.100.23:9092,10.6.100.24:9092,10.6.100.25:9092<br />system=
+.setting.kafka.sql.topic=3Dsql-info</p>
+<h1 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2=E5=BC=82=E5=B8=B8=E5=
+=AE=A2=E6=88=B7=E7=AB=AF=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=
+=B6">2 =E5=BC=82=E5=B8=B8=E5=AE=A2=E6=88=B7=E7=AB=AF=E6=8E=A5=E5=85=A5=E9=
+=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</h1>
+<p>=E9=BB=98=E8=AE=A4=E6=96=87=E4=BB=B6=E5=90=8D=EF=BC=9Aspring-client-exce=
+ption-config.properties=EF=BC=8C=E6=96=87=E4=BB=B6=E5=90=8D=E5=8F=AF=E8=87=
+=AA=E5=AE=9A=E4=B9=89=EF=BC=8C=E5=85=B7=E4=BD=93=E6=8E=A5=E5=85=A5=E5=8F=82=
+=E8=A7=81=EF=BC=9A<a href=3D"/pages/viewpage.action?pageId=3D4358466">=E5=
+=BC=82=E5=B8=B8=E5=AE=A2=E6=88=B7=E7=AB=AF=E6=8E=A5=E5=85=A5=E8=AF=B4=E6=98=
+=8E</a><br />=E4=B8=8D=E5=90=8C=E7=8E=AF=E5=A2=83=E9=9C=80=E8=A6=81=E4=BF=
+=AE=E6=94=B9=E7=9A=84=E4=BD=8D=E7=BD=AE=E6=80=BB=E5=85=B1=E6=9C=89=E4=B8=A4=
+=E5=A4=84=EF=BC=9Aexception.brokerList=EF=BC=88kafka=E7=9A=84broker=E5=9C=
+=B0=E5=9D=80=EF=BC=89=E3=80=81exception.topic=EF=BC=88=E5=BC=82=E5=B8=B8top=
+ic=EF=BC=89=E3=80=82</p>
+<h2 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2.1=E6=B5=8B=E8=AF=95=
+=E7=8E=AF=E5=A2=83">2.1 =E6=B5=8B=E8=AF=95=E7=8E=AF=E5=A2=83</h2>
+<p>exception.brokerList=3D10.6.100.4:9092,10.6.100.5:9092,10.6.100.6:9092<b=
+r />exception.topic=3Dexception-test</p>
+<h2 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2.2=E9=A2=84=E7=94=9F=
+=E4=BA=A7=E7=8E=AF=E5=A2=83">2.2 =E9=A2=84=E7=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=
+=83</h2>
+<p>exception.brokerList=3D10.6.100.4:9092,10.6.100.5:9092,10.6.100.6:9092<b=
+r />exception.topic=3Dexception-staging</p>
+<h2 id=3D"id-4.=E6=8E=A5=E5=85=A5=E9=85=8D=E7=BD=AE-2.3=E7=94=9F=E4=BA=A7=
+=E7=8E=AF=E5=A2=83">2.3 =E7=94=9F=E4=BA=A7=E7=8E=AF=E5=A2=83</h2>
+<p>exception.brokerList=3D10.6.100.23:9092,10.6.100.24:9092,10.6.100.25:909=
+2<br />exception.topic=3Dexception-production</p>
+    </div>
+</body>
+</html>
+------=_Part_1326_697995810.1489473481207--

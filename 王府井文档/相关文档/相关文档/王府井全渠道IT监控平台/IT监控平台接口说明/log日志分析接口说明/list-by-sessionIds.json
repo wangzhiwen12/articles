@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "params": {
+    "messageBody": "{\n\t\"sessionIds\":[\n    \"C67DC41E16AB1902F09CF5070A483938\",\n    \"CC523EDAB7479B6B5E55D90051A890E5\",\n    \"EC5B0FDE15C9F1EC12C4BBD07C225552\",\n    \"7D5A17746F7890E0B38AF5F5C8A7024F\"\n\t\t]\n}"
+  },
+  "content": [
+    {
+      "id": "1477387248097-qishengjie--1-order2Return-search-CC523EDAB7479B6B5E55D90051A890E5",
+      "sysCode": "21",
+      "bizName": "order2Return-search",
+      "bizDesc": "退货单查询2",
+      "bizType": "1",
+      "diffKey": "21!#!1!#!order2Return-search",
+      "operateTime": 1477387248097,
+      "operateTimeStr": "2016-10-25 17:20:48.097",
+      "username": "qishengjie",
+      "sessionId": "CC523EDAB7479B6B5E55D90051A890E5",
+      "params": null,
+      "result": null,
+      "ip": null,
+      "mac": null,
+      "protocol": "http:",
+      "host": "10.6.3.114:8080",
+      "pathname": "/ops/index.jsp",
+      "search": "",
+      "title": "王府井运营支撑系统",
+      "browserName": "Chrome 49",
+      "browserVersion": "49.0.2623.22",
+      "osName": "Windows 7",
+      "deviceType": "Computer",
+      "success": true
+    },
+    {
+      "id": "1477388014561-admin--1-search-EC5B0FDE15C9F1EC12C4BBD07C225552",
+      "sysCode": "21",
+      "bizName": "search",
+      "bizDesc": "订单查询",
+      "bizType": "1",
+      "diffKey": "21!#!1!#!search",
+      "operateTime": 1477388014561,
+      "operateTimeStr": "2016-10-25 17:33:34.561",
+      "username": "admin",
+      "sessionId": "EC5B0FDE15C9F1EC12C4BBD07C225552",
+      "params": null,
+      "result": null,
+      "ip": null,
+      "mac": null,
+      "protocol": "http:",
+      "host": "10.6.2.49:8080",
+      "pathname": "/ops/index.jsp",
+      "search": "",
+      "title": "王府井运营支撑系统",
+      "browserName": "Chrome",
+      "browserVersion": "52.0.2743.116",
+      "osName": "Windows 7",
+      "deviceType": "Computer",
+      "success": true
+    }
+  ]
+}

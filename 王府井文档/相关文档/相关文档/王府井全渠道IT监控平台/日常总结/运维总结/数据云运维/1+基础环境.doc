@@ -1,0 +1,242 @@
+Message-ID: <831355425.1341.1489473615705.JavaMail.root@localhost.localdomain>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1340_2003788297.1489473615705"
+
+------=_Part_1340_2003788297.1489473615705
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>1 =E5=9F=BA=E7=A1=80=E7=8E=AF=E5=A2=83</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>1 =E5=9F=BA=E7=A1=80=E7=8E=AF=E5=A2=83</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-1=E5=9F=BA=E7=A1=80=E7=8E=AF=E5=A2=83-1jdk=E9=85=8D=E7=
+=BD=AE">1 jdk=E9=85=8D=E7=BD=AE</h1>
+<p>=E7=89=88=E6=9C=AC=EF=BC=9A1.8</p>
+<p>jdk=E5=AD=98=E5=82=A8=E4=BD=8D=E7=BD=AE=EF=BC=9A/usr/lib/jvm=E4=B8=AD=E8=
+=A7=A3=E5=8E=8Bjdk=E5=8C=85=EF=BC=8C=E9=80=9A=E8=BF=87=E4=B8=A4=E7=BA=A7=E9=
+=93=BE=E6=8E=A5=EF=BC=8C=E9=80=9A=E8=BF=87lastest=E9=93=BE=E6=8E=A5jdk=E8=
+=A7=A3=E5=8E=8B=E5=8C=85=EF=BC=8C=E9=80=9A=E8=BF=87default=E9=93=BE=E6=8E=
+=A5lastest</p>
+<p>=E8=84=9A=E6=9C=AC=E5=AE=9A=E4=B9=89=EF=BC=9A/etc/profile.d/=E7=9B=AE=E5=
+=BD=95=E4=B8=AD=E5=AE=9A=E4=B9=89jdk.sh=E6=96=87=E4=BB=B6</p>
+<p>cd /etc/profile.d/;<br />echo &quot;export JAVA_HOME=3D/usr/lib/jvm/defa=
+ult&quot; &gt; jdk.sh;<br />echo &quot;export JRE_HOME=3D${JAVA_HOME}/jre&q=
+uot; &gt;&gt; jdk.sh;<br />echo &quot;export DERBY_HOME=3D${JAVA_HOME}/db&q=
+uot; &gt;&gt; jdk.sh;<br />echo &quot;export CLASSPATH=3D.:${JAVA_HOME}/lib=
+:${JRE_HOME}/lib&quot; &gt;&gt; jdk.sh;<br />echo &quot;export PATH=3D${JAV=
+A_HOME}/bin:${JRE_HOME}/bin:${DERBY_HOME}/bin:${PATH}&quot; &gt;&gt; jdk.sh=
+;</p>
+<h1 id=3D"id-1=E5=9F=BA=E7=A1=80=E7=8E=AF=E5=A2=83-2=E5=90=84=E5=9F=BA=E7=
+=A1=80=E6=A1=86=E6=9E=B6=E6=89=80=E5=9C=A8=E4=BD=8D=E7=BD=AE">2 =E5=90=84=
+=E5=9F=BA=E7=A1=80=E6=A1=86=E6=9E=B6=E6=89=80=E5=9C=A8=E4=BD=8D=E7=BD=AE</h=
+1>
+<p>=E5=9B=A0=E4=B8=BA=E5=90=84=E6=9C=8D=E5=8A=A1=E5=99=A8=E5=A4=96=E7=BD=AE=
+=E7=A1=AC=E7=9B=98=E6=8C=82=E8=BD=BD=E4=BD=8D=E7=BD=AE=E6=98=AF/data=EF=BC=
+=8C=E5=9B=A0=E6=AD=A4=E5=9C=A8/data=E4=B8=AD=E5=AE=9A=E4=B9=89=E5=90=84=E4=
+=B8=AA=E5=BA=94=E7=94=A8=E6=A0=B9=E7=9B=AE=E5=BD=95=EF=BC=8C=E7=84=B6=E5=90=
+=8E=E9=80=9A=E8=BF=87default=E9=93=BE=E6=8E=A5=E5=90=84=E8=87=AA=E7=9A=84=
+=E5=AE=9E=E9=99=85=E8=B7=AF=E5=BE=84=E3=80=82</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_1340_2003788297.1489473615705--

@@ -1,0 +1,358 @@
+Message-ID: <62973038.473.1480389264755.JavaMail.root@localhost.localdomain>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_472_1068570757.1480389264754"
+
+------=_Part_472_1068570757.1480389264754
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>MQ-02-=E5=88=A0=E9=99=A4=E8=AF=84=E8=AE=BA=E4=BF=A1=E6=81=AF</ti=
+tle>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>MQ-02-=E5=88=A0=E9=99=A4=E8=AF=84=E8=AE=BA=E4=BF=A1=E6=81=AF</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">=E7=89=88=E6=9C=AC</th>
+<th class=3D"confluenceTh">=E6=8E=A5=E6=94=B6=E6=96=B9=E5=AE=8C=E6=88=90=E7=
+=8A=B6=E6=80=81</th>
+<th class=3D"confluenceTh">=E4=B8=8B=E5=8F=91=E6=96=B9=E5=AE=8C=E6=88=90=E7=
+=8A=B6=E6=80=81</th>
+<th class=3D"confluenceTh">=E5=8F=AF=E6=B5=8B=E8=AF=95</th>
+<th class=3D"confluenceTh">=E6=B5=8B=E8=AF=95=E9=80=9A=E8=BF=87</th>
+<th class=3D"confluenceTh">=E5=8F=98=E6=9B=B4=E8=AF=B4=E6=98=8E</th>
+<th class=3D"confluenceTh">=E6=8E=A5=E5=8F=A3=E5=8F=AF=E7=94=A8=E7=8A=B6=E6=
+=80=81</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">1.0.0</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E7=94=B1=E4=BA=8E=E8=B4=A6=E6=88=B7=E7=B3=BB=E7=
+=BB=9F=E6=97=A0=E5=88=A0=E9=99=A4=E8=AF=84=E8=AE=BA=E4=B8=9A=E5=8A=A1=EF=BC=
+=8C=E6=AD=A4=E6=8E=A5=E5=8F=A3=E5=88=A0=E9=99=A4=E3=80=82</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"MQ-02-=E5=88=A0=E9=99=A4=E8=AF=84=E8=AE=BA=E4=BF=A1=E6=81=AF-=E6=
+=8E=A5=E6=94=B6=E5=9C=B0=E5=9D=80">=E6=8E=A5=E6=94=B6=E5=9C=B0=E5=9D=80</h2=
+>
+<p><span class=3D"nolink">/mq/comment/removeComments.json</span></p>
+<h2 id=3D"MQ-02-=E5=88=A0=E9=99=A4=E8=AF=84=E8=AE=BA=E4=BF=A1=E6=81=AF-=E8=
+=A7=A6=E5=8F=91=E6=9D=A1=E4=BB=B6">=E8=A7=A6=E5=8F=91=E6=9D=A1=E4=BB=B6</h2=
+>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">=E8=A7=A6=E5=8F=91=E5=AF=B9=E8=B1=A1</th>
+<th class=3D"confluenceTh">=E8=A7=A6=E5=8F=91=E6=93=8D=E4=BD=9C</th>
+<th class=3D"confluenceTh">=E8=AF=B4=E6=98=8E</th>
+</tr>
+<tr>
+<td rowspan=3D"9" class=3D"confluenceTd">=E8=AF=84=E8=AE=BA=E4=BF=A1=E6=81=
+=AF</td>
+<td rowspan=3D"9" class=3D"confluenceTd"><p>=E5=88=A0=E9=99=A4</p></td>
+<td rowspan=3D"9" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"MQ-02-=E5=88=A0=E9=99=A4=E8=AF=84=E8=AE=BA=E4=BF=A1=E6=81=AF-MQ=
+=E6=B6=88=E6=81=AFdata=E5=86=85=E5=AE=B9">MQ=E6=B6=88=E6=81=AF data=E5=86=
+=85=E5=AE=B9</h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">{</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&quot;messageBody&quot;:[</td>
+<td class=3D"confluenceTd">JSON</td>
+<td class=3D"confluenceTd">=E6=B6=88=E6=81=AF=E4=BD=93=E3=80=82JSONArray</t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><span>&quot;1&quot;,</span></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E8=AF=84=E8=AE=BAid</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">&quot;3&quot;,</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">,...</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">=E5=85=B6=E4=BB=96=E8=AF=84=E8=AE=BAid</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">],</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&quot;stamp&quot;:&quot;uuid&quot;,</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">=E9=82=AE=E6=88=B3=EF=BC=8C=E5=85=B6=E5=80=BC=E6=
+=98=AF=E4=B8=80=E4=B8=AA=E9=9A=8F=E6=9C=BAUUID</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&quot;caller&quot;:&quot;=E5=8F=8C=E6=96=B9=E7=
+=BA=A6=E5=AE=9A&quot;,</td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">=E6=B6=88=E6=81=AF=E5=8F=91=E5=87=BA=E6=96=B9=E7=
+=9A=84=E8=BA=AB=E4=BB=BD=E6=A0=87=E8=AF=86=EF=BC=8C=E4=B8=8E=E6=90=9C=E7=B4=
+=A2=E6=96=B9=E5=8D=8F=E5=95=86=E7=A1=AE=E5=AE=9A=E3=80=82</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">&quot;signature&quot;:&quot;SHA256withRSA&quot;<=
+/td>
+<td class=3D"confluenceTd">String</td>
+<td class=3D"confluenceTd">=E7=AD=BE=E5=90=8D=E5=80=BC</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">}</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+<thead>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+JSON=E7=A4=BA=E4=BE=8B
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E7=B1=BB=E5=9E=8B
+</div>
+</div></th>
+<th class=3D"confluenceTh">
+<div class=3D"tablesorter-header-inner">
+<div class=3D"tablesorter-header-inner">
+=E8=AF=B4=E6=98=8E
+</div>
+</div></th>
+</tr>
+</thead>
+</table>
+</div>
+<h2 id=3D"MQ-02-=E5=88=A0=E9=99=A4=E8=AF=84=E8=AE=BA=E4=BF=A1=E6=81=AF-Vers=
+ion">Version</h2>
+<p>1.0.0</p>
+    </div>
+</body>
+</html>
+------=_Part_472_1068570757.1480389264754--

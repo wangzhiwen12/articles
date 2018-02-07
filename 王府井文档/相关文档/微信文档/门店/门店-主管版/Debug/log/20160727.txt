@@ -1,0 +1,210 @@
+
+ 
+记录时间：2016-07-27 10:32:01,135  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 10:34:55,411  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 10:47:17,083  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 10:48:39,128  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 10:57:22,603  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 10:59:52,195  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 14:50:43,179  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录失败
+ 
+
+ 
+记录时间：2016-07-27 15:01:25,735  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 15:09:27,313  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 15:15:38,887  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 15:22:05,088  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 15:32:18,735  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 15:45:00,495  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 15:51:22,392  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 16:15:34,121  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 16:25:18,031  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 16:28:11,276  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 16:31:10,871  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 17:52:19,411  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 17:57:06,294  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录失败
+ 
+
+ 
+记录时间：2016-07-27 18:05:18,959  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:10:56,035  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:13:27,024  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:14:27,977  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:16:48,607  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:18:28,114  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:20:14,807  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:35:07,287  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:37:19,614  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-27 18:47:41,805  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 

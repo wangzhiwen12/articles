@@ -1,0 +1,168 @@
+
+ 
+记录时间：2016-07-28 10:17:23,599  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 11:12:21,025  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 11:13:35,995  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 11:44:58,587  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 11:49:00,503  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 12:01:34,868  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 12:01:50,350  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 12:04:50,449  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录失败
+ 
+
+ 
+记录时间：2016-07-28 13:00:21,669  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 13:04:18,211  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 14:13:17,318  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 14:39:36,110  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 14:41:00,256  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 14:42:45,621  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 14:49:16,351  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 14:56:24,256  
+日志级别：  ERROR 
+出错类：StoreMan.Pages.SetRoleRightsPage property: [(null)] - 
+日志描述：设置用户角色权限：时间-20160728-02:24:56操作人：StoreAdmin
+ 
+
+ 
+记录时间：2016-07-28 15:03:07,818  
+日志级别：  ERROR 
+出错类：StoreMan.Pages.SetRoleRightsPage property: [(null)] - 
+日志描述：设置用户角色权限：时间-20160728-03:07:03操作人：StoreAdmin
+ 
+
+ 
+记录时间：2016-07-28 15:03:35,952  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 15:05:14,176  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 15:07:15,543  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 15:10:56,280  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 15:58:34,194  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 16:02:08,706  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 
+
+ 
+记录时间：2016-07-28 16:03:51,448  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：StoreAdmin  登录成功
+ 

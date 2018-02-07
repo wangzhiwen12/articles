@@ -1,0 +1,331 @@
+
+ 
+记录时间：2016-11-02 11:51:21,272  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 12:49:28,349  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 12:51:34,753  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 15:31:42,918  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 15:48:28,487  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1' at line 2
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select * from tab_pad_registration as a LEFT JOIN tab_pad_cashier_config b ON a.ID=b.PAD_REGISTRATION_ID where 
+where 1=1 
+ 
+
+ 
+记录时间：2016-11-02 15:48:28,649  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1  order by a.CREATEDATE desc ,a.ISSTATE asc  limit 0,10' at line 2
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 StoreManDAL.MySQLHelper.ExecuteReader(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 345
+select * from tab_pad_registration as a LEFT JOIN tab_pad_cashier_config b ON a.ID=b.PAD_REGISTRATION_ID where 
+where 1=1  order by a.CREATEDATE desc ,a.ISSTATE asc  limit 0,10
+ 
+
+ 
+记录时间：2016-11-02 15:50:27,984  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：名为“ID”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 StoreManDAL.MySQLHelper.GetDataSet(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 439
+
+ 
+
+ 
+记录时间：2016-11-02 15:52:52,201  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：名为“ID”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 StoreManDAL.MySQLHelper.GetDataSet(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 439
+
+ 
+
+ 
+记录时间：2016-11-02 16:03:34,409  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 16:05:05,122  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录失败
+ 
+
+ 
+记录时间：2016-11-02 16:12:26,772  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 16:16:03,933  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 16:18:51,054  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 16:26:04,439  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 16:30:59,301  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 16:59:25,574  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 17:04:46,682  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 17:06:01,437  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 17:14:10,998  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 17:30:38,702  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 17:48:46,080  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=
+ 
+
+ 
+记录时间：2016-11-02 17:50:35,510  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=
+ 
+
+ 
+记录时间：2016-11-02 17:55:26,371  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=
+ 
+
+ 
+记录时间：2016-11-02 17:56:55,308  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=
+ 
+
+ 
+记录时间：2016-11-02 17:58:36,966  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=
+ 
+
+ 
+记录时间：2016-11-02 17:58:50,829  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=
+ 
+
+ 
+记录时间：2016-11-02 18:00:50,426  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Unknown column 'a4b66425' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=a4b66425-dd07-461e-a258-a55f246f5549
+ 
+
+ 
+记录时间：2016-11-02 18:01:24,254  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Unknown column 'a4b66425' in 'where clause'
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 StoreManDAL.MySQLHelper.ExecuteScalar(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 698
+select count(*) from tab_pad_cashier_config  where PAD_REGISTRATION_ID=a4b66425-dd07-461e-a258-a55f246f5549
+ 
+
+ 
+记录时间：2016-11-02 18:03:02,401  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 18:08:06,532  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 18:09:35,497  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 18:11:06,683  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-11-02 18:17:54,631  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 

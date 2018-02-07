@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "params": {
+    "sessionIds": [
+      "DBFB11DEB93224CEE4A51DF3B1C648C1",
+      "C92722DD72E905E1441F7E786D0C7C49",
+      "ED003F893D3F538C6A00FC45A96F49CB",
+      "734E1BF995E6F2F9C87F21D6381FFB8A"
+    ]
+  },
+  "content": {
+    "bizNameCounters": [
+      {
+        "sysCode": "01",
+        "bizType": "1",
+        "bizName": "click-login",
+        "bizDesc": "NEED_GET_FROM_DB",
+        "username": null,
+        "count": 4,
+        "countTime": null
+      }
+    ],
+    "usernameCounters": [
+      {
+        "sysCode": null,
+        "bizType": null,
+        "bizName": null,
+        "bizDesc": null,
+        "username": "ff",
+        "count": 4,
+        "countTime": null
+      }
+    ]
+  }
+}

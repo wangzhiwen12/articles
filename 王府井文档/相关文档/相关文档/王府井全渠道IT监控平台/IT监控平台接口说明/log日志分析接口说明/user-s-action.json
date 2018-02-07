@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "params": {
+    "start": 0,
+    "rows": 1,
+    "username": "sunwei"
+  },
+  "content": {
+    "from": 0,
+    "size": 1,
+    "current": 1,
+    "total": 3949,
+    "result": [
+      {
+        "id": "1476328181116-sunwei--1-sale-search-0F6D780C67782DC401668DCAD00B288E",
+        "sysCode": "21",
+        "bizName": "sale-search",
+        "bizDesc": "销售单查询",
+        "bizType": "1",
+        "diffKey": "21!#!1!#!sale-search",
+        "operateTime": 1476328181116,
+        "operateTimeStr": "2016-10-13 11:09:41.116",
+        "username": "sunwei",
+        "sessionId": "0F6D780C67782DC401668DCAD00B288E",
+        "params": null,
+        "result": null,
+        "ip": null,
+        "mac": null,
+        "protocol": "http:",
+        "host": "10.6.3.114:8080",
+        "pathname": "/ops/index.jsp",
+        "search": "",
+        "title": "王府井运营支撑系统",
+        "browserName": "Chrome 49",
+        "browserVersion": "49.0.2623.22",
+        "osName": "Windows 7",
+        "deviceType": "Computer",
+        "success": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+
+ 
+记录时间：2017-05-12 10:15:51,771  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-12 10:27:21,206  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-12 14:10:43,212  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-12 14:49:50,863  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-12 14:54:36,973  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-12 14:58:53,556  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:59:12,640  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:59:14,322  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:59:26,071  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:59:26,961  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:59:39,413  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 15:05:55,058  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 15:05:56,325  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 15:09:55,942  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-12 15:15:02,162  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录失败
+ 
+
+ 
+记录时间：2017-05-12 16:16:50,066  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录成功
+ 
+
+ 
+记录时间：2017-05-12 16:26:10,421  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：Storeadmin  登录失败
+ 

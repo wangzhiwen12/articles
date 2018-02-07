@@ -1,0 +1,667 @@
+
+ 
+记录时间：2017-05-12 09:33:45,844  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第8行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:33:45,864  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:33:45,865  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:33:45,865  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:33:45,865  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:35:31,967  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第8行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:35:31,968  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:35:31,968  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:35:31,968  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:35:31,968  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:20,113  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第8行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:20,114  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:20,114  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:20,114  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:20,114  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:31,630  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第8行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:31,630  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:31,631  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:31,631  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 09:40:31,631  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 10:15:54,076  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 10:26:55,664  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 10:34:13,693  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 13:51:49,513  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 14:10:10,790  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 14:19:21,923  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:19:21,924  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:38:00,336  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,124  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 DataHelper.HttpHelper.PostWebService(String url, HttpType httpType, String Json_input) 位置 f:\王府井项目\StoreMan\DataHelper\HttpHelper.cs:行号 63
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,440  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,541  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,652  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,747  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,921  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,926  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量变价，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 ReadArrayOfModProductCategoryFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+   在 System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeByArrayData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 148
+   在 StoreManDAL.WebServiceDAL.GetModProductCategory(String URI_IP) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 123
+ 
+
+ 
+记录时间：2017-05-12 14:40:38,981  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:远程服务器返回错误: (404) 未找到。
+ 
+
+ 
+记录时间：2017-05-12 14:40:41,044  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 14:49:49,965  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 14:51:41,193  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:51:41,213  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:53:11,269  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 14:54:27,408  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 14:57:58,023  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:57:58,024  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:57:58,024  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:57:58,024  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 14:58:08,155  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 15:09:54,886  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 15:11:07,010  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 15:12:04,460  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:12:04,461  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:12:04,461  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:12:04,462  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:14:49,983  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 15:20:31,880  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:20:31,881  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:20:31,881  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:20:31,882  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:20:44,384  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 15:21:24,094  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 15:22:28,029  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 15:25:50,832  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 15:27:21,401  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:27:21,420  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:27:21,421  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:27:21,421  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:31,175  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:31,175  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:31,176  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:31,176  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:58,435  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:58,435  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:58,435  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:28:58,435  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 15:29:36,191  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 16:16:52,374  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 16:17:55,234  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：数据导入失败，原因：文件“C:\Users\Sun\Desktop\百货大楼Pre导入数据 - 给庆福 - 副本.xlsx”正由另一进程使用，因此该进程无法访问此文件。
+ 
+
+ 
+记录时间：2017-05-12 16:18:05,844  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 16:19:34,209  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 
+
+ 
+记录时间：2017-05-12 16:25:43,199  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 16:27:32,149  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第9行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 16:27:32,149  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第10行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 16:27:32,150  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第11行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 16:27:32,150  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入第12行9列出错：列“c12”不属于表 。
+
+ 
+
+ 
+记录时间：2017-05-12 16:27:47,375  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：主数据导入空行超过10行
+ 
+
+ 
+记录时间：2017-05-12 16:38:37,245  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录成功
+ 

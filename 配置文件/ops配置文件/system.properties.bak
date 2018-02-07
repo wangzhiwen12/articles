@@ -1,0 +1,151 @@
+#business_server=http://127.0.0.1/business/remoting
+#\u9518\u5321\u8c62\u9518\ufffd
+#\u95ae\u3127\u8bb2\u7eeb\u8bf2\u7037   1:\u5bee\ufffd\u5f42 \u951b\u5825\u7caf\u7481\u308f\u7d1a  2:\u5a34\u5b2d\u762f   3:\u95ae\u3127\u8bb2web 4.\u95ae\u3127\u8bb2\u6d93\u7c11eb\u6d60\u8bf2\u59df\u93c8\ufffd-- \u9422\u3124\u7c2c \u93c3\u30e5\u7e54\u93c4\u5267\u305a
+deploy = 1
+#Debug\u59af\u2033\u7d21 1:\u699b\u6a3f\ue17b\u951b\u581f\u7274\u93b9\ue1c0\u5134\u7f03\u53c9\u6f75\u7ead\ue1bc\u757e\u951b\ufffd2.debug 3.info  4.ws 5.warn 6.fatal 7.error 8.fatal 9.nolog
+debug =2
+system_role=ROLE_BACK_ADMIN
+super_admin=ROLE_ADMIN
+system_wms=SYSTEM_WMS
+orle_wms_admin=ROLE_WMS_ADMIN
+web_procat_tree=2
+erp_procat_tree=1
+
+#pcm system===================================start================================================
+ssd_system=http://10.30.61.192:8043/pcm-admin-sdc
+#ssd_systemToInner=http://10.30.61.192:8042/pcm-inner-sdc
+image_server = http://121.42.8.141/
+image_brand_server = http://121.42.8.141/
+photo_server = http://10.30.61.149:8185/photoMan-sev/
+ftp_host=121.42.8.141
+ftp_username=test
+ftp_password=123123
+ftp_port=21
+image_path=flashpromotions
+brand_image_path=brand
+product_image_path=product
+sizeCode_image_path=ImgSize
+ftp_propackimg = propackimg/images/
+packimg_url = http://www.shuzicx.com
+uac_path =http://10.30.61.178:8080/uac/
+#back_environment = UAT
+back_environment = SIT
+#pcm system===================================end================================================
+
+#cms============================start==================================================================
+cms_outer_system=http://10.30.61.192:8046/pcm-outer-sdc/
+cms_system=http://10.30.61.190:8080/cms-admin
+local_url=http://10.163.239.120:8080/ops
+static_system=http://10.30.61.190:8081/cms-staticPage
+pay_system=http://pay.allchannel.com/
+mq_post_url=http://10.144.240.168:8010/MQInput/itgService/inbound.do
+cms_cnd_url=http://10.30.61.192:8043/pcm-admin-sdc/common/flushCdn.htm
+isCdnEnable=false
+cms_image_servers = http://121.42.8.141
+#cms============================end==================================================================
+
+#photo system===================================start================================================
+photo_system=http://10.6.4.25:8185/photoMan-sev
+wms_system=http://10.30.61.149:7706/wmsMan-sev
+#wms system====================================end====================================================
+
+
+
+advertise_image_path=/adverties/img
+advertise_flash_path=/adverties/flash
+stylelist_image_path=/stylelistImg
+template_image_path=/tpl
+
+cms_image_server = http://121.42.8.141
+
+product_key=com.wangfj.service.ProductServiceImpl.getProduct
+
+#seo\u6587\u4ef6\u7f51\u5740
+webaddress=http\://www.shuzicx.com
+gen_path=D:/siteMapTest
+
+#edi===========================start================================
+edi_log_select=http://10.30.61.173:8180/edi_server/api/operationLog/findLog/
+edi_goods_search=http://10.30.61.173:8180/edi_server/edi/api/goodsFindByWhere
+edi_goods_manual=http://10.30.61.173:8180/edi_server/edi/api/goodsManualAssociated
+edi_goods_batch=http://10.30.61.173:8180/edi_server/edi/api/goodsBatchAssociated
+edi_goods_automatic=http://10.30.61.173:8180/edi_server/edi/api/goodsAutomatic
+edi_goods_relieve=http://10.30.61.173:8180/edi_server/edi/api/goodsRemove
+edi_goods_stock=http://10.30.61.173:8180/edi_server/edi/api/goodsStockSearch
+edi_express_Tree=http://10.30.61.173:8180/edi_server/api/express/queryExpressTree/
+edi_express_Info=http://10.30.61.173:8180/edi_server/api/express/queryExpressInfo/
+edi_express_Update=http://10.30.61.173:8180/edi_server/api/express/updateExpress
+edi_address_Tree=http://10.30.61.173:8180/edi_server/api/address/queryAddressTree/
+edi_address_Info=http://10.30.61.173:8180/edi_server/api/address/queryAddressInfo/
+edi_address_Wfj=http://10.30.61.173:8180/edi_server/api/address/queryWFJProperties
+edi_address_Update=http://10.30.61.173:8180/edi_server/api/address/updateAddress
+edi_blacklist_relieve=http://10.30.61.173:8180/edi_server/api/tmallOrder/blacklistRelieve/
+edi_order=http://10.30.61.173:8180/edi_server/api/tmallOrder/findOrder/
+edi_order_catch=http://10.30.61.173:8180/edi_server/api/trade/orderInfo/
+edi_order_findChild=http://10.30.61.173:8180/edi_server/api/tmallOrder/findChild
+edi_blacklist_add=http://10.30.61.173:8180/edi_server/api/tmallOrder/blacklistAdd/
+edi_order_export=http://10.30.61.173:8180/edi_server/api/tmallOrder/orderDetailReport/
+edi_order_update=http://10.30.61.173:8180/edi_server/api/tmallOrder/updateChild/
+edi_refund=http://10.30.61.173:8180/edi_server/tmallRefund/obtain
+edi_yz_order_catch=http://172.21.103.66:8280/edi_server_yz/api/yzTrade/orderInfo/
+edi_yz_order=http://172.21.103.66:8280/edi_server_yz/api/yzOrder/findOrder/
+edi_yz_order_export=http://172.21.103.66:8280/edi_server_yz/api/yzOrder/orderDetailReportYz/
+edi_yz_order_findChild=http://172.21.103.66:8280/edi_server_yz/api/yzOrder/findChild
+edi_yz_order_update=http://172.21.103.66:8280/edi_server_yz/api/yzOrder/updateChild/
+edi_yz_express_Tree=http://172.21.103.66:8280/edi_server_yz/api/express/queryExpressTree/
+edi_yz_express_Info=http://172.21.103.66:8280/edi_server_yz/api/express/queryExpressInfo/
+edi_yz_express_Update=http://172.21.103.66:8280/edi_server_yz/api/express/updateExpress
+edi_yz_address_Tree=http://172.21.103.66:8280/edi_server_yz/api/address/queryAddressTree/
+edi_yz_address_Info=http://172.21.103.66:8280/edi_server_yz/api/address/queryAddressInfo/
+edi_yz_address_Wfj=http://172.21.103.66:8280/edi_server_yz/api/address/queryWFJProperties
+edi_yz_address_Update=http://172.21.103.66:8280/edi_server_yz/api/address/updateAddress
+edi_goods_yzmanual=http://172.21.103.66:8280/edi_server_yz/edi/api/goodsManualAssociated
+edi_goods_yzbatch=http://172.21.103.66:8280/edi_server_yz/edi/api/goodsBatchAssociated
+edi_goods_yzsearch=http://172.21.103.66:8280/edi_server_yz/edi/api/goodsFindByWhere
+edi_goods_yzautomatic=http://172.21.103.66:8280/edi_server_yz/edi/api/goodsAutomatic
+edi_goods_yzrelieve=http://172.21.103.66:8280/edi_server_yz/edi/api/goodsRemove
+edi_goods_yzstock=http://172.21.103.66:8280/edi_server_yz/edi/api/goodsStockSearch
+edi_jm_order_catch=http://172.21.103.66:8380/edi_server_jm/api/jmTrade/orderInfo/
+edi_jm_order=http://172.21.103.66:8380/edi_server_jm/api/jmOrder/findOrder/
+edi_jm_order_export=http://172.21.103.66:8380/edi_server_jm/api/jmOrder/orderDetailReportjm/
+edi_jm_order_findChild=http://172.21.103.66:8380/edi_server_jm/api/jmOrder/findChild
+edi_jm_order_update=http://172.21.103.66:8380/edi_server_jm/api/jmOrder/updateChild/
+edi_jm_express_Tree=http://172.21.103.66:8380/edi_server_jm/api/express/queryExpressTree/
+edi_jm_express_Info=http://172.21.103.66:8380/edi_server_jm/api/express/queryExpressInfo/
+edi_jm_express_Update=http://172.21.103.66:8380/edi_server_jm/api/express/updateExpress
+edi_jm_address_Tree=http://172.21.103.66:8380/edi_server_jm/api/address/queryAddressTree/
+edi_jm_address_Info=http://172.21.103.66:8380/edi_server_jm/api/address/queryAddressInfo/
+edi_jm_address_Wfj=http://172.21.103.66:8380/edi_server_jm/api/address/queryWFJProperties
+edi_jm_address_Update=http://172.21.103.66:8380/edi_server_jm/api/address/updateAddress
+edi_goods_jmmanual=http://10.30.61.173:8180/edi_server/edi/api/goodsManualAssociated
+edi_jm_refund=http://172.21.103.66:8380/edi_server_jm/JmRefund/obtain
+edi_goods_jmbatch=http://10.30.61.173:8180/edi_server/edi/api/goodsBatchAssociated
+edi_cps_update=http://172.21.103.66:8080/edi_cps/opsData/updateCpsToggle
+edi_cps=http://172.21.103.66:8080/edi_cps/opsData/queryCpsToggle
+edi_cps_order=http://172.21.103.66:8080/edi_cps/opsData/findOrder
+edi_hlm_order_catch=http://172.21.103.66:8480/edi_okbuy/api/hlmTrade/orderInfo/
+edi_hlm_order=http://172.21.103.66:8480/edi_okbuy/api/hlmOrder/findOrder/
+edi_hlm_order_findChild=http://172.21.103.66:8480/edi_okbuy/api/hlmOrder/findChild
+edi_hlm_order_update=http://172.21.103.66:8480/edi_okbuy/api/hlmOrder/updateChild/
+edi_goods_hlmmanual=http://172.21.103.66:8480/edi_okbuy/edi/api/goodsManualAssociated
+edi_goods_hlmsearch=http://172.21.103.66:8480/edi_okbuy/edi/api/goodsFindByWhere
+edi_hlm_express_Tree=http://172.21.103.66:8480/edi_okbuy/api/express/queryExpressTree/
+edi_hlm_express_Info=http://172.21.103.66:8480/edi_okbuy/api/express/queryExpressInfo/
+edi_hlm_express_Update=http://172.21.103.66:8480/edi_okbuy/api/express/updateExpress
+edi_hlm_address_Tree=http://172.21.103.66:8480/edi_okbuy/api/address/queryAddressTree/
+edi_hlm_address_Info=http://172.21.103.66:8480/edi_okbuy/api/address/queryAddressInfo/
+edi_hlm_address_Wfj=http://172.21.103.66:8480/edi_okbuy/api/address/queryWFJProperties
+edi_hlm_address_Update=http://172.21.103.66:8480/edi_okbuy/api/address/updateAddress
+edi_hlm_order_export=http://172.21.103.66:8480/edi_okbuy/api/hlmOrder/orderDetailReportHlm/
+edi_goods_hlmbatch=http://172.21.103.66:8480/edi_okbuy/edi/api/goodsBatchAssociated
+edi_goods_hlmrelieve=http://172.21.103.66:8480/edi_okbuy/edi/api/goodsRemove
+memberUrl=http://localhost:8080/ops/sysConfig/findSysConfigByKeys?keys=memberInfo&username=
+
+log_js=http://121.42.8.141/log-analytics/wfj-log.js
+#=============edi================================end======================================
+
+
+#OMS==========================================start====================================
+image_refund_server = http://121.42.8.141/
+refund_image_path=wfj_ec2/predata/catalog/refundPicture
+#OMS==========================================end====================================

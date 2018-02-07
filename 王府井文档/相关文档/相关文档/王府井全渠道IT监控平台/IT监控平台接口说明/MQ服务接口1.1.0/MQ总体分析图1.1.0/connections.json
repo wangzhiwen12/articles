@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "params": {
+    "groupSid": 1
+  },
+  "content": [
+    {
+      "recv_oct": 46386,
+      "recv_oct_details": {
+        "rate": 0
+      },
+      "send_oct": 23481,
+      "send_oct_details": {
+        "rate": 0
+      },
+      "recv_cnt": 5749,
+      "send_cnt": 2875,
+      "send_pend": 0,
+      "state": "running",
+      "last_blocked_by": null,
+      "last_blocked_age": null,
+      "channels": 0,
+      "type": "network",
+      "node": "rabbit@single",
+      "name": "10.6.1.253:31556 -> 10.6.2.60:5672",
+      "port": 5672,
+      "peer_port": 31556,
+      "host": "10.6.2.60",
+      "peer_host": "10.6.1.253",
+      "ssl": false,
+      "peer_cert_subject": "",
+      "peer_cert_issuer": "",
+      "peer_cert_validity": "",
+      "auth_mechanism": "PLAIN",
+      "ssl_protocol": "",
+      "ssl_key_exchange": "",
+      "ssl_cipher": "",
+      "protocol": "AMQP 0-9-1",
+      "user": "admin",
+      "vhost": "/",
+      "timeout": 60,
+      "frame_max": 131072,
+      "client_properties": {
+        "product": "RabbitMQ",
+        "information": "Licensed under the MPL. See http://www.rabbitmq.com/",
+        "platform": "Java",
+        "copyright": "Copyright (C) 2007-2014 GoPivotal, Inc.",
+        "version": "3.3.4",
+        "capabilities": {
+          "exchange_exchange_bindings": true,
+          "consumer_cancel_notify": true,
+          "basic_nack": false,
+          "publisher_confirms": true
+        }
+      }
+    },
+    {
+      "recv_oct": 46354,
+      "recv_oct_details": {
+        "rate": 0
+      },
+      "send_oct": 23465,
+      "send_oct_details": {
+        "rate": 0
+      },
+      "recv_cnt": 5745,
+      "send_cnt": 2873,
+      "send_pend": 0,
+      "state": "running",
+      "last_blocked_by": null,
+      "last_blocked_age": null,
+      "channels": 0,
+      "type": "network",
+      "node": "rabbit@single",
+      "name": "10.6.1.253:31572 -> 10.6.2.60:5672",
+      "port": 5672,
+      "peer_port": 31572,
+      "host": "10.6.2.60",
+      "peer_host": "10.6.1.253",
+      "ssl": false,
+      "peer_cert_subject": "",
+      "peer_cert_issuer": "",
+      "peer_cert_validity": "",
+      "auth_mechanism": "PLAIN",
+      "ssl_protocol": "",
+      "ssl_key_exchange": "",
+      "ssl_cipher": "",
+      "protocol": "AMQP 0-9-1",
+      "user": "admin",
+      "vhost": "/",
+      "timeout": 60,
+      "frame_max": 131072,
+      "client_properties": {
+        "product": "RabbitMQ",
+        "information": "Licensed under the MPL. See http://www.rabbitmq.com/",
+        "platform": "Java",
+        "copyright": "Copyright (C) 2007-2014 GoPivotal, Inc.",
+        "version": "3.3.4",
+        "capabilities": {
+          "exchange_exchange_bindings": true,
+          "consumer_cancel_notify": true,
+          "basic_nack": false,
+          "publisher_confirms": true
+        }
+      }
+    }
+  ]
+}

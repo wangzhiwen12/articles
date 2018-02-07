@@ -1,0 +1,266 @@
+{
+  "properties": {
+    "sid": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "productCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "erpProductCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "skuCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "productName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "productType": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "supplierCode": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "supplierName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "businessPattern": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "supProductCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "counterCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "counterName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "storeCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "storeName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "channelSid": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "channelCode" : {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "channelName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "marketPrice": {
+      "type": "double"
+    },
+    "stockType": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "stockMode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "negativeStock": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "isSale": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "colorSid": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "colorCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "colorName": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "stanCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "stanName": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "modelCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "articleNum": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "brandGroupCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "brandGroupName": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "unitCode": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "unitName": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "features": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "primaryAttr": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "industry": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "isSelling": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "storeBrandCode": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "storeBrandName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "managerCategoryCode": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "managerCategoryName": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "field4": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "xxhcFlag": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "versionNo": {
+      "type": "long"
+    },
+    "brand": {
+      "type": "nested",
+      "properties": {
+        "sid": {
+          "type": "string",
+          "index": "not_analyzed",
+          "doc_values": "true"
+        },
+        "brandGroupCode": {
+          "type": "string",
+          "index": "not_analyzed",
+          "doc_values": "true"
+        },
+        "brandGroupName": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    },
+    "channels": {
+      "type": "nested",
+      "properties": {
+        "channelSid": {
+          "type": "string",
+          "index": "not_analyzed",
+          "doc_values": "true"
+        },
+        "channelCode": {
+          "type": "string",
+          "index": "not_analyzed",
+          "doc_values": "true"
+        },
+        "channelName": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    },
+    "suppliers": {
+      "type": "nested",
+      "properties": {
+        "sid": {
+          "type": "string",
+          "index": "not_analyzed",
+          "doc_values": "true"
+        },
+        "supplierCode": {
+          "type": "string",
+          "index": "not_analyzed",
+          "doc_values": "true"
+        },
+        "supplierName": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "businessPattern": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "storeCode": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    }
+  }
+}

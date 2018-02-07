@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+				http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+				http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+				http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+				http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
+	default-autowire="byName">
+
+	<!-- 自动搜索@Controller标注的类 -->
+	<context:component-scan base-package="com.wangfj.**.controller" />
+
+	<!-- jsr303数据校验的配置 --><!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 请求映射 -->
+	<!-- <mvc:annotation-driven/> -->
+	<mvc:annotation-driven
+		content-negotiation-manager="contentNegotiationManager" />
+	<bean id="contentNegotiationManager"
+		class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+		<property name="favorPathExtension" value="false" />
+		<property name="favorParameter" value="false" />
+		<property name="ignoreAcceptHeader" value="false" />
+		<property name="mediaTypes">
+			<value>
+				atom=application/atom+xml
+				html=text/html
+				json=application/json
+				*=*/*
+			</value>
+		</property>
+	</bean>
+	<!-- 在controller中，将对象转成json返回 -->
+	<bean id="jacksonMessageConverter"
+		class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+		<property name="supportedMediaTypes">
+			<list>
+				<value>application/json;charset=UTF-8</value>
+			</list>
+		</property>
+	</bean>
+	<!-- jsp视图配置 我们把视图文件写在/WEB-INF/jsp/下，后缀名为.jsp的文件就是视图文件， 为什么把前缀和后缀都声明好了？因为程序里面我们直接写文件名就可以了，非常灵活 -->
+	<!-- <bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver"> 
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" 
+		/> <property name="prefix" value="/WEB-INF/jsp/" /> <property name="suffix" 
+		value=".jsp" /> </bean> -->
+	<!-- 针对freemarker的视图配置 freemarkerConfig中指定视图路径，在viewResolver中指定视图格式 -->
+
+	<!-- <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer"> 
+		<property name="templateLoaderPath" value="/freemarker/" /> <property name="freemarkerSettings"> 
+		<props> <prop key="template_update_delay">0</prop> <prop key="default_encoding">UTF-8</prop> 
+		<prop key="number_format">0.##########</prop> <prop key="datetime_format">yyyy-MM-dd 
+		HH:mm:ss</prop> <prop key="classic_compatible">true</prop> <prop key="template_exception_handler">ignore</prop> 
+		</props> </property> </bean> <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver"> 
+		<property name="cache" value="true" /> <property name="prefix" value="" /> 
+		<property name="suffix" value=".ftl" /> <property name="contentType" value="text/html;charset=UTF-8"></property> 
+		<property name="requestContextAttribute" value="request" /> <property name="exposeSpringMacroHelpers" 
+		value="true" /> <property name="exposeRequestAttributes" value="true" /> 
+		<property name="exposeSessionAttributes" value="true" /> </bean> -->
+
+	<!-- 缓存自动提交 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<bean class="com.wangfj.core.cache.CacheCommitInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+	<!-- 多种视图混合使用 -->
+	<!-- <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer"> 
+		<property name="templateLoaderPath" value="/WEB-INF/freemarker/" /> <property 
+		name="freemarkerSettings"> <props> <prop key="defaultEncoding">utf-8</prop> 
+		<prop key="number_format">0.##</prop> </props> </property> </bean> <bean 
+		class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver"> 
+		<property name="mediaTypes"> <map> <entry key="atom" value="application/atom+xml" 
+		/> <entry key="html" value="text/html" /> <entry key="json" value="application/json" 
+		/> </map> </property> <property name="viewResolvers"> <list> <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver"> 
+		<property name="viewClass" value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" 
+		/> <property name="contentType" value="text/html;charset=utf-8" /> <property 
+		name="cache" value="true" /> <property name="prefix" value="" /> <property 
+		name="suffix" value=".ftl" /> </bean> <bean class="org.springframework.web.servlet.view.BeanNameViewResolver" 
+		/> <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
+		<property name="prefix" value="/WEB-INF/jsp/" /> <property name="suffix" 
+		value=".jsp" /> </bean> </list> </property> <property name="defaultViews"> 
+		<list> <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" 
+		/> </list> </property> </bean> <bean id="exceptionResolver" class="com.wangfj.core.framework.exception.JsonResponseExHandler"/> -->
+</beans>

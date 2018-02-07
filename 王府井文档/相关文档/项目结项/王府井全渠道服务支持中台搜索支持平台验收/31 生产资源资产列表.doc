@@ -1,0 +1,746 @@
+Message-ID: <1389048471.489.1480400774960.JavaMail.root@localhost.localdomain>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_488_389279719.1480400774960"
+
+------=_Part_488_389279719.1480400774960
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=97=
+=E8=A1=A8</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=97=E8=
+=A1=A8</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-/*&lt;![CDATA[*/div.rbtoc1480400774941{padding:0px;}div.=
+rbtoc1480400774941ul{list-style:disc;margin-left:0px;}div.rbtoc148040077494=
+1li{margin-left:0px;padding-left:0px;}/*]]&gt;*/Linux=E8=99=9A=E6=8B=9F=E6=
+=9C=BA#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=97=
+=E8=A1=A8-Linux=E8=99=9A=E6=8B=9F=E6=9C=BAMySQL#id-=E7=94=9F=E4=BA=A7=E8=B5=
+=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=97=E8=A1=A8-MySQLRedis#id-=E7=94=9F=E4=
+=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=97=E8=A1=A8-"><style type=
+=3D"text/css">/*<![CDATA[*/
+div.rbtoc1480400774941 {padding: 0px;}
+div.rbtoc1480400774941 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1480400774941 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1480400774941">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-Linux=E8=99=9A=E6=8B=9F=E6=9C=BA">Linux=E8=99=9A=E6=8B=
+=9F=E6=9C=BA</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-MySQL">MySQL</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-Redis">Redis</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-ZooKeeper">ZooKeeper</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-Solr">Solr</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-ES">ES</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-MongoDB=EF=BC=88=E5=B7=B2=E4=BD=BF=E7=94=A8ES=E6=9B=BF=
+=E6=8D=A2=EF=BC=89">MongoDB=EF=BC=88=E5=B7=B2=E4=BD=BF=E7=94=A8ES=E6=9B=BF=
+=E6=8D=A2=EF=BC=89</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-Jenkins">Jenkins</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-=E5=BA=94=E7=94=A8=E9=83=A8=E7=BD=B2">=E5=BA=94=E7=94=A8=
+=E9=83=A8=E7=BD=B2</a></li>=20
+<li><a href=3D"#id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=
+=E5=88=97=E8=A1=A8-=E6=8E=A5=E5=8F=A3=E8=B0=83=E7=94=A8=E5=85=AC=E9=92=A5">=
+=E6=8E=A5=E5=8F=A3=E8=B0=83=E7=94=A8=E5=85=AC=E9=92=A5</a></li>=20
+</ul>=20
+</div></h2>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-Linux=E8=99=9A=E6=8B=9F=E6=9C=BA">Linux=E8=99=9A=E6=8B=9F=E6=
+=9C=BA</h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th rowspan=3D"2" style=3D"text-align: center;" class=3D"confluenceTh"><br =
+/>=E5=9C=B0=E5=9D=80</th>
+<th colspan=3D"3" class=3D"confluenceTh">=E7=B3=BB=E7=BB=9F=E8=B4=A6=E6=88=
+=B7</th>
+<th rowspan=3D"2" style=3D"text-align: center;" class=3D"confluenceTh"><br =
+/>=E6=9C=BA=E5=99=A8=E9=85=8D=E7=BD=AE</th>
+<th rowspan=3D"2" class=3D"confluenceTh">=E8=AF=B4=E6=98=8E</th>
+</tr>
+<tr>
+<th class=3D"confluenceTh">=E7=94=A8=E6=88=B7=E5=90=8D</th>
+<th class=3D"confluenceTh">=E5=AF=86=E7=A0=81</th>
+<th colspan=3D"1" class=3D"confluenceTh">=E8=AF=B4=E6=98=8E</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.24</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+300G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">ElasticSearch + pcm-search + pcm-index</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.25</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+300G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">ElasticSearch<span> + pcm-search + pcm-index</sp=
+an></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.26</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+300G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">ElasticSearch</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.27</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+300G/CentOS6.4_64</td>
+<td class=3D"confluenceTd"><span>ElasticSearch</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.28</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+300G/CentOS6.4_64</td>
+<td class=3D"confluenceTd"><span>ElasticSearch</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.50</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">Solr</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.51</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">Solr</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.52</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">Solr</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.53</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">shoppe-search * 2</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.54</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">shoppe-search * 2</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.55</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">shoppe-search * 2</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.56</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">online-web-search * 2</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.57</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">online-web-search * 2</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.58</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM32G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">online-web-search * 2</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.59</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">shoppe-index + shoppe-manage-console</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.60</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">shoppe-index + shoppe-manage-console</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.61</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">online-index + online-manage-console</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.62</td>
+<td class=3D"confluenceTd">serachadmin</td>
+<td class=3D"confluenceTd">serach123!@#</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+<td class=3D"confluenceTd">CPU2*2/RAM16G/HD50G+50G+100G/CentOS6.4_64</td>
+<td class=3D"confluenceTd">online-index + online-manage-console</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">10.6.3.126</td>
+<td colspan=3D"1" class=3D"confluenceTd">kxsadmin</td>
+<td colspan=3D"1" class=3D"confluenceTd">kxs123!@#</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd">CPU2*2/RAM4G/HD50G+50G/CentOS6.4_6=
+4</td>
+<td colspan=3D"1" class=3D"confluenceTd">jenkins</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style=3D"margin-left: 30.0px;">JDK:</p>
+<ul style=3D"margin-left: 6.0px;">
+<li>=E7=89=88=E6=9C=AC Oracle JDK 1.8 64bit</li>
+<li>Path&nbsp;&nbsp;/data/jdk/jdk1.8.0_72</li>
+</ul>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-MySQL">MySQL</h2>
+<p><span>=E7=89=88=E6=9C=AC=EF=BC=9A5.6.27</span></p>
+<p><span><span>=E5=B7=B2=E5=81=9A=E5=A6=82=E4=B8=8B=E9=85=8D=E7=BD=AE=EF=BC=
+=88=E7=94=B1show variables;=E6=93=8D=E4=BD=9C=E5=BE=97=E7=9F=A5=EF=BC=89</s=
+pan></span></p>
+<p style=3D"margin-left: 30.0px;">lower_case_table_names=3D1<br />character=
+_set_server=3Dutf8</p>
+<p>=E6=95=B0=E6=8D=AE=E5=BA=93=E5=90=8D search</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th style=3D"margin-left: 60.0px;" class=3D"confluenceTh">=E5=9C=B0=E5=9D=
+=80</th>
+<th colspan=3D"1" class=3D"confluenceTh">=E7=AB=AF=E5=8F=A3=E5=8F=B7</th>
+<th class=3D"confluenceTh">=E7=94=A8=E6=88=B7=E5=90=8D</th>
+<th class=3D"confluenceTh">=E5=AF=86=E7=A0=81</th>
+<th colspan=3D"1" class=3D"confluenceTh">=E4=B8=BB=E6=9C=BA=E9=99=90=E5=88=
+=B6</th>
+<th colspan=3D"1" class=3D"confluenceTh">=E8=AF=B4=E6=98=8E</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.2.98</td>
+<td colspan=3D"1" class=3D"confluenceTd">3306</td>
+<td class=3D"confluenceTd">search</td>
+<td class=3D"confluenceTd"><span>SearcH</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">%</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E7=94=9F=E4=BA=A7/=E8=AF=BB=E5=86=
+=99</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">10.6.2.101</td>
+<td colspan=3D"1" class=3D"confluenceTd">3306</td>
+<td colspan=3D"1" class=3D"confluenceTd">search</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>SearcH</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">%</td>
+<td colspan=3D"1" class=3D"confluenceTd">=E7=94=9F=E4=BA=A7/=E5=8F=AA=E8=AF=
+=BB=EF=BC=88=E6=97=A0=E5=BA=94=E7=94=A8=E5=AE=9E=E4=BE=8B=E8=BF=9E=E6=8E=A5=
+=E6=AD=A4=E5=8F=AA=E8=AF=BB=E8=8A=82=E7=82=B9=EF=BC=8C=E4=B8=94=E5=85=B6=E4=
+=B8=AD=E6=9C=89=E5=BA=93=E6=97=A0=E8=A1=A8=EF=BC=89</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E7=94=9F=E4=BA=A7VIP 10.6.2.178</p>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-Redis">Redis</h2>
+<p>AUTH: Search6383</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">host</th>
+<th class=3D"confluenceTh">port</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.2.89</td>
+<td class=3D"confluenceTd">6383</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.2.90</td>
+<td class=3D"confluenceTd"><span>6383</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.2.91</td>
+<td class=3D"confluenceTd"><span>6383</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">10.6.2.92</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>6383</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">10.6.2.93</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>6383</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">10.6.2.168</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>6383</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-ZooKeeper"><span style=3D"color: rgb(0,0,0);">ZooKeeper</span>=
+</h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">IP</th>
+<th class=3D"confluenceTh">port</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.2.78</td>
+<td class=3D"confluenceTd">2181</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.2.79</td>
+<td class=3D"confluenceTd">2181</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.2.80</td>
+<td class=3D"confluenceTd">2181</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">10.6.2.87</td>
+<td colspan=3D"1" class=3D"confluenceTd">2181</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">10.6.2.88</td>
+<td colspan=3D"1" class=3D"confluenceTd">2181</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-Solr">Solr</h2>
+<p>SolrCloud=E6=96=B9=E5=BC=8F=E9=83=A8=E7=BD=B2</p>
+<p>zk connect string&nbsp;10.6.2.78:2181,10.6.2.79:2181,10.6.2.80:2181,10.6=
+.2.87:2181,10.6.2.88:2181/solr</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">IP</th>
+<th class=3D"confluenceTh">Path</th>
+<th class=3D"confluenceTh">Port</th>
+<th colspan=3D"1" class=3D"confluenceTh">solr_home</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.50</td>
+<td class=3D"confluenceTd">/data/solr/solr-5.3.0</td>
+<td class=3D"confluenceTd">8983</td>
+<td class=3D"confluenceTd">/data/solr/solr_home</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.51</td>
+<td class=3D"confluenceTd">/data/solr/solr-5.3.0</td>
+<td class=3D"confluenceTd">8983</td>
+<td class=3D"confluenceTd">/data/solr/solr_home</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.52</td>
+<td class=3D"confluenceTd">/data/solr/solr-5.3.0</td>
+<td class=3D"confluenceTd">8983</td>
+<td colspan=3D"1" class=3D"confluenceTd">/data/solr/solr_home</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-ES">ES</h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">IP</th>
+<th class=3D"confluenceTh">Path</th>
+<th class=3D"confluenceTh">pid</th>
+<th class=3D"confluenceTh">PORT</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.24</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0/data/es.pid</td>
+<td class=3D"confluenceTd">9200, 9300</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.25</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0/data/es.pid</td>
+<td class=3D"confluenceTd">9200, 9300</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.26</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0/data/es.pid</td>
+<td class=3D"confluenceTd">9200, 9300</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.27</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0/data/es.pid</td>
+<td class=3D"confluenceTd">9200, 9300</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">10.6.3.28</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0</td>
+<td class=3D"confluenceTd">/data/es/elasticsearch-2.2.0/data/es.pid</td>
+<td class=3D"confluenceTd">9200, 9300</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>cluster name: wfj-es</p>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-MongoDB=EF=BC=88=E5=B7=B2=E4=BD=BF=E7=94=A8ES=E6=9B=BF=E6=8D=
+=A2=EF=BC=89">MongoDB=EF=BC=88=E5=B7=B2=E4=BD=BF=E7=94=A8ES=E6=9B=BF=E6=8D=
+=A2=EF=BC=89</h2>
+<p>=E5=9C=B0=E5=9D=80=EF=BC=9A10.6.2.104:30000,10.6.2.105:30000,10.6.2.106:=
+3000</p>
+<p>VIP: 10.6.3.170:60000 <span style=3D"color: rgb(255,204,0);">(=E6=85=8E=
+=E7=94=A8=EF=BC=8CEOFException)</span></p>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-Jenkins">Jenkins</h2>
+<p>IP: 10.6.2.126</p>
+<p>Path:&nbsp;/data/jenkins/apache-tomcat-8.0.32-5080-jenkins</p>
+<p>JENKINS_HOME:&nbsp;/data/jenkins/jenkins_home</p>
+<p>Port: 5080 (5005,5009=E5=8D=A0=E7=94=A8)</p>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-=E5=BA=94=E7=94=A8=E9=83=A8=E7=BD=B2">=E5=BA=94=E7=94=A8=E9=83=
+=A8=E7=BD=B2</h2>
+<p><a href=3D"/pages/viewpage.action?pageId=3D3113593">=E7=94=9F=E4=BA=A7=
+=E5=BA=94=E7=94=A8=E5=AE=9E=E4=BE=8B=E9=83=A8=E7=BD=B2</a></p>
+<h2 id=3D"id-=E7=94=9F=E4=BA=A7=E8=B5=84=E6=BA=90=E8=B5=84=E4=BA=A7=E5=88=
+=97=E8=A1=A8-=E6=8E=A5=E5=8F=A3=E8=B0=83=E7=94=A8=E5=85=AC=E9=92=A5">=E6=8E=
+=A5=E5=8F=A3=E8=B0=83=E7=94=A8=E5=85=AC=E9=92=A5</h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Caller</th>
+<th class=3D"confluenceTh">PubKey</th>
+<th class=3D"confluenceTh">=E8=AF=B4=E6=98=8E</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">SYS_INDEX_SERVICE</td>
+<td class=3D"confluenceTd">=EF=BC=88=E6=97=A0=EF=BC=89</td>
+<td class=3D"confluenceTd">=E7=B4=A2=E5=BC=95=E6=9C=8D=E5=8A=A1=E8=87=AA=E8=
+=BA=AB=EF=BC=8C=E7=94=A8=E4=BA=8EJOB</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">PCM</td>
+<td class=3D"confluenceTd"><p>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2=
+HylCAjCxLKyuGtd3cli7IRz4M/iyhDIYsVzTesxX4aXt43EgGbyc9xRDN1XSBGZGPmc1X4MGi2v=
+OLWs0zX96jnRQ/ASyEj9aTBiUXTnL02/HhydhTnpKRsN7fdmxD5BxFfZ3rigChYRfG8WpBmfidB=
+Ai5aQxOEWMf6Scf2WweEIcg4k3Mmm+rhLYXgBv7gDZvZ7foCv5K/ukvsiPs/tHhnQCJTrLQ0DoY=
+0pGVxUfXfkgTZAXewfJMEVMG5aCsB7O0wkpNbcjUV1egnfdAdpfzrFGxfLZOmbuEgf3vT8TGcAk=
+5CdHUj9trLGXv7xPQWFweMY9vVppac8HzSU2BM2lQIDAQAB</p></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">OSP</td>
+<td class=3D"confluenceTd"><p>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn=
+tiZuoL9DipsxoWfzB3nJ5XTipCtzaIm+7RGCva2f0Kvre9hdD23XnJY1tYGmkTatcRq3bgDxVI4=
+U3B7hFrFhpZrYyuT2v8NbwIydfhjkNgZd1RLL3Yvb5PN6atQ0N7g5dZdQ0KREbQO79vyLDysX1J=
+z5vOw2cUfW9OAErKYYEVu+e+fg7epXXQ6YXSa+jZhrCVlxBTxm5SsPK3BmpwPHUN65KoWFAAh4L=
+0W4lemVuQzzbTAwxkxTqglI0keIyfXWUZE7PBwdmmGyo/IVyua3bhM/1rTe9r0lueFM9I7NP+Ti=
+yLJFuDVIFZWCXZ1tizyexxaK1nky4Fswtq4sfbeGQIDAQAB</p></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">OMS</td>
+<td class=3D"confluenceTd"><pre>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQE=
+AmfXKfnuYQsLlL+0o0LSm0lvSjtikBkaVIvaruuEBDVFaALabw8mlTgEleN0lEE/D4UvBhzPrJL=
+IXZ0Fwpp39rZoL3GoKlQct1Q1M2PadIO9bcW3Xh/kRdof10FS1v8Pbp/hISN1hKcxije/N0eQO5=
+jnPYlfi9tXame6VXWSG9TOlOok4KP30wLc262x5mEibNRsev+5CQcjyYwUTOizPzVFG51bBrL43=
+WxwPp8PFIHVzqZQWX29aZDz26goMCJQtzSV5FtGgkC9JiH0zW9waufsjIA1yvHPX2IZttOjeVgQ=
+jx0GMRaTIfgB1AHiqT2/7/1zYpSK6RuzYAUItZCQjTwIDAQAB</pre></td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">comment</td>
+<td class=3D"confluenceTd">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9loh=
+d5OTiqL1SBONPHUqpNp72Hn+vamjoqV4KYYAatYyIu5z64Gc/QBOQIitpAdDzcjYz3oHMomowtx=
+eD0UKFMKBU/BkHuzQ7quS1jhF1MB9gVesGt2zOrlAB3r5+mH88yZBiUcPYFbc0RrI99Tz/rztr7=
+vmZUGgZz0oQ10NG9dIAZEkb8EwUD76oJssJ1z0LMavWGrsOEk2e03VnEp+OeSYkN0g+/hGgPmS3=
+k+PmH+f6qyHWLIu6yvRaYvqogw93wJkr1x2rsJFqefZEaaWc4nKKYnxGHqIF1tFNUbgp/SbDs3s=
+K0kbQpr1oftTKsXc/eVYwHO3W4Xi6MzYt0EzHwIDAQAB</td>
+<td class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">online-manage-console</td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre>MIIBIjANBgkqhkiG9w0BAQEFAAOCA=
+Q8AMIIBCgKCAQEAkQeAdDdsjXWbfuaE2/MgfkjgTU5ksgolOtcLN9zYSWQYpqSc83PTRysp5qDU=
+J+zedHlb7znh9rOwFTFPuG4Utm90fIkIlSCItKKu55j5AJ1Zkc4EVedblZM6+z8nlvnbGOmEc7G=
+whE9znL507PvhOyYHdJL/GzC+iUo0ccwC/2u7GIIQx4+jqK0OKflCeJm/kdkiiXiaBCDSPGsoam=
+lFVblp6O/8jaSrnl8aIYY3ghvWYE7btSj3vtirJ/81Qp8yJVFF/bP/7/bwBqh1pASZ1h6bc0ptJ=
+Y5VUNgd7hAzLMw2huLTUL2nbzFIiI+qOt+uuZjbhM/YYyZMra7LTyvKeQIDAQAB</pre></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><pre>SEARCH_ADMIN</pre></td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre>MIIBIjANBgkqhkiG9w0BAQEFAAOCA=
+Q8AMIIBCgKCAQEAom6MOJoZn5QmGcvWDl3Ef9ijyHXFqluSoGH7IpKYdBh5jiMCnGMVlO0UtQ3f=
+23jJFqy2qc8avUKDLm24JMRZ/S6NWecnRBxQE7s1eVLLqzesFNvGXa0cbfSj++PUP+AmTSHQrW0=
+ibD40LFrSJI7ZYEIvurH6PADY5fWoXSsgqE64F3rfs61B9lvQnDhRdUleP6hoJqlfE3Sfbmjt+j=
+dFO4ISMeTzAoWlukXXBWBOdkCh2BI3+4r9UXPjhaiZfSq1chM2iq8AdUoSYOPX6YzUSB16569m7=
+vQwvP9m7YenVQjulr71J6CFLB4cuDdzJoJjXJ3sGP5SAA8xmx9jnpX/eQIDAQAB</pre></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">online-index</td>
+<td colspan=3D"1" class=3D"confluenceTd"><pre>MIIBIjANBgkqhkiG9w0BAQEFAAOCA=
+Q8AMIIBCgKCAQEAmOVA/V+dYmJSnuZpMQ/FiimrTvJteccqrRTL3XHFSh4SAIzezCEmlorxyjiz=
+9W09YzIiijN5Z5a5h1wtRrlz8OfHhwQ6zYBr7HHvhDxkMg/AiKnKDvmB8IsMm7P20IYHT8NNbd1=
+wlOqXpMGsl03VxUoIPTKITXoHb+xtzCFgV/+ggfKhtefEYrH38iAkSSGZwcFHEREQtUuH4scnB+=
+ey40PspWcG8S3xA8ksNSA2QI4TE3wWMHSS0mumemy70L53tGpFrsxNbQLR6/uCPJzsaqtdGNiDM=
+dGNuKF64Walsq3SNbSykL0fvgogHyfZmjjQhLRbxURvq0coTYBH0GMafQIDAQAB</pre></td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_488_389279719.1480400774960--

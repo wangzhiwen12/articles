@@ -1,0 +1,73 @@
+
+ 
+记录时间：2017-05-10 19:03:02,603  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:无法连接到远程服务器
+ 
+
+ 
+记录时间：2017-05-10 19:10:52,843  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 StoreManDAL.MySQLHelper.GetConnction108() 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 64
+
+ 
+
+ 
+记录时间：2017-05-10 19:10:52,863  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 StoreManDAL.MySQLHelper.GetConnction108() 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 53
+
+ 
+
+ 
+记录时间：2017-05-10 19:14:03,017  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.6.4.22:8042
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 DataHelper.HttpHelper.PostWebService(String url, HttpType httpType, String Json_input) 位置 f:\王府井项目\StoreMan\DataHelper\HttpHelper.cs:行号 58
+ 
+
+ 
+记录时间：2017-05-10 19:14:24,326  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:无法连接到远程服务器
+ 
+
+ 
+记录时间：2017-05-10 19:14:45,408  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:无法连接到远程服务器
+ 
+
+ 
+记录时间：2017-05-10 19:15:06,577  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:无法连接到远程服务器
+ 

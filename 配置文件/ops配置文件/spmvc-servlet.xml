@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath*:search.properties</value><!-- 搜索相关配置文件 -->
+                <value>classpath*:search_service.properties</value>
+            </list>
+        </property>
+        <property name="fileEncoding" value="UTF-8"/>
+        <property name="ignoreUnresolvablePlaceholders" value="true"/>
+    </bean>
+    <context:component-scan base-package="com.wangfj.back.controller"/>
+    <context:component-scan base-package="com.wangfj.wms.controller"/>
+    <context:component-scan base-package="com.wangfj.pay.web.controller"/>
+    <context:component-scan base-package="com.wangfj.order"/>
+    <context:component-scan base-package="com.wangfj.statement"/>
+    <context:component-scan base-package="com.wangfj.search"/>
+    <context:component-scan base-package="com.wangfj.member.controller"/>
+    <context:component-scan base-package="com.wfj.member"/>
+    <context:component-scan base-package="com.wangfj.cms"/>
+    <context:component-scan base-package="com.wangfj.edi"/>
+
+
+    <!--  @ResponseBody 中文乱码编码问题解决	 -->
+    <bean
+            class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                    <property name="supportedMediaTypes">
+                        <list>
+                            <value>text/plain;charset=UTF-8</value>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+
+    <!-- 视图 -->
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping">
+    </bean>
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+    </bean>
+    <!-- 根据客户端的不同的请求决定不同的view进行响应, 如 /blog/1.json /blog/1.xml -->
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="ignoreAcceptHeader" value="true"/>
+        <property name="defaultContentType" value="text/html"/>
+
+        <!-- 扩展名至mimeType的映射,即 /user.json => application/json -->
+        <property name="mediaTypes">
+            <map>
+                <entry key="json" value="application/json"/>
+                <entry key="xml" value="application/xml"/>
+            </map>
+        </property>
+        <!-- 用于开启 /userinfo/123?format=json 的支持 -->
+        <property name="favorParameter" value="false"/>
+        <property name="viewResolvers">
+            <list>
+                <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>
+                <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                    <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+                    <property name="prefix" value="/jsp/"/>
+                    <property name="suffix" value=".jsp"/>
+                    <property name="requestContextAttribute" value="context"/>
+                </bean>
+            </list>
+        </property>
+        <property name="defaultViews">
+            <list>
+                <!-- for application/json -->
+                <bean class="org.springframework.web.servlet.view.json.MappingJacksonJsonView"/>
+                <!-- for application/xml -->
+                <bean class="org.springframework.web.servlet.view.xml.MarshallingView">
+                    <property name="marshaller">
+                        <bean class="org.springframework.oxm.xstream.XStreamMarshaller"/>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+    <!--   <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/> -->
+    <bean id="multipartResolver" class="com.wangfj.cms.utils.MyMultipartResolver" p:defaultEncoding="UTF-8">
+        <property name="excludeUrls" value="noMulti"/>
+    </bean>
+    <!-- 拦截器   
+    <mvc:interceptors>  -->
+    <!-- 多个拦截器,顺序执行
+  <mvc:interceptor>
+     <mvc:mapping path="/person/*" /> -->
+    <!-- 如果不配置或/*,将拦截所有的Controller
+ <bean class="com.mvc.view.CommonInterceptor"></bean>
+</mvc:interceptor>
+</mvc:interceptors>-->
+
+</beans>

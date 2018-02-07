@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<description>搜索配置</description>
+
+	<bean id="zkClientFactory" class="com.wfj.search.utils.zookeeper.CuratorClientFactory">
+		<constructor-arg name="connectString" value="${search.zkAddresses}" />
+	</bean>
+	<bean id="zkClient" factory-bean="zkClientFactory" factory-method="createClient"
+		destroy-method="close" init-method="start" />
+	<bean id="springWebMvcServiceProvider"
+		class="com.wfj.search.utils.zookeeper.discovery.SpringWebMvcServiceProvider">
+		<constructor-arg name="zkClient" ref="zkClient" />
+		<constructor-arg name="basePath" value="${search.discovery.basePath}" />
+	</bean>
+
+	<bean id="privateRsaKeyProvider" class="com.wangfj.search.utils.PrivateRsaKeyProvider">
+		<property name="privateKeyFileLocation" value="classpath:rsaKey" />
+	</bean>
+
+	<bean id="okHttpClientFactory" class="com.wfj.search.utils.http.OkHttpClientFactory" />
+	<bean id="okHttpClient" factory-bean="okHttpClientFactory"
+		factory-method="getOkHttpClient" />
+	<bean id="okHttpOperator" class="com.wfj.search.utils.http.OkHttpOperator">
+		<constructor-arg name="okHttpClient" ref="okHttpClient" />
+	</bean>
+
+	<bean id="rsa" class="com.wangfj.search.utils.RsaResource">
+		<property name="resourceLoader">
+			<bean class="org.springframework.core.io.DefaultResourceLoader" />
+		</property>
+	</bean>
+
+	<bean id="privateSignatureHandler"
+		class="com.wfj.platform.util.signature.handler.PrivateSignatureHandler"
+		p:caller="${caller}" />
+
+</beans>

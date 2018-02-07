@@ -1,0 +1,1248 @@
+{
+  "success": true,
+  "params": {
+    "sysCodes": [],
+    "bizType": null,
+    "size": null,
+    "from": null,
+    "to": null,
+    "counterType": "MONTH"
+  },
+  "content": [
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-08-01 00:00:00"
+        }
+      ],
+      "countTime": "2015-08-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-09-01 00:00:00"
+        }
+      ],
+      "countTime": "2015-09-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-10-01 00:00:00"
+        }
+      ],
+      "countTime": "2015-10-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-11-01 00:00:00"
+        }
+      ],
+      "countTime": "2015-11-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2015-12-01 00:00:00"
+        }
+      ],
+      "countTime": "2015-12-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-01-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-01-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-02-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-02-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-03-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-03-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-04-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-04-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-05-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-05-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-06-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-06-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 2,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 2,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 2,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-07-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 0,
+          "countTime": "2016-07-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-07-01 00:00:00"
+    },
+    {
+      "counters": [
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 544,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 339,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/excInfo/listExcInfo.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 232,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/sysInfo/getListByLimit.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 148,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/earlyWarningRule/getRule.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 128,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/listBizErrCounter/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 120,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/exc/excCounterByDate/18.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 119,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/sysInfo/getList.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 115,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/main/getWebsocketUrl.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 101,
+          "countTime": "2016-08-01 00:00:00"
+        },
+        {
+          "sysCode": "67",
+          "bizType": "2",
+          "bizName": "/console/instanceStatus/aggregationByMinute/05.json",
+          "bizDesc": "NEED_GET_FROM_DB",
+          "username": null,
+          "count": 89,
+          "countTime": "2016-08-01 00:00:00"
+        }
+      ],
+      "countTime": "2016-08-01 00:00:00"
+    }
+  ]
+}

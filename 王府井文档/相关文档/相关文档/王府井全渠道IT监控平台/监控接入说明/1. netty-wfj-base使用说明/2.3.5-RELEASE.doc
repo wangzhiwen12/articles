@@ -1,0 +1,350 @@
+Message-ID: <1489996039.1321.1489473417146.JavaMail.root@localhost.localdomain>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1320_166449319.1489473417146"
+
+------=_Part_1320_166449319.1489473417146
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>2.3.5-RELEASE</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>2.3.5-RELEASE</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-2.3.5-RELEASE-0.=E4=BE=9D=E8=B5=96"><span style=3D"col=
+or: rgb(0,0,0);">0. =E4=BE=9D=E8=B5=96</span></h1>
+<p><span style=3D"color: rgb(0,0,0);">=E6=AD=A4=E7=89=88=E6=9C=AC=E5=8D=87=
+=E7=BA=A7=E9=9C=80=E8=A6=81=E5=A2=9E=E5=8A=A0=E4=B8=A4=E4=B8=AA=E4=BE=9D=E8=
+=B5=96=EF=BC=9A</span></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span>netty-wfj-base=E6=98=AF=
+=E5=9F=BA=E4=BA=8Enetty=E7=9A=84=E5=AE=B9=E5=99=A8=EF=BC=8C=E9=9C=80=E8=A6=
+=81=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E6=98=AF<span style=3D"col=
+or: rgb(0,0,0);">nettyserver.xml</span></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span>servlet-monitor=E6=98=AF=
+=E6=8F=90=E4=BE=9B=E7=9B=91=E6=8E=A7=E5=8A=9F=E8=83=BD=E7=9A=84=E5=B7=A5=E5=
+=85=B7=E5=8C=85=EF=BC=8C=E9=9C=80=E8=A6=81=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=
+=87=E4=BB=B6=E6=98=AF<span style=3D"color: rgb(0,0,0);">wfj-netty.propertie=
+s</span></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p>
+<pre><span style=3D"color: rgb(232,191,106);">&lt;dependency&gt;<br /></spa=
+n><span style=3D"color: rgb(232,191,106);"> &lt;groupId&gt;</span>com.wfj.n=
+etty<span style=3D"color: rgb(232,191,106);">&lt;/groupId&gt;<br /></span><=
+span style=3D"color: rgb(232,191,106);"> &lt;artifactId&gt;</span>netty-wfj=
+-base<span style=3D"color: rgb(232,191,106);">&lt;/artifactId&gt;<br /></sp=
+an><span style=3D"color: rgb(232,191,106);"> &lt;version&gt;</span>2.3.5-RE=
+LEASE<span style=3D"color: rgb(232,191,106);">&lt;/version&gt;<br /></span>=
+<span style=3D"color: rgb(232,191,106);">&lt;/dependency&gt;<br /></span><s=
+pan style=3D"color: rgb(232,191,106);">&lt;dependency&gt;<br /></span><span=
+ style=3D"color: rgb(232,191,106);"> &lt;groupId&gt;</span>com.wfj.netty<sp=
+an style=3D"color: rgb(232,191,106);">&lt;/groupId&gt;<br /></span><span st=
+yle=3D"color: rgb(232,191,106);"> &lt;artifactId&gt;</span>servlet-monitor<=
+span style=3D"color: rgb(232,191,106);">&lt;/artifactId&gt;<br /></span><sp=
+an style=3D"color: rgb(232,191,106);"> &lt;version&gt;</span>1.3.4-RELEASE<=
+span style=3D"color: rgb(232,191,106);">&lt;/version&gt;<br /></span><span =
+style=3D"color: rgb(232,191,106);">&lt;/dependency&gt;</span></pre>
+<h1 id=3D"id-2.3.5-RELEASE-1.=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E5=90=8D"=
+><span style=3D"color: rgb(0,0,0);">1. =E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=
+=E5=90=8D</span></h1>
+<h2 id=3D"id-2.3.5-RELEASE-1.1wfj-netty.properties"><span style=3D"color: r=
+gb(0,0,0);">1.1 wfj-netty.properties</span></h2>
+<p><span style=3D"color: rgb(0,0,0);">=E4=B8=8E=E5=8E=9F=E6=9C=89wfj-netty.=
+properties=E6=97=A0=E5=8F=98=E5=8C=96</span></p>
+<h2 id=3D"id-2.3.5-RELEASE-1.2nettyserver.xml"><span style=3D"color: rgb(0,=
+0,0);">1.2 nettyserver.xml</span></h2>
+<p><span style=3D"color: rgb(0,0,0);">=E4=B8=8E2.2.x=E7=89=88=E6=9C=AC=E7=
+=95=A5=E6=9C=89=E4=B8=8D=E5=90=8C=EF=BC=8C=E9=9C=80=E8=A6=81=E5=AF=B9=E5=BA=
+=94=E4=BF=AE=E6=94=B9=E3=80=82=E5=A2=9E=E5=8A=A0listener=E3=80=81filter=E9=
+=85=8D=E7=BD=AE=E3=80=82</span></p>
+<h1 id=3D"id-2.3.5-RELEASE-2.=E9=85=8D=E7=BD=AE=E7=A4=BA=E4=BE=8B"><span st=
+yle=3D"color: rgb(0,0,0);">2.&nbsp;</span><span style=3D"color: rgb(0,0,0);=
+">=E9=85=8D=E7=BD=AE=E7=A4=BA=E4=BE=8B</span></h1>
+<p><span style=3D"color: rgb(0,0,0);"><a href=3D"/download/attachments/5966=
+357/nettyserver.xml?version=3D1&amp;modificationDate=3D1473750773000&amp;ap=
+i=3Dv2">nettyserver.xml</a></span></p>
+<h1 id=3D"id-2.3.5-RELEASE-3.=E6=B3=A8=E6=84=8F=E4=BA=8B=E9=A1=B9"><span st=
+yle=3D"color: rgb(0,0,0);">3. =E6=B3=A8=E6=84=8F=E4=BA=8B=E9=A1=B9</span></=
+h1>
+<h2 id=3D"id-2.3.5-RELEASE-1.spring=E7=89=88=E6=9C=AC=E5=A4=A7=E4=BA=8E3.2.=
+3=EF=BC=8C=E5=B0=8F=E4=BA=8E4.x.x">1. spring=E7=89=88=E6=9C=AC=E5=A4=A7=E4=
+=BA=8E3.2.3=EF=BC=8C=E5=B0=8F=E4=BA=8E4.x.x</h2>
+<h2 id=3D"id-2.3.5-RELEASE-2.servlet-api=E7=89=88=E6=9C=AC=E4=BD=BF=E7=94=
+=A8javax.servlet-api=E7=9A=843.1.0">2. servlet-api =E7=89=88=E6=9C=AC=E4=BD=
+=BF=E7=94=A8 javax.servlet-api =E7=9A=843.1.0</h2>
+<pre><span style=3D"color: rgb(232,191,106);">&lt;dependency&gt;<br /></spa=
+n><span style=3D"color: rgb(232,191,106);"> &lt;groupId&gt;</span>javax.ser=
+vlet<span style=3D"color: rgb(232,191,106);">&lt;/groupId&gt;<br /></span><=
+span style=3D"color: rgb(232,191,106);"> &lt;artifactId&gt;</span>javax.ser=
+vlet-api<span style=3D"color: rgb(232,191,106);">&lt;/artifactId&gt;<br /><=
+/span><span style=3D"color: rgb(232,191,106);"> &lt;version&gt;</span>3.1.0=
+<span style=3D"color: rgb(232,191,106);">&lt;/version&gt;<br /></span><span=
+ style=3D"color: rgb(232,191,106);">&lt;/dependency&gt;</span></pre>
+<h2 id=3D"id-2.3.5-RELEASE-3.=E4=BD=BF=E7=94=A8@JsonProperty=E7=9A=84=E5=9C=
+=B0=E6=96=B9=EF=BC=8C=E4=BD=BF=E7=94=A8com.fasterxml.jackson.annotation.Jso=
+nProperty">3. =E4=BD=BF=E7=94=A8&nbsp;<span style=3D"color: rgb(187,181,41)=
+;">@JsonProperty&nbsp;</span>=E7=9A=84=E5=9C=B0=E6=96=B9=EF=BC=8C=E4=BD=BF=
+=E7=94=A8&nbsp;<span style=3D"color: rgb(187,181,41);">com.fasterxml.jackso=
+n.annotation.JsonProperty</span></h2>
+<h2 id=3D"id-2.3.5-RELEASE-4.=E6=95=B0=E6=8D=AE=E6=BA=90=E7=9B=91=E6=8E=A7=
+=E4=BD=BF=E7=94=A8=E7=9A=84BeanPostProcessor=E4=BF=AE=E6=94=B9=E5=8C=85=E8=
+=B7=AF=E5=BE=84"><span style=3D"color: rgb(187,181,41);"><span style=3D"col=
+or: rgb(154,70,0);">4. =E6=95=B0=E6=8D=AE=E6=BA=90=E7=9B=91=E6=8E=A7=E4=BD=
+=BF=E7=94=A8=E7=9A=84BeanPostProcessor=E4=BF=AE=E6=94=B9=E5=8C=85=E8=B7=AF=
+=E5=BE=84</span></span></h2>
+<p><span style=3D"color: rgb(187,181,41);"><span style=3D"color: rgb(154,70=
+,0);">4.1 =E7=AC=AC=E4=B8=80=E7=A7=8D=E6=96=B9=E5=BC=8F=EF=BC=88=E6=8E=A8=
+=E8=8D=90=EF=BC=89=EF=BC=9A</span></span></p>
+<pre><span style=3D"color: rgb(232,191,106);">&lt;bean </span><span style=
+=3D"color: rgb(186,186,186);">id</span><span style=3D"color: rgb(165,194,97=
+);">=3D&quot;springDataSourceBeanPostProcessor&quot;<br /></span><span styl=
+e=3D"color: rgb(165,194,97);">&nbsp;</span><span style=3D"color: rgb(186,18=
+6,186);">class</span><span style=3D"color: rgb(165,194,97);">=3D&quot;com.w=
+fj.netty.servlet.handler.spring.</span><span style=3D"color: rgb(165,194,97=
+);">SpringDataSourceBeanPostProcessor</span><span style=3D"color: rgb(165,1=
+94,97);">&quot;</span><span style=3D"color: rgb(232,191,106);">/&gt;<br /><=
+/span><span style=3D"color: rgb(232,191,106);">&nbsp;</span></pre>
+<pre><span style=3D"color: rgb(232,191,106);"><span style=3D"color: rgb(154=
+,70,0);">4.2 =E7=AC=AC=E4=BA=8C=E7=A7=8D=E6=96=B9=E5=BC=8F=EF=BC=9A</span><=
+/span></pre>
+<pre><span style=3D"color: rgb(232,191,106);">&lt;bean </span><span style=
+=3D"color: rgb(186,186,186);">id</span><span style=3D"color: rgb(165,194,97=
+);">=3D&quot;wrappedDataSource&quot; </span><span style=3D"color: rgb(186,1=
+86,186);">class</span><span style=3D"color: rgb(165,194,97);">=3D&quot;com.=
+wfj.netty.servlet.handler.factory.SpringDataSourceFactoryBean&quot;</span><=
+span style=3D"color: rgb(232,191,106);">&gt;</span></pre>
+<pre><span style=3D"color: rgb(232,191,106);"> &lt;property </span><span st=
+yle=3D"color: rgb(186,186,186);">name</span><span style=3D"color: rgb(165,1=
+94,97);">=3D&quot;targetName&quot; </span><span style=3D"color: rgb(186,186=
+,186);">value</span><span style=3D"color: rgb(165,194,97);">=3D&quot;dataSo=
+urce&quot;</span><span style=3D"color: rgb(232,191,106);">/&gt;<br /></span=
+><span style=3D"color: rgb(232,191,106);">&lt;/bean&gt;</span></pre>
+<h2 id=3D"id-2.3.5-RELEASE-5.java.lang.NoClassDefFoundError:io/netty/handle=
+r/codec/http/HttpChunkedInput">5. java.lang.NoClassDefFoundError: io/netty/=
+handler/codec/http/HttpChunkedInput</h2>
+<p>=E8=AF=B7=E6=A3=80=E6=9F=A5pom=E6=96=87=E4=BB=B6=E4=B8=AD=E4=BE=9D=E8=B5=
+=96=E7=9A=84netty-all=E7=89=88=E6=9C=AC=EF=BC=8Cpom=E4=BE=9D=E8=B5=96=E6=98=
+=AF=E4=BC=9A=E4=BC=A0=E9=80=92=E7=9A=84=E3=80=82=E5=A6=82=E6=9E=9C=E5=87=BA=
+=E7=8E=B0=E8=AF=A5=E5=BC=82=E5=B8=B8=EF=BC=8C=E8=AF=B4=E6=98=8E=E4=BE=9D=E8=
+=B5=96=E7=9A=84netty-all=E4=B8=AD=E6=9C=89=E4=BD=8E=E4=BA=8E4.0.27.Final=E7=
+=9A=84=E3=80=82</p>
+<h2 id=3D"id-2.3.5-RELEASE-6.=E5=AE=A2=E6=88=B7=E7=AB=AF=E8=B0=83=E7=94=A8n=
+etty-wfj-base=E9=A1=B9=E7=9B=AE=E6=97=B6=E5=A2=9E=E5=8A=A0Connection:keep-a=
+live=E8=AF=B7=E6=B1=82=E5=A4=B4">6. =E5=AE=A2=E6=88=B7=E7=AB=AF=E8=B0=83=E7=
+=94=A8netty-wfj-base=E9=A1=B9=E7=9B=AE=E6=97=B6=E5=A2=9E=E5=8A=A0Connection=
+: keep-alive=E8=AF=B7=E6=B1=82=E5=A4=B4</h2>
+<h2 id=3D"id-2.3.5-RELEASE-7.haproxy=E9=85=8D=E7=BD=AE=E4=BF=AE=E6=94=B9">7=
+. haproxy=E9=85=8D=E7=BD=AE=E4=BF=AE=E6=94=B9</h2>
+<p>1=E3=80=81=E5=9C=A8haproxy=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E4=B8=AD=
+=E7=9A=84frontend XXX=E4=B8=8B=E4=B8=80=E8=A1=8C=E6=B7=BB=E5=8A=A0=E4=B8=A4=
+=E8=A1=8C=EF=BC=9A</p>
+<p style=3D"margin-left: 30.0px;">acl is-close hdr(Connection) -i close</p>
+<p style=3D"margin-left: 30.0px;">http-request set-header Connection keep-a=
+live if !is-close</p>
+<p>2=E3=80=81=E5=A6=82=E6=9E=9C=E7=A8=8B=E5=BA=8F=E8=AF=B7=E6=B1=82=E4=B9=
+=8B=E5=90=8E=E6=8A=A5=E2=80=9CIOException: Connection reset by peer=E2=80=
+=9D=EF=BC=8C=E5=B0=B1=E6=8A=8Ajenkins=E4=B8=8A=E7=9A=84maven=E5=BA=93=E4=B8=
+=ADnetty-wfj-base=E5=8C=85=E5=88=A0=E9=99=A4=EF=BC=8C=E9=87=8D=E6=96=B0=E9=
+=83=A8=E7=BD=B2=E4=B8=80=E9=81=8D=E3=80=82</p>
+<p>3=E3=80=81=E4=BF=9D=E8=AF=81=E8=AF=B7=E6=B1=82=E5=A4=B4=E4=B8=AD=E6=B2=
+=A1=E6=9C=89Connection: close=E3=80=82</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_1320_166449319.1489473417146--

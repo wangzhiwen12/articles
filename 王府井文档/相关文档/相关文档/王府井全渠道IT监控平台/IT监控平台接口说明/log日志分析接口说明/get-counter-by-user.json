@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "params": {
+    "sysCode": "67",
+    "bizType": "2",
+    "size": null,
+    "bizName": "/console/earlyWarningRule/getRule.json",
+    "from": null,
+    "to": null
+  },
+  "content": [
+    {
+      "sysCode": "67",
+      "bizType": "2",
+      "bizName": "/console/earlyWarningRule/getRule.json",
+      "bizDesc": null,
+      "username": "ff",
+      "count": 442,
+      "countTime": null
+    },
+    {
+      "sysCode": "67",
+      "bizType": "2",
+      "bizName": "/console/earlyWarningRule/getRule.json",
+      "bizDesc": null,
+      "username": "admin",
+      "count": 27,
+      "countTime": null
+    }
+  ]
+}

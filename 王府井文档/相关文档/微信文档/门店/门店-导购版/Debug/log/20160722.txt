@@ -1,0 +1,235 @@
+
+ 
+记录时间：2016-07-22 11:04:38,815  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 11:36:54,384  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:04:26,342  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:08:00,367  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:09:38,821  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:11:42,694  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:13:21,410  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:17:16,717  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:27:42,870  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:29:46,816  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 12:30:20,083  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 14:39:54,705  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 14:41:50,049  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 14:46:49,275  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 14:48:41,236  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 14:50:10,120  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 14:52:48,192  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 15:12:53,830  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 15:26:28,911  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 15:27:08,987  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 15:32:34,596  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 17:44:56,896  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录成功
+ 
+
+ 
+记录时间：2016-07-22 17:46:53,708  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and  storeCode='21011' and  SupplierProdCode='2101101152'  order by  ACTION_DATE' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   在 MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 StoreManDAL.MySQLHelper.ExecuteReader(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 345
+SELECT * from tab_priceimp_dt LEFT JOIN tab_priceimp_approval ON tab_priceimp_dt.CHANGECODE=tab_priceimp_approval.CHANGECODE WHERE and  storeCode='21011' and  SupplierProdCode='2101101152'  order by  ACTION_DATE desc,ISSTATE asc,CHANGECODE desc
+ 
+
+ 
+记录时间：2016-07-22 18:06:26,656  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：名为“GUID”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 StoreManDAL.MySQLHelper.GetDataSet(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 439
+
+ 
+
+ 
+记录时间：2016-07-22 18:07:49,621  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：admin  登录失败
+ 
+
+ 
+记录时间：2016-07-22 18:08:12,655  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：名为“GUID”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 StoreManDAL.MySQLHelper.GetDataSet(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 439
+
+ 
+
+ 
+记录时间：2016-07-22 18:08:23,646  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：名为“GUID”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 StoreManDAL.MySQLHelper.GetDataSet(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 439
+
+ 
+
+ 
+记录时间：2016-07-22 18:08:31,585  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：名为“GUID”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 StoreManDAL.MySQLHelper.GetDataSet(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 439
+
+ 
+
+ 
+记录时间：2016-07-22 18:08:49,265  
+日志级别：  ERROR 
+出错类：StoreManDAL.MySQLHelper property: [(null)] - 
+日志描述：名为“GUID”的列已属于此 DataTable。
+   在 System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   在 System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   在 System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   在 StoreManDAL.MySQLHelper.GetDataSet(CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 f:\王府井项目\StoreMan\StoreManDAL\MySQlHelper.cs:行号 439
+
+ 

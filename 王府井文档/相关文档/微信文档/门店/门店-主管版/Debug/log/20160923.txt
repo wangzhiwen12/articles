@@ -1,0 +1,78 @@
+
+ 
+记录时间：2016-09-23 10:33:04,900  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:请求被中止: 连接被意外关闭。
+ 
+
+ 
+记录时间：2016-09-23 10:33:05,218  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量变价，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 ReadArrayOfModProductCategoryFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+   在 System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeByArrayData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 148
+   在 StoreManDAL.WebServiceDAL.GetModProductCategory(String URI_IP) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 123
+ 
+
+ 
+记录时间：2016-09-23 10:51:19,689  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:请求被中止: 连接被意外关闭。
+ 
+
+ 
+记录时间：2016-09-23 12:50:13,799  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
+
+ 
+记录时间：2016-09-23 17:41:57,006  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:请求被中止: 连接被意外关闭。
+ 
+
+ 
+记录时间：2016-09-23 17:41:57,303  
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+日志描述：商品批量变价，调用接口失败!System.Runtime.Serialization.SerializationException: 应为状态“Element”。。遇到名称为“”、命名空间为“”的“Text”。
+   在 ReadArrayOfModProductCategoryFromJson(XmlReaderDelegator , XmlObjectSerializerReadContextComplexJson , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+   在 System.Runtime.Serialization.Json.JsonCollectionDataContract.ReadJsonValueCore(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.JsonDataContract.ReadJsonValue(XmlReaderDelegator jsonReader, XmlObjectSerializerReadContextComplexJson context)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerReadContextComplexJson.ReadDataContractValue(DataContract dataContract, XmlReaderDelegator reader)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract& dataContract)
+   在 System.Runtime.Serialization.XmlObjectSerializerReadContextComplex.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName)
+   在 System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.ReadObject(XmlDictionaryReader reader)
+   在 StoreManDAL.Json.JsonDeserializeByArrayData[T](String jsonString) 位置 f:\王府井项目\StoreMan\StoreManDAL\Json.cs:行号 148
+   在 StoreManDAL.WebServiceDAL.GetModProductCategory(String URI_IP) 位置 f:\王府井项目\StoreMan\StoreManDAL\WebServiceDAL.cs:行号 123
+ 
+
+ 
+记录时间：2016-09-23 17:41:58,645  
+日志级别：  ERROR 
+出错类：DataHelper.HttpHelper property: [(null)] - 
+日志描述：接口调用失败，原因:请求被中止: 连接被意外关闭。
+ 
+
+ 
+记录时间：2016-09-23 17:43:20,714  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：21000021  登录失败
+ 

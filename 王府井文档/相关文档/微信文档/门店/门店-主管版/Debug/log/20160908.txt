@@ -1,0 +1,7 @@
+
+ 
+记录时间：2016-09-08 12:20:59,616  
+日志级别：  ERROR 
+出错类：StoreMan.LoginWindow property: [(null)] - 
+日志描述：用户：storeadmin  登录成功
+ 
