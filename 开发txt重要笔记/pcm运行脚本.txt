@@ -1,0 +1,565 @@
+nohup java -Xmx1024m -Xms1024m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-syn/pcm-syn-0.0.3-SNAPSHOT.jar start 8084 8074 >> nohup.log 2>&1 &nohup java -Xmx1024m -Xms1024m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-admin/pcm-admin-0.0.3-SNAPSHOT.jar start 8083 8073 >> nohup.log 2>&1 &nohup java -Xmx1024m -Xms1024m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-admin-sdc/pcm-admin-sdc-0.0.3-SNAPSHOT.jar start 8043 8053 >> nohup.log 2>&1 &nohup java -Xmx1024m -Xms1024m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-inner/pcm-inner-0.0.3-SNAPSHOT.jar start 8082 8072 >> nohup.log 2>&1 &nohup java -Xmx1024m -Xms1024m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-inner-sdc/pcm-inner-sdc-0.0.3-SNAPSHOT.jar start 8042 8052 >> nohup.log 2>&1 &nohup java -Xmx1024m -Xms1024m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-import/pcm-import-0.0.3-SNAPSHOT.jar start 8085 8075 >> nohup.log 2>&1 &
+
+
+
+
+
+curl -XPUT http://192.168.10.101:19201/pcm-search-operation~1 -d'
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "pcm-search-operation~1",
+"alias": "pcm-search-operation"
+}
+}
+]
+}'
+
+
+
+curl -X PUT http://192.168.10.101:19201/pcm-search-data~1/_mapping/brand
+
+
+
+curl -XPUT http://localhost:9200/{index}/{type}/_mapping -d '{
+  "{type}" : {
+	"properties" : {
+	  "date" : {
+		"type" : "long"
+	  },
+	  "name" : {
+		"type" : "string",
+		"index" : "not_analyzed"
+	  },
+	  "status" : {
+		"type" : "integer"
+	  },
+	  "type" : {
+		"type" : "integer"
+	  }
+	}
+  }
+}'
+
+
+
+
+{
+  "properties": {
+    "idStore": {
+      "type": "string",
+      "index": "not_analyzed",
+      "doc_values": "true"
+    },
+    "storeCode": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "brandCode": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "storeBrandName": {
+      "type": "string",
+      "index": "not_analyzed"
+    }
+  }
+}
+
+
+//添加索引格式文件
+
+curl -X PUT http://192.168.10.101:19201/shoppe-search-base~1/_mapping/brand --data-binary "es-shoppe-search-mapping-brand.json"
+curl -X PUT http://192.168.10.101:19201/pcm-search-operation~1/_mapping/item --data-binary "@pcm-search-operation.json"
+
+
+//查询
+curl -X GET http://10.30.61.197:19200/shoppe-search-item/
+curl -X GET http://10.30.61.197:19200/shoppe-search-item/_item/20000020?pretty
+
+
+
+curl -XPUT http://192.168.10.101:19201/shoppe-search-item~1 -d '
+{
+"settings": {
+"index": {
+"number_of_shards": "3",
+"number_of_replicas": "2"
+},
+"analysis": {
+"filter": {
+"synonym": {
+"type": "synonym",
+"synonyms": [
+"nike,耐克",
+"macwish,?麦科威诗,?麦科威",
+"匡威,converse",
+"上装,上?衣",
+"?西服,?西装",
+"衬衫,衬?衣",
+"t-shirt,T恤,tshirt",
+"连裤袜,裤袜",
+"泳?衣,泳装",
+"阿迪,阿迪达斯,adidas",
+"?非类,FEELEI-KISS",
+"?行行李李箱,拉杆箱",
+"ascis,asics,亚瑟?士",
+"男?士,男,男式",
+"胸罩,?文胸",
+"?女女?士,?女女,?女女式",
+"伯内谛,burnetie",
+"维界,watchjady",
+"爱步,ecco",
+"添柏岚,Timberland"
+]
+},
+"lowercase_english": {
+"type": "lowercase"
+},
+"stop_english": {
+"type": "stop",
+"stopwords": "_english_"
+},
+"stop_my": {
+"type": "stop",
+"stopwords": [
+"的",
+"和",
+"是",
+"得",
+"不不",
+"否",
+"?非",
+"啊",
+"呀",
+"呢",
+"吗",
+"款",
+"我"
+]
+},
+"word_delimiter": {
+"catenate_all": "true",
+"type": "word_delimiter",
+"catenate_numbers": "true",
+"preserve_original": "true"
+}
+},
+"analyzer": {
+"dm_index_pinyin": {
+"filter": [
+"word_delimiter",
+"stop_my",
+"pinyin",
+"stop_english",
+"lowercase_english"
+],
+"char_filter": [
+"sbc2dbc",
+"chinese-simplifying"
+],
+"type": "custom",
+"position_increment_gap": "256",
+"tokenizer": "dm_index"
+},
+"dm_query_pinyin": {
+"filter": [
+"stop_my",
+"stop_english",
+"synonym",
+"lowercase_english"
+],
+"char_filter": [
+"sbc2dbc",
+"chinese-simplifying"
+],
+"type": "custom",
+"position_increment_gap": "256",
+"tokenizer": "dm_query"
+}
+}
+}
+}
+}'
+
+
+curl -XPOST '10.30.61.197:9200/shoppe-search-erp-product/_search?pretty' -d '
+{
+  "query": { "match": { "supplierCode": "0107468" } }
+}'
+
+
+
+curl -XPOST '192.168.10.101:19201/shoppe-search-erp-product/_search?pretty' -d '
+{
+  "query": { "match": { "supplierCode": "0107468" } }
+}'
+//查询所有erp商品
+curl -XPOST '192.168.10.101:19201/shoppe-search-erp-product/_search?pretty' -d '
+{
+  "query": { "match_all": {} }
+}'
+//查询所有单品
+curl -XPOST '192.168.10.101:19201/shoppe-search-item/_search?pretty' -d '
+{
+  "query": { "match_all": {} }
+}'
+
+//
+curl -XPOST '10.30.61.197:9200/shoppe-search-erp-product/_search?pretty' -d '
+{
+  "query": { "match_all": {} }
+}'
+
+
+//
+ curl -XPOST '10.30.61.197:19200/pcm-search-data/item/_search?pretty' -d '
+{
+  "query": { "match_all": {} }
+}'
+
+
+ curl -XPOST '10.30.61.197:19200/pcm-search-operation/item/_search?pretty' -d '
+{
+  "query": { "match_all": {} }
+}'
+
+//查看zookeeper内的服务
+get /search/com/wfj/discovery/pcm-item-query/
+
+
+
+curl -XPUT http://192.168.10.101:19201/shoppe-search-item~1/_mapping/item --data-binary @es-shoppe-search-mappingitem.json
+
+
+
+curl -XPUT http://192.168.10.101:19201/shoppe-search-erp-product~1 -d '
+{
+"settings": {
+"index": {
+"number_of_shards": "3",
+"number_of_replicas": "2"
+},
+"analysis": {
+"filter": {
+"synonym": {
+"type": "synonym",
+"synonyms": [
+"nike,耐克",
+"macwish,?麦科威诗,?麦科威",
+"匡威,converse",
+"上装,上?衣",
+"?西服,?西装",
+"衬衫,衬?衣",
+"t-shirt,T恤,tshirt",
+"连裤袜,裤袜",
+"泳?衣,泳装",
+"阿迪,阿迪达斯,adidas",
+"?非类,FEELEI-KISS",
+"?行行李李箱,拉杆箱",
+"ascis,asics,亚瑟?士",
+"男?士,男,男式",
+"胸罩,?文胸",
+"?女女?士,?女女,?女女式",
+"伯内谛,burnetie",
+"维界,watchjady",
+"爱步,ecco",
+"添柏岚,Timberland"
+]
+},
+"lowercase_english": {
+"type": "lowercase"
+},
+"stop_english": {
+"type": "stop",
+"stopwords": "_english_"
+},
+"stop_my": {
+"type": "stop",
+"stopwords": [
+"的",
+"和",
+"是",
+"得",
+"不不",
+"否",
+"?非",
+"啊",
+"呀",
+"呢",
+"吗",
+"款",
+"我"
+]
+},
+"word_delimiter": {
+"catenate_all": "true",
+"type": "word_delimiter",
+"catenate_numbers": "true",
+"preserve_original": "true"
+}
+},
+"analyzer": {
+"dm_index_pinyin": {
+"filter": [
+"word_delimiter",
+"stop_my",
+"pinyin",
+"stop_english",
+"lowercase_english"
+],
+"char_filter": [
+"sbc2dbc",
+"chinese-simplifying"
+],
+"type": "custom",
+"position_increment_gap": "256",
+"tokenizer": "dm_index"
+},
+"dm_query_pinyin": {
+"filter": [
+"stop_my",
+"stop_english",
+"synonym",
+"lowercase_english"
+],
+"char_filter": [
+"sbc2dbc",
+"chinese-simplifying"
+],
+"type": "custom",
+"position_increment_gap": "256",
+"tokenizer": "dm_query"
+}
+}
+}
+}
+}'
+
+//erp数据
+
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "shoppe-search-erp-product~1",
+"alias": "shoppe-search-erp-product"
+}
+}
+]
+}'
+
+密码:
+shaofeng
+
+
+
+curl -X PUT http://192.168.10.101:19201/shoppe-search-base~1/_mapping/brand --data-binary "@es-shoppe-search-mapping-brand.json"
+curl -X PUT http://192.168.10.101:19201/shoppe-search-base~1/_mapping/category --data-binary "@es-shoppe-search-mapping-category.json"
+curl -X POST http://192.168.10.101:19201/_aliases -d '{
+"actions": [
+{
+"add": {
+"index": "shoppe-search-base~1",
+"alias": "shoppe-search-base"
+}
+}
+]
+}'
+
+curl -XPUT http://192.168.10.101:19201/shoppe-search-erpproduct~1/_mapping/erp-product --data-binary "@es-shoppe-search-mapping-erp-product.json"
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "shoppe-search-erp-product~1",
+"alias": "shoppe-search-erp-product"
+}
+}
+]
+}'
+
+curl -XPUT http://192.168.10.101:19201/shoppe-search-item~1/_mapping/item --data-binary "@es-shoppe-search-mapping-item.json"
+
+
+curl -XPUT http://192.168.10.101:19201/shoppe-search-operation~1 -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+curl -X PUT http://192.168.10.101:19201/shoppe-search-operation~1/_mapping/operation -d '
+{
+"properties": {
+"instanceName": {
+"index": "not_analyzed",
+"type": "string"
+},
+"appName": {
+"index": "not_analyzed",
+"type": "string"
+},
+"messageId": {
+"index": "not_analyzed",
+"type": "string"
+},
+"stamp": {
+"index": "not_analyzed",
+"type": "string"
+},
+"sid": {
+"index": "not_analyzed",
+"type": "string"
+},
+"caller": {
+"index": "not_analyzed",
+"type": "string"
+},
+"parameter": {
+"index": "no",
+"type": "string"
+},
+"comment": {
+"index": "no",
+"type": "string"
+},
+"startTime": {
+"format": "yyyy-MM-dd HH:mm:ss.SSS||yyyy-MM-dd HH:mm:ss",
+"type": "date"
+},
+"endTime": {
+"format": "yyyy-MM-dd HH:mm:ss.SSS||yyyy-MM-dd HH:mm:ss",
+"type": "date"
+},
+"operation": {
+"index": "not_analyzed",
+"type": "string"
+},
+"status": {
+"type": "integer"
+},
+"username": {
+"index": "not_analyzed",
+"type": "string"
+}
+}
+}'
+
+
+
+
+//pcm-index
+curl -XPUT http://192.168.10.101:19201/pcm-search-operation~1 -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+curl -X PUT http://192.168.10.101:19201/pcm-search-operation~1/_mapping/item --data-binary "@pcm-search-operation.json"
+
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "pcm-search-operation~1",
+"alias": "pcm-search-operation"
+}
+}
+]
+}'
+
+
+//删除索引库 pcm-search-operation~1
+
+curl -XDELETE http://192.168.10.101:19201/online-search
+
+curl -XDELETE http://192.168.10.101:9201/online-search
+//删除solr索引库中数据
+1./update
+2.选择xml
+3.doc中输入
+<delete><query>*:*</query></delete>
+<commit/>
+
+
+
+http://192.168.10.162:8042/pcm-inner-sdc/searchOnline/searchOnlineSkuInfoByCode.htm
+
+{"skuId":"1000000000089"}
+
+100000005
+
+
+	      //库存价格控制项查询sql语句  集合
+
+		<collection property="stockPriceControls"
+			ofType="com.wangfj.product.maindata.domain.vo.PcmProPricConSearchDto1">
+			<id column="propSid" property="propSid" />
+			<result column="propName" property="propName" />
+			<result column="valueSid" property="valueSid" />
+			<result column="valueName" property="valueName" />
+			<result column="level" property="level" />
+		</collection>
+	
+
+		ppdp.prop_sid AS propSid,
+		ppdp.prop_name AS propName,
+		ppdp.value_sid AS valueSid,
+		ppdp.value_name AS valueName,
+ 		ppdp.level AS LEVEL,
+
+
+		JOIN pcm_pro_detail_parameters AS ppdp ON sku.product_detail_sid = 
+          	ppdp.pro_detail_sid
+
+//锁库接口
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+{"saleNo":"201708152","isOfferLine":0,"products":[{"salesItemNo":"201708152-1","supplyProductNo":"20000064","saleSum":10,"stockType":1023,"channelSid":"0","storeCode":"31013","isPayReduce":"1"}],"czType":0,"fromSystem":"OMSADMIN"}
+
+//减库接口
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+{"saleNo":"201708162","isOfferLine":0,"products":[{"salesItemNo":"201708162-1","saleSum":10,"supplyProductNo":"20000064","channelSid":"0","stockType":1021,"isPayReduce":"1"}],"czType":0,"fromSystem":"OMSADMIN"}
+
+//解库
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+[saleNo=201708162, isOfferLine=0, products=[StockProCountDto [saleNo=null, salesItemNo=201708162-1, supplyProductNo=20000064, shoppeProName=null, saleSum=10, erpProductNo=null, stockType=1022, channelSid=0, isPayReduce=1]], czType=2, fromSystem=OMSADMIN]
+
+//还库
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+[saleNo=201708162, isOfferLine=0, products=[StockProCountDto [saleNo=null, salesItemNo=201708162-1, supplyProductNo=20000064, shoppeProName=null, saleSum=3, erpProductNo=null, stockType=1003, channelSid=null, isPayReduce=null]], czType=3, fromSystem=OMSADMIN]
+
+//库位类型修改
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+[saleNo=null, isOfferLine=null, products=[StockProCountDto [saleNo=null, salesItemNo=null, supplyProductNo=20000064, shoppeProName=null, saleSum=-10, erpProductNo=null, stockType=1001, channelSid=CB, isPayReduce=null], StockProCountDto [saleNo=null, salesItemNo=null, supplyProductNo=20000064, shoppeProName=null, saleSum=10, erpProductNo=null, stockType=1001, channelSid=CB, isPayReduce=null]], czType=5, fromSystem=OMSADMIN]
+
+// 调入、调出、借出、归还
+

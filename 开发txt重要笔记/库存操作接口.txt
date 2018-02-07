@@ -1,0 +1,54 @@
+//锁库接口
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+{"saleNo":"201708152","isOfferLine":0,"products":[{"salesItemNo":"201708152-1","supplyProductNo":"20000064","saleSum":10,"stockType":1023,"channelSid":"0","storeCode":"31013","isPayReduce":"1"}],"czType":0,"fromSystem":"OMSADMIN"}
+
+//减库接口
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+{"saleNo":"201708162","isOfferLine":0,"products":[{"salesItemNo":"201708162-1","saleSum":10,"supplyProductNo":"20000064","channelSid":"0","stockType":1021,"isPayReduce":"1"}],"czType":0,"fromSystem":"OMSADMIN"}
+
+//解库
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+[saleNo=201708162, isOfferLine=0, products=[StockProCountDto [saleNo=null, salesItemNo=201708162-1, supplyProductNo=20000064, shoppeProName=null, saleSum=10, erpProductNo=null, stockType=1022, channelSid=0, isPayReduce=1]], czType=2, fromSystem=OMSADMIN]
+
+//还库
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+[saleNo=201708162, isOfferLine=0, products=[StockProCountDto [saleNo=null, salesItemNo=201708162-1, supplyProductNo=20000064, shoppeProName=null, saleSum=3, erpProductNo=null, stockType=1003, channelSid=null, isPayReduce=null]], czType=3, fromSystem=OMSADMIN]
+
+//库位类型修改
+http://127.0.0.1:8081/pcm-core/stock/findInsertAndReduceFromPcm.htm
+
+[saleNo=null, isOfferLine=null, products=[StockProCountDto [saleNo=null, salesItemNo=null, supplyProductNo=20000064, shoppeProName=null, saleSum=-10, erpProductNo=null, stockType=1001, channelSid=CB, isPayReduce=null], StockProCountDto [saleNo=null, salesItemNo=null, supplyProductNo=20000064, shoppeProName=null, saleSum=10, erpProductNo=null, stockType=1001, channelSid=CB, isPayReduce=null]], czType=5, fromSystem=OMSADMIN]
+
+
+/WEB-INF/t/www.wangfujingtest.com/detail/WFJProductDisplay.html
+
+searchAddress=http://search.allchannel.com
+
+
+resource_root_js_url=http://121.42.8.141//data/www.wangfujingtest.com/,
+resource_root_css_url=http://121.42.8.141//data/www.wangfujingtest.com/, 
+resource_root_img_url=http://121.42.8.141//data/www.wangfujingtest.com/
+
+
+http://localhost:8080/cms-front/item/100000074.jhtml
+
+
+http:///192.168.10.162:8046/pcm-outer-sdc//product/getProYeInfoBySpuCode.htm,
+
+parajson {"sellingStatus":"1","spuCode":"100000074"}
+
+log_js=http://192.168.10.99:8080/log-analysis/wfj-log.js
+
+
+
+ftp服务器:
+99机器上 usr/local/src
+
+
+
+
+
+"http://121.42.8.141//catalog/20170822/100000116_83/100000116_83_3_超大.resize_to.220x220.jpg" data-original="http://121.42.8.141//catalog/20170822/100000116_83/100000116_83_3_超大.resize_to.220x220.jpg" src="http://121.42.8.141//catalog/20170822/100000116_83/100000116_83_3_超大.resize_to.220x220.jpg">

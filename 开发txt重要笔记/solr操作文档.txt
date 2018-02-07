@@ -1,0 +1,20 @@
+
+//启动solr集群
+/data/solr/solr-5.3.0/bin/solr start -c -p 8983 -z 192.168.10.161:12181/solr -m 512m -s /data/solr/solr_home
+
+
+//在zk上创建路径
+/data/solr/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 192.168.10.161:12181 -cmd makepath /solr
+
+//上传schmal文件到zk
+/data/solr/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 192.168.10.161:12181/solr -cmd upconfig -d  /data/solr/conf -n operation-log
+
+//创建索引库
+curl -X GET 'http://192.168.10.161:8983/solr/admin/collections?action=CREATE&name=operation-log&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=192.168.10.161%3A8983_solr&collection.configName=operation-log'
+
+//删除索引库
+curl 'http://192.168.10.161:8983/solr/admin/collections?action=DELETE&name=operation-log'
+
+
+
+

@@ -1,0 +1,576 @@
+
+redis:
+10.30.61.201
+/usr/local/src
+
+
+zookeeper
+10.30.61.126:2181/search
+
+mysql:
+10.163.239.120
+
+kafka
+10.30.61.197:9092
+
+rabbitMq
+
+
+es
+
+
+solr
+
+
+10.30.61.201:6379,10.30.61.201:6380,10.30.61.201:6381,10.30.61.201:6382,10.30.61.201:6383,10.30.61.201:6384
+
+
+
+云上问题集中在121.42.8.141:1.数据库数据丢失,尝试重建,但是"Not enough memory, application terminated! Query:"-----空间不足
+
+JAVA_HOME=/usr/java/jdk1.8.0_121
+PATH=$JAVA_HOME/bin:$PATH 
+CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar 
+export PATH JAVA_HOME CLASSPATH
+
+121.42.8.141
+
+10.163.239.120
+
+
+
+export JAVA_HOME=/usr/java/jdk1.8.0_121
+
+
+//ops pcm-admin pcm-admin-sdc pcm-syn 
+192.168.10.162 
+
+
+
+ <dependency>
+		   <groupId>commons-cli-1.3.1</groupId>
+		   <artifactId>jacob</artifactId>
+		   <version>1.3.1</version>
+		   <scope>system</scope>
+		   <systemPath>j://lib//commons-cli-1.3.1.jar</systemPath>
+		 </dependency>
+		 <dependency>
+		   <groupId>web-operation-record</groupId>
+		   <artifactId>jacob</artifactId>
+		   <version>1.0.37</version>
+		   <scope>system</scope>
+		   <systemPath>j://lib//web-operation-record-aspect-1.0.37.RELEASE.jar</systemPath>
+		 </dependency>
+		  <dependency>
+		   <groupId>operation-record</groupId>
+		   <artifactId>jacob</artifactId>
+		   <version>1.0.37</version>
+		   <scope>system</scope>
+		   <systemPath>j://lib//operation-record-1.0.37.RELEASE.jar</systemPath>
+		 </dependency>
+		  <dependency>
+		   <groupId>es-client-factory</groupId>
+		   <artifactId>jacob</artifactId>
+		   <version>1.0.37</version>
+		   <scope>system</scope>
+		   <systemPath>j://lib//es-client-factory-1.0.37.RELEASE.jar</systemPath>
+		 </dependency>
+        <dependency>
+            <groupId>es-client-factory</groupId>
+            <artifactId>jacob</artifactId>
+            <version>2.8.0</version>
+            <scope>system</scope>
+            <systemPath>j://lib//curator-framework-2.8.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>kotlin-stdlib</groupId>
+            <artifactId>jacob</artifactId>
+            <version>1.1.1</version>
+            <scope>system</scope>
+            <systemPath>j://lib//kotlin-stdlib-1.1.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>curator-recipes</groupId>
+            <artifactId>jacob</artifactId>
+            <version>2.8.0</version>
+            <scope>system</scope>
+            <systemPath>j://lib//curator-recipes-2.8.0.jar</systemPath>
+        </dependency>
+
+
+
+
+    <env-entry>
+       <env-entry-name>service/host</env-entry-name>
+       <env-entry-value>192.168.10.113</env-entry-value>
+       <env-entry-type>java.lang.String</env-entry-type>
+    </env-entry>
+	<env-entry>
+       <env-entry-name>service/port</env-entry-name>
+       <env-entry-value>8052</env-entry-value>
+       <env-entry-type>java.lang.Integer</env-entry-type>
+    </env-entry>
+
+start -c -p 8983 -z 192.168.10.99:2181/solr -m 512m -s /data/solr/solr_home
+
+
+/data/solr_mustFile/solr-5.3.0/bin/solr start -c -p 8983 -z 10.30.61.181:2181/solr -m 512m -s /data/solr_mustFile/solr_home
+
+/data/solr2/solr_home
+/data/solr_mustFile/
+
+
+
+
+curl -X PUT http://192.168.10.101:9201/online-operation/_mapping/operation -d '
+{
+"properties": {
+"instanceName": {
+"index": "not_analyzed",
+"type": "string"
+},
+"appName": {
+"index": "not_analyzed",
+"type": "string"
+},
+"messageId": {
+"index": "not_analyzed",
+"type": "string"
+},
+"stamp": {
+"index": "not_analyzed",
+"type": "string"
+},
+"sid": {
+"index": "not_analyzed",
+"type": "string"
+},
+"caller": {
+"index": "not_analyzed",
+"type": "string"
+},
+"parameter": {
+"index": "no",
+"type": "string"
+},
+"comment": {
+"index": "no",
+"type": "string"
+},
+"startTime": {
+"format": "yyyy-MM-dd HH:mm:ss.SSS||yyyy-MM-dd HH:mm:ss",
+"type": "date"
+},
+"endTime": {
+"format": "yyyy-MM-dd HH:mm:ss.SSS||yyyy-MM-dd HH:mm:ss",
+"type": "date"
+},
+"operation": {
+"index": "not_analyzed",
+"type": "string"
+},
+"status": {
+"type": "integer"
+},
+"username": {
+"index": "not_analyzed",
+"type": "string"
+}
+}
+}'
+
+
+
+
+ops上架
+
+http://192.168.10.162:8080/ops/product/sellProduct
+
+pcm-admin
+product/proDetailSell.htm
+
+
+//spu上架
+	SELECT
+		p.product_sid AS spuSid,
+		pd.product_sid AS spuCode,
+		p.pro_color_sid AS color,
+		p.photo_status AS photoStatus,
+		pd.brand_root_sid AS brandSid,
+		c.sid AS categorySid,
+		IFNULL(SUM(ps.pro_sum), 0) AS saleSum,
+		IFNULL(MAX(psp.original_price),
+		0) AS orgPrice,
+		p.pro_type AS proType,
+		p.pro_active_bit AS skuSell
+		FROM
+		pcm_pro_detail p
+		LEFT JOIN
+		pcm_shoppe_product psp ON psp.product_detail_sid = p.sid
+		AND psp.sale_status = 0
+		LEFT JOIN
+		pcm_stock ps ON psp.shoppe_pro_sid = ps.shoppe_pro_sid
+		AND
+		ps.stock_type_sid = 1001
+		AND psp.sale_status = 0
+		JOIN pcm_product pd ON
+		p.product_sid = pd.sid
+		JOIN pcm_product_category pc ON pc.product_sid =
+		pd.sid
+		JOIN pcm_category c ON c.sid = pc.category_sid
+		AND
+		c.category_type = 0
+		AND c.`status` = 'Y'
+		AND psp.field5 IN (
+			SELECT
+				org.organization_code
+			FROM
+				pcm_organization AS org
+			WHERE
+				org.organization_type = 3
+		)
+http://127.0.0.1:8084/pcm-syn/pcmProduct/publishSpuFromPcm2.htm,
+
+parajson is [{"sid":74,"type":1}]
+
+http://127.0.0.1:8084/pcm-syn/pcmProduct/publishSkuFromPcm2.htm,
+
+parajson is [{"sid":89,"type":1}
+
+
+
+http://127.0.0.1:8084/pcm-syn/pcmShoppeProduct/publishShoppeProductFromPcm.htm,
+
+parajson is {"paraList":[{"sid":39,"type":1},{"sid":38,"type":1}],"PcmProSearch":"1","PcmSearcherOnline":"1"}
+
+
+
+http://127.0.0.1:8084/pcm-syn/pcmShoppeProduct/publishShoppeProductFromPcm.htm,
+
+parajson is {"paraList":[{"sid":39,"type":1},{"sid":38,"type":1}],"PcmProSearch":"1","PcmSearcherOnline":"1"}
+
+http://10.6.4.27:9080/online-index/mq/item/indexItems.json	
+
+//线上建数据
+http://192.168.10.113:8040/online-index/mq/item/indexItems.json
+//调用服务
+String serviceAddress = provider.provideServiceAddress("mq-pcm-item-index").orNull();
+
+
+http://10.6.4.27:9080/online-index/mq/spu/indexSpusAndItems.json,	
+
+http://10.6.4.27:9080/online-index/mq/spu/indexSpusAndItems.json
+
+http://10.6.4.27:9080/online-index/mq/spu/indexSpusAndItems.json
+
+
+//重写消息解析
+ JSONObject signed = JSONObject.parseObject(message);
+        
+ String strdata= signed.getString("data");
+        
+        
+ JSONObject signed01 = JSONObject.parseObject(strdata);
+        
+ JSONArray strdata01 = signed01.getJSONArray("messageBody");
+  
+
+
+http://192.168.10.113:8052/online-index/mq/item/indexItems.json
+      
+
+
+
+http://127.0.0.1:8084/pcm-syn/pcmShoppeProduct/publishShoppeProductFromPcm.htm,
+
+parajson is {"paraList":[{"sid":39,"type":1},{"sid":38,"type":1}],"PcmProSearch":"1","PcmSearcherOnline":"1"}
+
+
+,Exception is Read timed out
+
+
+
+Request to collection online-item failed due to (510) org.apache.solr.common.SolrException: 
+
+Could not find a healthy node to handle the request., retry? 0
+
+//下架
+url is http://192.168.10.113:8084/pcm-syn/pcmShoppeProduct/publishShoppeProductFromPcm.htm,parajson is {"PcmSearcherOnline2":"1","paraList":[{"sid":39,"type":1},{"sid":38,"type":1}],"PcmProSearch":"1"},Exception is Read timed out
+url is http://192.168.10.113:8084/pcm-syn/pcmProduct/publishSpuFromPcm2.htm,parajson is [{"sid":74,"type":1}],Exception is Read timed out
+
+//上架
+
+
+
+/data/solr1/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 192.168.10.101:2181/solr -cmd upconfig -d   ~/package/online-searching/online-solr-collections/online-solr-collection-comment/target/conf/ -n online-comment
+
+/data/solr1/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 192.168.10.101:2181/solr -cmd upconfig -d   ~/package/online-searching/online-solr-collections/online-solr-collection-item/target/conf -n online-item
+
+/data/solr1/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 192.168.10.101:2181/solr -cmd upconfig -d  ~/package/online-searching/online-solr-collections/online-solr-collectionsuggestion/target/conf -n online-suggestion
+
+
+/data/solr_mustFile/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 10.30.61.126:2181/solr -cmd upconfig -d  /data/solr_mustFile/online-searching/online-solr-collections/online-solr-collection-item/target/conf -n online-item
+/data/solr_mustFile/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 10.30.61.126:2181/solr -cmd upconfig -d  /data/solr_mustFile/online-searching/online-solr-collections/online-solr-collection-comment/target/conf/ -n online-comment
+/data/solr_mustFile/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 10.30.61.126:2181/solr -cmd upconfig -d  /data/solr_mustFile/online-searching/online-solr-collections/online-solr-collectionsuggestion/target/conf -n online-suggestion
+
+
+/data/solr_mustFile/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 10.30.61.126:2181 -cmd makepath /com
+
+10.31.32.4
+/data/solr_mustFile/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 10.31.32.4:2181/solr -cmd upconfig -d  /data/solr_mustFile/online-searching/online-solr-collections/online-solr-collection-comment/target/conf/ -n online-comment
+
+/data/solr/solr_mustFile/solr-5.3.0/bin/solr start -c -p 8982 -z 10.31.32.4:2181/solr -m 512m -s /data/solr/solr_mustFile/solr_home
+
+/data/solr_mustFile/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 10.30.61.126:2181 -cmd makepath /solr
+
+cp ~/package/wfj-solr-home/solr-home/target/solr-home/WEB-INF/solr.xml /data/solr1/solr_home/
+
+cp -r ~/package/wfj-solr-home/solr-home/target/solr-home/WEBINF/lib /data/solr1/solr_home/
+
+/data/solr1/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 192.168.10.101:2181 -cmd makepath /solr
+
+/data/solr_mustFile/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 10.30.61.181:2181 -cmd makepath /solr
+
+
+/data/solr1/solr-5.3.0/bin/solr start -c -p 8982 -z 192.168.20.101:2181/solr -m 512m -s /data/solr1/solr_home
+
+/data3/solr_mustFile/solr-5.3.0/bin/solr start -c -p 8983 -z 192.168.20.101:2181/solr -m 512m -s /data3/solr_mustFile/solr_home
+
+curl -X GET 'http://10.30.61.181:8983/solr/admin/collections?action=CREATE&name=online-comment&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=10.30.61.181%3A8983_solr&collection.configName=online-comment'
+curl -X GET 'http://10.30.61.181:8983/solr/admin/collections?action=CREATE&name=online-item&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=10.30.61.181%3A8983_solr&collection.configName=online-item'
+
+curl -X GET 'http://192.168.10.101:8983/solr/admin/collections?action=CREATE&name=online-comment&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=192.168.10.101%3A8981_solr&collection.configName=online-comment'
+
+curl -X GET 'http://192.168.10.101:8983/solr/admin/collections?action=CREATE&name=online-item&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=192.168.10.101%3A8981_solr&collection.configName=online-item'
+
+curl -X GET 'http://192.168.10.101:8983/solr/admin/collections?action=CREATE&name=online-suggestion&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=192.168.10.101%3A8981_solr&collection.configName=online-suggestion'
+
+curl -X GET 'http://192.168.10.161:8983/solr/admin/collections?action=CREATE&name=operation-log&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=192.168.10.161%3A8983_solr&collection.configName=operation-log'
+
+//删除无用分片
+curl 'http://192.168.10.101:8983/solr/admin/collections?action=DELETE&name=online-suggestion'
+curl 'http://127.0.0.1:8983/solr/admin/collections?action=DELETE&name=online-item'
+curl 'http://192.168.10.101:8983/solr/admin/collections?action=DELETE&name=online-comment'
+
+
+curl 'http://192.168.10.161:8983/solr/admin/collections?action=DELETE&name=operation-log'
+		
+		 <!--2017 8 3所加jar  -->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-jaxrs</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+
+
+
+
+com.wfj.exception.client:exception-client-framework:jar:1.1.4.RELEASE
+
+http://localhost:8080/member-admin//ssoLogin2.do?data=ZvSVN7RltOf5koonZZn66s5IH99GxdS5ZPtdL5CpA8yUqQLgPP%2BHiKdJGcEzJWRtAvHLWCyrKkKXZC3eTsh5wXjpWBQPpw7SFKWNdMHhK1O5Pbb%2FKAywGfUh%2BdOxFAk8mBEL6pLAQYTHFBcxV8c75XsX4avTBWpiwPVAmFcKUqM%3D&sign=302d02147013c2fe4d55168e6096d3d55ea11152fa0834750215009756d89c2d3decd313b819ba408103e2c0288cdd&domainName=www.wangfujing.com
+
+//搜索地址
+/cms-front/search/getSearch.html
+
+//获取登录页面
+http://localhost:8080/cms-front//member/getLoginUrlPath.html
+
+//注册页面
+http://localhost:8080/cms-front//member/getRegisterPath.html
+
+//获取用户
+http://localhost:8080/cms-front/member/getUsers.html
+
+
+//member-core
+http://192.168.10.113:8090/member-core
+
+
+
+
+solrCloud重新加载数据格式文件
+
+1.先上传
+
+cd ~/package/online-searching/online-solr-collections/online-solr-collection-item/target/conf
+
+/data/solr/solr-5.3.0/server/scripts/cloud-scripts/zkcli.sh -zkhost 192.168.10.101:2181/solr -cmd upconfig -d ~/package/online-searching/online-solr-collections/online-solr-collection-item/target/conf -n online-item
+2.再更新
+ curl -X GET 'http://192.168.10.101:8981/solr/admin/collections?action=RELOAD&name=online-item&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=192.168.10.101%3A8981_solr&collection.configName=online-item'
+
+ curl -X GET 'http://10.30.61.181:8983/solr/admin/collections?action=RELOAD&name=online-item&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=10.30.61.181%3A8983_solr&collection.configName=online-item'
+
+curl -X GET 'http://192.168.10.166:8983/solr/admin/collections?action=RELOAD&name=online-item&numShards=1&replicationFactor=1&maxShardsPerNode=1&createNodeSet=192.168.10.166%3A8983_solr&collection.configName=online-item'
+
+
+清空solr分片库的数据
+1.选中/update
+2.选中xml
+
+<delete><query>*:*</query></delete>
+<commit/>
+
+9201机器
+//根据索引库名删除索引库
+curl -XDELETE http://192.168.10.101:9201/online-operation
+
+//线上操作记录
+//启动项目报错解决
+curl -XPUT http://192.168.10.101:9201/online-operation -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+19201机器
+
+
+
+//项目启动 初始化数据
+curl -XPUT http://192.168.10.101:19201/shoppe-search-operation~1 -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "shoppe-search-operation~1",
+"alias": "shoppe-search-operation"
+}
+}
+]
+}'
+
+//pcm-search
+
+curl -XPUT http://10.30.61.197:19200/pcm-search-operation~1 -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+curl -X POST http://10.30.61.197:19200/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "pcm-search-operation~1",
+"alias": "pcm-search-operation"
+}
+}
+]
+}'
+
+//查看es当前的状态及分片
+curl -XGET 127.0.0.1:9200/_cat/indices
+
+List<PcmProSearchDto> proList = shoppeProService.getProInfoPulishSearch(paramMap);
+
+
+solr create -c online-comment -d data_driven_schema_configs -s 1 -rf 1 -n myconf
+
+
+xyz.dowenwork.npl.dmseg.core
+
+http://q94bq5.natappfree.cc/
+
+
+创建监控数据  考虑是单节点 主备分片均为1
+curl -XPUT http://192.168.10.101:9201/monitor-data -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"1",
+"number_of_replicas":"1"
+}
+}
+}'
+curl -XPUT http://192.168.10.101:9201/exc-data -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+curl -XPUT http://192.168.10.101:9201/order-info -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+curl -XPUT http://192.168.10.101:9201/bill-info -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}
+
+
+
+curl -XPUT http://192.168.10.101:19201/operation-log -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+curl -X PUT http://192.168.10.101:9201/monitor-data/_mapping/instance-status --data-binary "@instance-status.json" 
+curl -X PUT http://192.168.10.101:9201/monitor-data/_mapping/error-request-info --data-binary "@error-request-info.json" 
+curl -X PUT http://192.168.10.101:9201/monitor-data/_mapping/request-info --data-binary "@request-info.json" 
+curl -X PUT http://192.168.10.101:9201/monitor-data/_mapping/sql-info --data-binary "@sql-info.json"
+
+curl -X PUT http://192.168.10.101:19201/operation-log/_mapping/log-info --data-binary "@log-info.json"
+
+curl -X PUT http://192.168.10.101:9201/exc-data/_mapping/log-info --data-binary "@log-info.json"
+
+导入数据
+ curl -XPUT http://192.168.10.101:19201/error-request-info
+ curl -XPUT http://192.168.10.101:19201/
+删除数据
+curl -XDELETE http://192.168.10.101:9201/monitor-data
+curl -XDELETE http://192.168.10.101:19201/operation-log
+列出所有索引
+curl 'http://192.168.10.101:9201/_cat/indices?v'

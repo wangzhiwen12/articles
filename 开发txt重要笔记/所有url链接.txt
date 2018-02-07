@@ -1,0 +1,295 @@
+seek_push_url=http://192.168.10.143:8080/MQInput/itgService/inbound.do
+mqDestUrl=http://192.168.75.134:7080/online-index/mq/comment/indexComments.json
+
+
+数据库:
+dataSource.jdbcUrl=jdbc:mysql://192.168.10.100:3306/message?useUnicode=true&characterEncoding=UTF8
+dataSource.username=root
+dataSource.password=Admin(123456)
+
+
+redis:
+spring.redis.cluster.nodes=
+192.168.10.100:7000,192.168.10.100:7001,192.168.10.100:7002,192.168.10.100:7003,192.168.10.100:7004,192.168.10.100:7005
+spring.redis.cluster.max-redirects=3
+spring.redis.cluster.password=redis7001 
+
+我:
+kafka   192.168.10.22:9092,192.168.10.99:9092
+
+我:
+zookeeper 192.168.10.22:2181,192.168.10.99:2181
+
+es: 192.168.10.101:9300
+
+uac
+http://192.168.10.143:8888/uac/user/getList.do
+
+mqInput地址
+测试链接
+http://192.168.10.143:8080/MQInput/itgService/inbound.do
+
+
+chmod u+x *.sh
+项目地址
+http://mall.zhugesp.com/
+http://121.42.8.141:8080/ops/login.jsp
+
+远程下载
+scp -r root@10.30.61.126:/data/shoppe-search 本地路径 
+
+
+ 即可启用新的配置：
+ source /etc/profile
+
+
+centos下安装jdk1.8
+
+下载所需包
+sudo yum install glibc.i686
+
+//查看现有jdk
+rpm -qa | grep java
+
+//卸载jdk
+rpm -e --nodeps java-1.7.0-openjdk-1.7.0.45-2.4.3.3.el6.x86_64
+rpm -e --nodeps java-1.6.0-openjdk-1.6.0.0-1.66.1.13.0.el6.x86_64
+权限不够
+chmod u+x *.sh
+
+安装jdk
+
+JAVA_HOME=/usr/java/jdk1.8.0_60
+CLASSPATH=$JAVA_HOME/lib/
+PATH=$PATH:$JAVA_HOME/bin
+export PATH JAVA_HOME CLASSPATH
+
+查看端口 并杀死
+netstat -apn|grep 8090
+
+kill -9 1740
+
+查看进程
+ps aux | grep java
+
+重启mysql服务
+service mysqld restart
+
+查看硬盘使用情况
+df -hl
+
+内存使用情况
+ dmidecode -t memory
+
+
+NAME="System eth0"
+
+
+供应商协同http://121.42.8.141/supplier-cooperate-web admin/123456
+
+
+供应商门户
+http://121.42.8.141/supplier-portal-web  000089/aaaa1234   gys002664/aaaa1234
+
+http://pmlc.cnki.net/user/
+93081314
+
+Uac账户信息-门店系统主管版
+测试账户 大楼：StoreAdmin 密：123456
+测试账户 双安：testsa     密：123456
+
+门店账户信息-门店系统导购版
+测试账户 大楼：21000021 密：123456
+测试账户 
+
+git地址：
+guoyf@121.42.230.69:/data/githome/oms/wfj-trade-service.git  12345
+
+Itnova2017
+
+//pcm-admin 
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-admin/pcm-admin-0.0.3-SNAPSHOT.jar start 8083 8073 >> nohup.log 2>&1 &
+
+
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /data/pcm_wzw/pcm-admin_wzw/pcm-admin-0.0.3-SNAPSHOT.jar start 8083 8073 >> nohup.log 2>&1 &
+
+//pcm-admin-sdc
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /root/pcm/pcm-admin-sdc/pcm-admin-sdc-0.0.3-SNAPSHOT.jar start 8043 8913 >> nohup.log 2>&1 &
+
+
+//uac
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /root/wangfujing/uac/uac-server.jar start 8888 8961 >> nohup.log 2>&1 &
+
+
+//复制文件
+scp -r root@121.42.8.141:/root/data/pcm-admin-sdc1 root@10.30.61.190:/opt/
+
+scp -r root@10.30.61.149:/opt/app/workspace/ /root/data/
+
+scp -r root@10.30.61.178:/opt/app/pcm/pcm-syn/pcm-syn-0.0.3-SNAPSHOT.jar /data3/
+
+
+http://localhost:8052/ops/product/saveShoppeProduct
+
+
+http://121.42.8.141:8080/ops/photo/insertPhotoguige
+
+
+http://localhost:8080/ops/propscombox/list?id=19591&_=1496921110465
+
+
+
+
+1.三个下拉框，价格库存控制项添加  王志文
+2.商品添加 展示  福豪 小冉
+3.专柜商品管理 喜斌
+4.商品生成sku之后，下发搜索服务，找到对应的代码，调用的服务 ：建文，亚飞
+5.缓存控制 ：立成
+
+
+
+
+http://127.0.0.1:8084/pcm-syn/pcmShoppeProduct/publishShoppeProductFromPcm.htm,
+
+
+//dopost方法
+
+
+
+
+http://121.42.8.141:8080/ops/proLabel/findProLabelByShoppeProSid.htm?shoppeProSid=&_=1498553881221
+
+
+
+	private String sid;// 专柜商品SID
+	private String skuCode;// SKU编码
+	private String productCode;// 专柜商品编码
+	private String erpProductCode;// ERP编码/扣率码
+	private String productName;// 专柜商品名称
+	private String productType;// 商品类型
+	private String supProductCode;// 供应商商品编码
+	private String counterCode;// 专柜编码
+	private String counterName;// 专柜名称
+	private String storeCode;// 门店编码
+	private String storeName;// 门店名称
+	private String marketPrice;// 市场价
+	private String stockMode;// 库存方式
+	private String negativeStock;// 是否负库存销售
+	private String stockType;// 是否管库
+	private String isSale;// 是否可售
+	private String colorSid;// 色系
+	private String colorCode;// 色码编码
+	private String colorName;// 色码名称
+	private String stanCode;// 规格编码
+	private String stanName;// 规格名称
+	private String modelCode;// 款号
+	private String articleNum;// 货号
+	private String brandGroupName;// 集团品牌名称
+	private String brandGroupCode;// 集团品牌编码
+	private String unitCode;// 销售单位编码
+	private String unitName;// 销售单位名称
+	private String isSelling;// 上架状态
+	private String features;// 特性
+	private String primaryAttr;// 主属性
+	private String industry;// 业态
+	private String storeBrandCode;// 门店品牌编码
+	private String storeBrandName;// 门店品牌名称
+	private String managerCategoryCode;// 管理分类编码
+	private String managerCategoryName;// 管理分类名称
+	private String field4;// 物料号 可空
+	private String xxhcFlag;// 先销后采
+	List<PcmProChannelSearchDto> channel = new ArrayList<PcmProChannelSearchDto>();
+	List<PcmProSupplySerachDto> supplier = new ArrayList<PcmProSupplySerachDto>();
+
+
+push.search=shoppe-index/message-actuated/indexItems.json
+
+//启动私服
+
+/home/m2/nexus-2.14.3-02/bin
+
+启动es
+
+/data/es/elasticsearch-2.3.4/bin/elasticsearch -d -p /data/es/elasticsearch-2.3.4/es.pid
+
+
+mq_url=http://127.0.0.1:8010/MQInput/itgService/inbound.do
+
+101机器密码
+
+//Admin123456
+
+云上es
+
+10.30.61.197
+
+
+/data/es/elasticsearch-2.2.0/bin/elasticsearch -d -p /data/es/elasticsearch-2.2.0/es.pid
+
+//记得chmod 777 目录
+
+
+/data/es/elasticsearch-2.3.4/bin/elasticsearch -d -p /data/es/elasticsearch-2.3.4/es.pid
+
+
+
+
+
+http://localhost:8052/ops/brandDisplay/queryBrandGroupListByName
+
+
+//mqinput地址
+mq-input:192.168.10.143:8010
+
+查看es进程
+ps -ef | grep elastic
+
+
+
+
+curl -X PUT http://192.168.10.161:19200/pcm-search-data~1 -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+http://192.168.10.162:8080/ops/product/saveShoppeProduct
+
+
+
+阿里云账号: 大智与大志  密码:w930813
+
+
+代码托管地址:
+https://code.aliyun.com/bjszcx_PCM/my-pcm?spm=a2111a.8458726.0.0.59556667USPiq7
+
+
+git@code.aliyun.com:251546843/common-core.git
+
+
+
+
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /root/pcm/pcm-admin-sdc/pcm-admin-sdc-0.0.3-SNAPSHOT.jar start 8043 8973 >> nohup.log 2>&1 &
+
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-syn/pcm-syn-0.0.3-SNAPSHOT.jar start 8084 8403 >> nohup.log 2>&1 &
+
+
+
+
+install -Dmaven.test.skip=true
+
+
+
+
+scp -r root@121.42.230.69:/root/data/apache-tomcat-7.0.52 root@10.30.61.190:/usr/local/application
+
+scp -r root@10.30.61.181:/data/solr_mustFile/online-searching root@121.42.8.141:/data3/software
+
+
+
+scp -r root@121.42.8.141:/data3/solr_mustFile/ root@10.31.32.4:/data/solr

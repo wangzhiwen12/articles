@@ -1,0 +1,806 @@
+ssd_system=http://10.6.2.48:5043/pcm-admin-sdc
+ssd_systemToInner=http://10.6.2.48:8042/pcm-inner-sdc
+
+cms_outer_system=http://10.6.2.48:8046/pcm-outer-sdc/
+
+cms_cdn_path=/pcm-admin-sdc/common/flushCdn.htm
+cms_cnd_url = http://10.6.2.43:8043/pcm-admin-sdc/common/flushCdn.htm
+
+selectRefundAddress=http://10.6.2.48:8042/pcm-inner-sdc/pcmInnerSupplyInfo/findListSupplyInfo.htm
+
+
+1.品牌管理
+json = HttpUtilPcm.doPost(SystemConfig.SSD_SYSTEM_URL
+                    + "/pcmAdminBrand/findPageBrand.htm", JsonUtil.getJSONString(map));
+
+
+创建 修改品牌 都是ops调 admin-sdc 然后admin-sdc 调用admin  pcm-service工程打在pcm-admin中  操作数据库
+
+
+2.关于缓存
+
+pcm-admin-sdc
+
+@RequestMapping("/common")
+CommonController
+
+导入商品
+
+SaveProductController
+
+更新缓存
+
+http://121.42.8.141:8080/ops/product/selectAllProduct
+
+http://121.42.8.141:8080/ops/dataDict/findDictByPidInfo
+
+http://121.42.8.141:8080/ops/product/sellProduct
+
+http://121.42.8.141:8080/ops/omsOrder/selectRefundMonList
+
+http://121.42.8.141/supplier-portal-web/companyQua/queryAccountStatus.do?cacheFlag1496369276340
+
+
+http://121.42.8.141/supplier-cooperate-web/shopManager/getDashboardShopByRoleSid.do?cacheFlag1496371650534
+
+1.根据门店和管理分类获取供应商编码
+String url=PropertyUtil.getSystemUrl("pcmInnerSdc")+"/pcmInnerSupplyInfo/getSupCodesFromPcmByShopCodeAndManager.htm";
+
+2.根据供应商编码列表查每月的销售额
+String url2=PropertyUtil.getSystemUrl("omsCoreSdc")+"/ofSale/selectCountByLimit.htm";
+
+3.获取销售渠道字典表
+String url = PropertyUtil.getSystemUrl("pcmInnerSdc")+ "/pcmChannel/getChannelList.htm";
+
+4.获取新加的合同数  (根据门店+管理分类查询新加的合同数)
+String url=PropertyUtil.getSystemUrl("pcmInnerSdc")+"/contractLog/getContractLogCountByTime.htm";
+
+5.门店接口
+String sendurl = PropertyUtil.getSystemUrl("pcmInnerSdc")+ "/pcmInnerOrg/getOrgData.htm";
+
+6.获取管理分类
+String url=PropertyUtil.getSystemUrl("pcmInnerSdc")+"/categoryPis/getIndustryCategorys.htm";
+
+7.根据uid获取账号信息
+String url = PropertyUtil.getSystemUrl("UAC") + "/api/findDeptList.do";
+
+8.根据uid获取相关联的角色列表
+String url = PropertyUtil.getSystemUrl("UAC")+ "/api/findRolesByUserId.do";
+
+9.根据用户uid和系统标识查询角色id	
+String systemCN = PropertyUtil.getValue("/system.properties","systemCN");
+String url = PropertyUtil.getSystemUrl("UAC")+ "/api/findRolesByUserAndSys.do";
+
+10.修改UAC密码
+String url = PropertyUtil.getSystemUrl("UAC")+ "/validate/UpdateUserPassword.do";
+
+
+
+http://121.42.8.141:8080/ops/brandDisplay/queryBrand
+
+修改品牌
+http://121.42.8.141:8080/ops/brandDisplay/modifyBrandGroup
+
+http://121.42.8.141:8080/ops/organization/saveOrganizationOne
+
+http://localhost:9080/ops/photo/queryPhotoguige
+
+photo_server = http://10.30.61.149:8185/photoMan-sev/
+
+10.163.239.120
+
+photo_server = http://10.30.61.149:8185/photoMan-sev/
+photo_system=http://10.163.239.120:8185/photoMan-sev
+
+
+
+http://localhost:8080/ops/propscombox/list?id=5394&_=1497241122454
+
+
+http://localhost:8080/ops/provalues/add
+
+http://localhost:8080/ops/organization/saveOrganizationOne
+
+
+[{"notNull":0,"propsid":"4"},{"notNull":0,"propsid":"1"}]
+
+
+[{notNull:0,propsid:"4"}]
+
+{"data":{"errorCode":"11111007","errorMsg":"Could not read
+ JSON: Unrecognized token 'notNull': was expecting 'null', 'true', 'false' or NaN\n at [Source: com.wfj.netty.server.servlet.DelegatingServletInputStream@4309255d; line: 1, column: 9]; nested exception is org.codehaus.jackson.JsonParseException: Unrecognized token 'notNull': was expecting 'null', 'true', 'false' or NaN\n at [Source: com.wfj.netty.server.servlet.DelegatingServletInputStream@4309255d; line: 1, column: 9]"},"success":"false"}
+
+
+http://localhost:8080/ops/brandDisplay/queryBrandGroupListByName
+
+
+http://121.42.8.141:8080/ops/product/addProduct
+
+
+
+
+6.14.日程
+
+1.菜单分类  建其他
+2.库存价格控制项添加属性完成
+3.添加商品查询出库存价格控制项属性
+4.生成sku查询
+
+
+6.15 日程
+
+1.修复库存价格控制项不能删除 bug   ：建文
+
+2.添加商品页面查询出库存价格控制项展示  ：小冉，亚飞
+
+3.页面生成单品，保存sku与属性 的关系信息到数据库表（sku与属性值关系表） ：福豪，王志文
+
+
+备注：不管遇到什么问题，如果半小时内想不通，赶紧报告求助
+
+
+
+6.26 日程
+
+
+1、搜索在101机器上，再研究它时间来不及，小冉你想办法联系下刘福来，问他怎么启动
+2.喜斌，图片编辑页面查的是数据库没走搜索，查的是原sku 表，spu表，和色码表，你先看下原来数据，写死个数据，把图片上传的页面加载出来
+
+3、福豪，你重新检下代码，把syn也检下来，添加专柜商品信息后debug 下看下发，跳到syn 的数据格式
+
+
+4、亚飞你找到精包装完后的代码，看看编辑完后的下发
+
+5、建文你看下专柜商品，库存，价格怎么查的
+
+
+
+
+
+
+
+
+
+brandSid=35831, productNum=, prodCategoryCode=6956, finalClassiFicationCode=null, yearToMarket=null, 
+			seasonCode=null, crowdUser=null, mainAttribute=12, categoryName=女士,
+
+     parameters=[{"propSid":"17","propName":"库存","valueSid":"12","valueName":"锁库"},
+                 {"propSid":"20","propName":"颜色","valueSid":"21","valueName":"灰色"},
+                 {"propSid":"22","propName":"大小","valueSid":"25","valueName":"型号1"},
+                 {"propSid":"23","propName":"重量","valueSid":"27","valueName":"10Kg"}], 
+     type=1,
+ 
+     skuProps=[{"proColor":"12","features":"34","sizeCode":"34"},
+               {"proColor":"12","features":"34","sizeCode":"3434"},
+               {"proColor":"12","features":"3434","sizeCode":"3434"},
+               {"proColor":"3","features":"3434343","sizeCode":"343434"}],
+
+     proTypeSid=1]
+
+
+//
+
+pcm_pro_detail  生成单品保存的数据表
+
+pcm_product   sid 商品信息表
+
+pcm_product_parameters    product_sid = sid 保存属性的表
+
+pcm_pro_detail_parameters  库存价格控制项与sku关系表
+
+
+
+
+PcmProDetailParms
+
+
+jira安装说明
+http://blog.csdn.net/doegoo/article/details/52219860
+
+
+[brandSid=35831, productNum=1312312312312312, prodCategoryCode=6956, 
+    finalClassiFicationCode=null, yearToMarket=null, seasonCode=null, crowdUser=null, mainAttribute=, categoryName=女士, 
+    parameters=[{"propSid":"17","propName":"库存","valueSid":"12","valueName":"锁库"},
+                {"propSid":"22","propName":"大小","valueSid":"26","valueName":"型号2"},
+		{"propSid":"23","propName":"重量","valueSid":"27","valueName":"10Kg"}], 
+      type=0,
+ 
+    skuProps=[{"proColor":"10Kg","colorCode":"锁库","colorName":"锁库"}],
+
+ proTypeSid=1]
+
+prodCategoryCode=5394, categoryName=围巾, proTypeSid=1, brandSid=35831, productNum=13423423423,
+ parameters=[
+    ParametersDto [propSid=20, propName=颜色, valueSid=21, valueName=灰色],
+    ParametersDto [propSid=21, propName=尺码, valueSid=23, valueName=124], 
+    ParametersDto [propSid=18, propName=价格, valueSid=16, valueName=加价], 
+    ParametersDto [propSid=19, propName=容量, valueSid=19, valueName=最小], 
+    ParametersDto [propSid=22, propName=大小, valueSid=26, valueName=2]], 
+    type=0, 
+    skuProps=[
+       SkuListVO [colorCode=降价, colorName=降价, proColor=1, sizeCode=null, features=null, modelNum=null],
+       SkuListVO [colorCode=最大, colorName=最大, proColor=2, sizeCode=null, features=null, modelNum=null]
+
+SaveSkuVO 
+      [brandSid=35831, productNum=13423423423, prodCategoryCode=5394, finalClassiFicationCode=null, yearToMarket=null, seasonCode=null, crowdUser=null, mainAttribute=, categoryName=围巾, 
+
+            parameters=[{	
+
+       skuProps=[{"proColor":"1","colorCode":"降价","colorName":"降价"},
+                 {"proColor":"2","colorCode":"最大","colorName":"最大"}], 
+
+      proTypeSid=1]
+
+[{"propSid":"20","propName":"颜色","valueSid":"21","valueName":"灰色"},
+  {"propSid":"21","propName":"尺码","valueSid":"23","valueName":"124"},
+  {"propSid":"18","propName":"价格","valueSid":"15","valueName":"20"},
+  {"propSid":"19","propName":"容量","valueSid":"18","valueName":"400"},
+  {"propSid":"22","propName":"大小","valueSid":"25","valueName":"1"}
+]
+
+
+SELECT
+		ppp.*,ppdp.*
+		FROM
+		pcm_category AS cate  
+		JOIN
+		pcm_product_parameters ppp ON cate.sid = ppp.category_sid 
+		JOIN
+		pcm_product AS spu ON spu.sid = ppp.product_sid   
+    JOIN
+    pcm_pro_detail AS ppd ON spu.sid = ppd.product_sid 
+    JOIN 
+    pcm_pro_detail_parameters AS ppdp ON ppd.product_detail_sid = ppdp.pro_detail_sid	
+
+
+Incorrect string value: '\xE5\xA5\xB3\xE5\xA3\xAB' for column 'category_name' 
+
+{"proColor":"2","colorCode":"锁库","colorName":"锁库"},{"proColor":"1","colorCode":"30","colorName":"30"}]
+
+
+
+proColor:2 colorCode:可售库 colorName可售库 sizeCode:undefined
+proColor:1 colorCode:20 colorName20 sizeCode:undefined
+
+[{"propsSid":17,"isEnumProp":0,"value":["13","14","13"]},{"propsSid":19,"isEnumProp":0,"value":["19","19","20"]}]
+
+
+1.注意特殊字段校验
+2.注意文本输入框
+3.普通属性置为空 level==0  if (dto.getLevel() == null) {  
+4.生成品名
+5.缓存
+6.搜索
+
+
+18 16 22 26
+
+18 15 22 25
+
+18 16 22 26
+
+17 12 18 16 19 19
+
+17 13 18 15 19 19
+
+
+
+
+//单品生成数据
+
+ArrayList<String> listArr = new ArrayList<String>();
+		Integer index = skuProps.get(0).getValue().size(); 
+		for (int i = 0; i <index; i++) {
+			String skuName = "";
+			ArrayList<PcmProDetailParms> listPro = new ArrayList<PcmProDetailParms>();
+			for (int j = 0; j <skuProps.size(); j++) {
+				skuName+= skuProps.get(j).getPropsSid()+ skuProps.get(j).getValue().get(i).toString();
+			    PcmProDetailParms ppdp1 = new PcmProDetailParms();
+				ppdp1.setPro_detail_sid("90"+i);
+				ppdp1.setProp_sid(skuProps.get(j).getPropsSid());
+				ppdp1.setValue_sid(skuProps.get(j).getValue().get(i));
+				ppdp1.setLevel(skuProps.get(j).getLevel());
+				//IPcmProDetailParmsService.save(ppdp1);
+			}
+			
+			System.out.println(skuName);
+		}
+		
+ spu名称 ①百货（品牌+款号） ②超市（品牌+主属性）
+
+
+
+属性id
+
+@Autowired
+private ICategoryPropsDictService ssdCategoryPropsDictService;
+
+PcmCategoryPropsDict scpd = this.ssdCategoryPropsDictService.get(Long.valueOf(sid));
+
+
+
+属性值id
+@Autowired
+private ICategoryValuesDictService ssdCategoryValuesDictService;
+
+PcmCategoryValuesDict scpd = this.ssdCategoryValuesDictService.get(Long.valueOf(sid));
+
+
+
+<select id="selectAllSkuppdps" resultType="com.wangfj.product.maindata.domain.vo.PcmProDetailParmsSan">
+		SELECT pro_detail_sid,
+			(SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters
+		WHERE `level`='1' AND pro_detail_sid = t.pro_detail_sid) AS level_o,
+			(SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters
+		WHERE `level`='2' AND pro_detail_sid = t.pro_detail_sid) AS level_t,
+			(SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters
+		WHERE `level`='3' AND pro_detail_sid = t.pro_detail_sid) AS level_th
+			FROM pcm_pro_detail_parameters AS t
+		GROUP BY t.pro_detail_sid
+	</select>
+	<select id="selectSkuByIdppdps"
+		resultType="com.wangfj.product.maindata.domain.vo.PcmProDetailParmsSan" parameterType="java.lang.long">
+		SELECT pro_detail_sid,
+			(SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters
+		WHERE `level`='1' AND pro_detail_sid = t.pro_detail_sid) AS level_o,
+			(SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters
+		WHERE `level`='2' AND pro_detail_sid = t.pro_detail_sid) AS level_t,
+			(SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters
+		WHERE `level`='3' AND pro_detail_sid = t.pro_detail_sid) AS level_th
+			FROM pcm_pro_detail_parameters AS t
+			where 
+			<if test="pro_detail_sid != null">
+                and pro_detail_sid = #{pro_detail_sid,jdbcType=BIGINT}
+            </if>
+		GROUP BY t.pro_detail_sid
+	</select>
+	
+	<select id="selectSkuNumppdps" resultType="java.lang.Integer" >
+		SELECT COUNT(DISTINCT pro_detail_sid) FROM pcm_pro_detail_parameters 
+	</select>
+
+
+SELECT  pro_detail_sid, 
+    (SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters WHERE `level`='1' AND pro_detail_sid = t.pro_detail_sid) AS A,
+    (SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters WHERE `level`='2'  AND pro_detail_sid = t.pro_detail_sid) AS B,
+    (SELECT CONCAT(prop_name,IFNULL(value_name,0)) FROM pcm_pro_detail_parameters WHERE `level`='3'  AND pro_detail_sid = t.pro_detail_sid) AS C
+FROM pcm_pro_detail_parameters AS t
+GROUP BY t.pro_detail_sid
+
+
+
+//数据库查询
+/product/selectBaseSkuPageByPara.htm
+
+
+//缓存查询所有单品
+product/selectSkuPageCache.htm
+
+1.改js
+2.改配置文件
+
+
+
+类别和属性值关系表
+
+pcm_category_prop_values
+
+maven跳过测试打包命令
+
+install -Dmaven.test.skip=true
+
+启动pcm-admin
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm1/pcm-admin1/pcm-admin-0.0.3-SNAPSHOT.jar start 8083 8073 >> nohup.log 2>&1 &
+
+启动pcm-admin-sdc
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm1/pcm-admin-sdc1/pcm-admin-sdc-0.0.3-SNAPSHOT.jar start 8043 8053 >> nohup.log 2>&1 & 
+
+
+//pcm-syn
+
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /opt/app/pcm/pcm-syn/pcm-syn-0.0.3-SNAPSHOT.jar start 8084 8074 >> nohup.log 2>&1 &
+
+
+nohup java -Xmx750m -Xms750m -Xmn400m -Xss512k -XX:MaxPermSize=256m -XX:MaxTenuringThreshold=0 -XX:+UseConcMarkSweepGC -jar /root/pcm/pcm-admin-sdc/pcm-admin-sdc-0.0.3-SNAPSHOT.jar start 8043 8053 >> nohup.log 2>&1 & 
+
+
+
+http://121.42.8.141:8080/ops/brandDisplay/getShopBrandByShopSidAndSkuSid
+
+http://121.42.8.141:8080/ops/product/saveShoppeProduct
+
+
+
+product.pushShoppeProduct=pcmShoppeProduct/publishShoppeProductFromPcm.htm
+
+
+
+com.wangfj.product.stocks.persistence.PcmStockMapper.insertSelective-
+
+
+
+pcm_shoppe_product_extend
+
+
+ insert into pcm_shoppe_product_extend 
+( shoppe_pro_sid, field1, field2, field9, field10, store_code ) values ( ?, ?, ?, ?, ?, ? ) ### 
+Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'store_code' in
+
+数字创新集团品牌
+
+
+保存专柜商品
+http://localhost:8052/ops/product/saveShoppeProduct
+
+http://121.42.8.141:8080/ops/shoppe/queryShopListAddPermission
+
+http://121.42.8.141:8080/ops/product/	
+
+
+
+pushMap.put("paraList", sidList);
+						pushMap.put("PcmEfutureERP", "1");
+						pushMap.put("PcmEfuturePromotion", "1");
+						pushMap.put("PcmSearcherOffline", "1");
+						pushMap.put("PcmProSearch", "1");	
+						HttpUtil.doPost(PropertyUtil.getSystemUrl("product.pushShoppeProduct"),
+								JsonUtil.getJSONString(pushMap));
+
+专柜商品表  pcm_shoppe_product   insertSelective（保存的方法）
+
+查询专柜商品信息
+http://121.42.8.141:8080/ops/product/selectShoppeProductFromSearch
+
+查询价格
+http://121.42.8.141:8080/ops/productPrice/selectPricePara
+查询库存
+http://121.42.8.141:8080/ops/stock/selectStockSearch
+
+pcm-item-query
+
+
+product.pushShoppeProduct=pcmShoppeProduct/publishShoppeProductFromPcm.htm
+
+
+com.wfj.search.utils.zookeeper.discovery.SpringWebMvcServiceProvider com.wangfj.product.business.controller.ErpProductController.provider
+
+
+//下载
+	
+
+http://localhost:8052/ops/upImg/loadColors
+
+启动es
+./elasticsearch start
+
+
+
+//Admin123456
+
+云上es
+
+10.30.61.197
+
+
+//启动es
+/data/es/elasticsearch-2.3.4/bin/elasticsearch -d -p /data/es/elasticsearch-2.3.4/es.pid
+
+1.查找ES进程
+
+ps -ef | grep elastic
+
+es可视化插件
+
+
+/path/to/local/repo
+
+/path/to/tomcat/instance
+
+elasticsearch-analysis-token-filterpinyin/2.3.4.0/elasticsearch-analysis-token-filter-pinyin-2.3.4.0-dist.zip
+
+
+http://192.168.10.101:19200/_plugin/head/
+
+161 安装es
+162 安装es
+
+?1. Java基础扎实,
+熟悉多线程、nio。
+  2. 熟练使用SpringMVC,Mybaties,SSH等常用开发框架；
+  3、熟练掌握 HTML、HTML5、Javascript等开发语言；
+?
+  4、熟练掌握CSS、AJAX、JQuery、XML、json、bootstrap等相关技术；
+  5、了解Http、Tcp/ip等协议,
+熟悉es、solr、zookeeper的使用；
+  6、熟练使用MySQL，Oracle数据库，能够进行数据库及SQL的优化。
+熟悉redis、mongdb的使用;
+
+  7、熟练使用Tomcat、Resin、JBoss、WebLogic等Web服务器；
+熟悉常用的Linux命令；
+  8、有电商开发经验者优先，熟悉分布式系统者优先；
+  
+，
+具备良好的沟通力、及执行力、能独立开发
+，
+  工作态度认真、严谨，有团队精神；
+
+
+192.168.10.99:2181
+192.168.10.99:9092
+192.168.10.22:9092
+
+//es2
+192.168.10.162
+
+//es
+192.168.10.161
+
+
+//权限最大
+chmod -R 777 	
+
+./plugin install mobz/elasticsearch-head
+
+
+
+/data/es/elasticsearch-2.3.4/bin/plugin install file:$HOME/.m2/repository/xyz/dowenwork/npl/elasticsearch-analysis-char-filterchinese-simplifying/2.3.4.0/elasticsearch-analysis-char-filterchinese-simplifying-2.3.4.0-dist.zip
+
+/data/es/elasticsearch-2.3.4/bin/plugin install file:/home/search/.m2/repository/xyz/dowenwork/npl/elasticsearch-analysis-char-filterchinese-simplifying/2.3.4.0/elasticsearch-analysis-char-filterchinese-simplifying-2.3.4.0-dist.zip
+
+
+
+}'
+
+
+
+//错误{"error":{"root_cause":[{"type":"action_request_validation_exception","reason":"Validation Failed: 1: mapping source is empty;"}],"type":"action_request_validation_exception","reason":"Validation Failed: 1: mapping source is empty;"},"status":400}[search@shzchx-101 logs]$ 
+
+curl -X PUT http://192.168.10.101:19201/pcm-search-data~1/_mapping/brand --data-binary "@es-mapping/pcm-search-databrand.json"
+
+
+curl -X PUT http://192.168.10.101:19201/pcm-search-data~1/_mapping/channel --data-binary "@es-mapping/pcm-search-datachannel.json"
+
+
+
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "pcm-search-data~1",
+"alias": "pcm-search-data"
+}
+}
+]
+}'
+
+
+
+curl -XPUT http://192.168.10.101:19201/pcm-search-operation~1 -d'
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+
+
+
+curl -X POST http://192.168.20.101:19200/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "pcm-search-operation~1",
+"alias": "pcm-search-operation"
+}
+}
+]
+}'
+
+
+
+curl -X PUT http://192.168.10.101:19201/shoppe-search-base~1 -d'
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "shoppe-search-base~1",
+"alias": "shoppe-search-base"
+}
+}
+]
+}'
+
+
+
+curl -X POST http://192.168.10.101:19201/_aliases -d '
+{
+"actions": [
+{
+"add": {
+"index": "shoppe-search-erp-product~1",
+"alias": "shoppe-search-erp-product"
+}
+}
+]
+}'
+
+curl -XPUT http://192.168.10.101:19201/shoppe-search-operation~1 -d '
+{
+"settings":{
+"index":{
+"number_of_shards":"3",
+"number_of_replicas":"2"
+}
+}
+}'
+
+
+
+
+curl -X PUT http://192.168.10.101:19201/pcm-search-data~1/_mapping/brand --data-binary "@es-mapping/pcm-search-databrand.json"
+
+
+http://127.0.0.1:8080/shoppe-index/message-actuated/indexErpProducts.json
+
+
+http://127.0.0.1:8080/shoppe-index/message-actuated/indexItem.json
+
+
+
+//保存专柜商品信息下发接口
+http://127.0.0.1:8010/MQInput/itgService/inbound.do
+
+
+
+
+//查询专柜商品信息调用搜索接口
+
+
+//查询价格
+
+
+//查询库存
+
+
+//网站搜索到商品信息
+
+
+
+push.search=shoppe-index/message-actuated/indexItems.json
+
+
+//根据索引库名删除索引库
+curl -XDELETE http://localhost:9200/index_name
+
+curl -XDELETE http://192.168.10.101:19201/index_name
+//专柜商品信息下发
+
+{
+"messageBody":[
+{"itemCode":"20000029","skuCode"
+:"1000000000050","supplierCode":"0007540","shoppeCode":"0980098","supplierName":"供应商A","storeCode":"31013","discountLimit":"0.3","season":"春夏秋","onMarketDate":"20160908","storeBrandCode":"6000002","rateCode":"0.2","shoppeItemName":"剃须刀","erpProductCode":"01125431","erpSkuType":"2","manageType":"2","article_num":"3","manageCategoryType":"4","originPrice":"10090","productCategory":"护肤中类","unit":"件","productName":"数字创新集团品牌 Ss 123 123","productType":"1","barcode":["90800","0980898"]}],
+"stamp":"923449384249284293",
+"caller":"PCM",
+"signature":"hWaaVtSk+7+blLnVw/98AHOb+ZhM4ZzYY5euAx79tk28RclI7czYXWD3bqBtSYW/Nt4iICz5gJjQinOcBLSx13yvukZPSlg+cyuYzrNzSTBgNBahxT8/PoWplOgn04bWkHjJe1fNmxW/9u+W8zVZ+OrElsh8TranefuGLymvi1o0ZapSCqwxiQWo6aDWN5ec1m0ZBre7Cn+ItlRymDFH4IUYrzwRAR6Kmx9LZtC2keRK9y8tsgh/53OTPe9YcjPIr01xNzIQ364SNFkBYcSdjxeNflwwZRCP//b0LjCnILGUrb0fqUyZ+Sp3Xgw3fRqQT1z2hBteJ19BrL1zEjnvGg=="
+}
+
+//重试查询数据
+http://127.0.0.1:8042/pcm-inner-sdc/search/searchSpByCode.htm
+
+{"item":{"supplierName":"重庆火锅店","onMarketDate":"","shoppeItemType":"1","storeBrandCode":"6000002","itemCode":"20000068","originPrice":"1000.00","saleStatus":"0","supplierCode":"0107468","shoppeCode":"3101302663","rateCode":"","productCategory":"","shoppeItemName":"数字创新集团品牌 01010101","manageCategoryType":"123456","erpProductCode":"","unit":"副","manageType":"1","article_num":"1335434","season":"","barcode":["777741"],"discountLimit":"0.8","skuCode":"1000000000134","erpSkuType":"","storeCode":"31013"},"success":true}
+
+
+//重试表
+INSERT INTO shoppe_retry_note (item_code, step) VALUES (#{itemCode}, #{step})
+
+//重试查询数据  根据专柜商品id
+SELECT
+		pro.shoppe_pro_sid AS itemCode,
+		sku.product_detail_sid AS
+		skuCode,	
+		shoppe.shoppe_code AS shoppeCode,
+		supply.supply_code AS
+		supplierCode,
+		supply.supply_name AS supplierName,
+		pro.discountLimit AS
+		discountLimit,
+		spu.season_code AS season,
+		spu.year_to_market AS
+		onMarketDate,
+		brand.brand_sid AS storeBrandCode,
+		erp.product_code AS
+		rateCode,
+		pro.shoppe_pro_name AS shoppeItemName,
+		pro.sale_status AS
+		saleStatus,
+		pro.shoppe_pro_type AS shoppeItemType,
+		erp.product_code AS
+		erpProductCode,
+		erp.code_type AS erpSkuType,
+		pro.shoppe_pro_type AS
+		manageType,
+		bar.barcode AS barcode,
+		pro.field3 AS article_num,
+		pro.category_sid AS manageCategoryType,
+		pro.original_price AS
+		originPrice,
+		erp.format_type AS productCategory,
+		pro.sale_unit_code AS
+		unit,
+		org.organization_code AS storeCode
+		FROM
+		pcm_shoppe_product AS pro
+		JOIN pcm_pro_detail AS sku ON sku.sid = pro.product_detail_sid
+		AND
+		pro.sale_status = 0
+		JOIN pcm_product AS spu ON spu.sid =
+		sku.product_sid
+		JOIN pcm_shoppe AS shoppe ON shoppe.sid =
+		pro.shoppe_sid and shoppe.industry_condition_sid != 2
+		AND
+		shoppe.shoppe_status = 1
+		JOIN pcm_organization AS org
+		ON org.sid =
+		shoppe.shop_sid
+		AND org.organization_status = 0
+		JOIN
+		pcm_supply_info AS
+		supply ON supply.sid = pro.supply_sid
+		AND
+		supply.`status` = 0
+		JOIN
+		pcm_brand AS brand ON brand.sid =
+		pro.brand_sid
+		LEFT JOIN pcm_barcode AS
+		bar ON bar.shoppe_pro_sid =
+		pro.shoppe_pro_sid
+		LEFT JOIN pcm_erp_product
+		AS erp ON erp.product_code
+		= pro.rate_code
+		<where>
+			<if test="sidList != null">
+				and pro.sid in
+				<foreach collection="sidList" item="itemSid" index="index"
+					open="(" close=")" separator=",">
+					#{itemSid,jdbcType=VARCHAR}
+				</foreach>
+			</if>
+		</where>
+		<if test="num != null">
+			limit #{num}
+		</if>
+	</select>
+
+
+数据格式
+{
+"messageBody":[
+{"itemCode":"20000076","skuCode"
+:"1000000000135","supplierCode":"0107468","shoppeCode":"0980098","supplierName":"重庆火锅店","storeCode":"31013","discountLimit":"0","manageCategoryType":"0010101","season":"春夏秋","onMarketDate":"20160908","storeBrandCode":"6000002","rateCode":"0.2","shoppeItemName":"剃须刀","erpProductCode":"01125431","erpSkuType":"2","manageType":"1","article_num":"363521","manageCategoryType":"0010101","originPrice":"189.00","productCategory":"护肤中类","unit":"件","productName":"数字创新集团品牌 Ss 123 123","productType":"1","barcode":["90800","0980898"]}], "shoppeItemType": "1",
+"stamp":"ea3b8bb4-8ce6-4efe-a3b5-11972faa2525",
+"caller":"PCM",
+"signature":"hWaaVtSk+7+blLnVw/98AHOb+ZhM4ZzYY5euAx79tk28RclI7czYXWD3bqBtSYW/Nt4iICz5gJjQinOcBLSx13yvukZPSlg+cyuYzrNzSTBgNBahxT8/PoWplOgn04bWkHjJe1fNmxW/9u+W8zVZ+OrElsh8TranefuGLymvi1o0ZapSCqwxiQWo6aDWN5ec1m0ZBre7Cn+ItlRymDFH4IUYrzwRAR6Kmx9LZtC2keRK9y8tsgh/53OTPe9YcjPIr01xNzIQ364SNFkBYcSdjxeNflwwZRCP//b0LjCnILGUrb0fqUyZ+Sp3Xgw3fRqQT1z2hBteJ19BrL1zEjnvGg=="
+}
+
+
+//
+http://127.0.0.1:8042/pcm-inner-sdc/categorycontroller/getCategoryInfo.htm
+
+http://121.42.8.141:8080/ops/product/deleteProduct
+

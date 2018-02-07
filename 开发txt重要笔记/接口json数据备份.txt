@@ -1,0 +1,344 @@
+门店与门店品牌下发
+http://121.42.8.141/pcm-import/shopBrand/uploadShopBrandRelation.htm
+
+{"data":"{\"data\":[{\"ACT_CODE\":\"A\",\"storeType\":\"1\",\"brandCode\":\"6000002\",\"brandName\":\"数字创新门店品牌2\",\"storeCode\":\"20101\"}],\"header\":\"\",\"version\":\"1\"}","header":{"callbackUrl":"callBackUrlTest"}}
+
+创建管理分类的二级分类
+http://121.42.8.141/pcm-import/categorymanage/uploadCategoryFromEfutureERP.htm
+
+{"data":"{'data':[{'CODE':'0001','FLAG':'N','ISZG':'N','NAME':'数字创新','SJCODE':'0','STATUS':'Y','TYPE':'4','actionCode':'A','actionDate':'20141008.101603+0800','actionPerson':'sss','categoryType':0,'sid':287,'storeCode':'20101'}],'header':{'bizType':'','callbackUrl':'','count':'','createTime':'','destCallType':0,'destUrl':'','field1':'','field2':'','field3':'','messageID':'','messageType':'','priority':'','routeKey':'','serviceID':'','sourceSysID':'','token':'','version':''}}"}
+
+供应商上传：
+http://121.42.8.141/pcm-import/pcmSupplyInfo/uploadPcmSupplyInfoFromEFutureERP.htm
+
+{"data":"{\"data\":[{\"ADMISSIONDATE\":\"20150624\",\"ACTION_CODE\":\"A\",\"ACTION_DATE\":\"20150916.170538+0800\",\"INOUT_CITY\":\"市内\",\"FAX_NUMBER\":\"0755-83537935\",\"STATUS\":\"淘汰\",\"ZZLICENSE\":\"8888888888\",\"ZZREGION\":\"北京市\",\"STREET\":\"北京市海淀区稻香园西里5号楼\",\"SMTP_ADDR\":\"wang250xuan@163.com\",\"ZZORG\":\"222222225\",\"ACTION_PERSION\":\"EFUTERP\",\"TAXTYPE\":\"增值税一般纳税人\",\"ZZBANK\":\"20000028787400003238924\",\"BUSINESSPATTERN\":\"Z001\",\"SUPPLIERCODE\":\"3215687\",\"STORECODE\":\"20101\",\"POST_CODE1\":\"100089\",\"CITY1\":\"北京\",\"REGIO\":\"\",\"COUNTRY\":\"中国\",\"SHOARTNAME\":\"北京同仁天堂药品\",\"CONTACT_ADDR\":\"北京市海淀区稻香园西里5号楼\",\"INDUSTRY\":\"制造业\",\"TEL_NUMBER\":\"18500023845\",\"STORECODE\":\"21011\",\"SUPPLIERNAME\":\"北京同仁天堂药品有限公司*Z\",\"TAX_RATE\":\"17\",\"ORG_CODE\":\"\",\"BUSINESS_CATEGORY\":\"经销商\",\"ZZPROPERTY\":\"国企\",\"STCD1\":\"25698\",\"ZFLG\":1}],\"header\":\"\",\"version\":\"1\"}","header":{"callbackUrl":"callBackUrlTest"}}
+
+合同上传
+http://121.42.8.141/pcm-import/contract/uploadContractLog.htm
+
+{"data": "{\"data\":[{\"contractCode\":\"85789630\",\"storeCode\":\"20101\",\"supplierCode\":\"3315687\",\"manageType\":\"9\",\"buyType\":\"3\",\"operMode\":\"1\",\"businessType\":\"E\",\"inputTax\":\"0.17\",\"outputTax\":\"0.13\",\"commissionRate\":\"0.25\",\"actionCode\":\"U\",\"actionPerson\":\"jsak\"}]}","header": {"callbackUrl": "callBackUrlTest"}
+
+单个商品变价
+
+  http://121.42.8.141/pcm-import/changeprice/pis/importProPriceInfo.htm
+
+
+{ "data": [{"storecode": "20101", "matnr": "1000000000004", "supplierprodcode": "20000003", "zsprice": "260","sitecode": "2010102656","waers": "RMB", "bdate": "20170525", "edate": "20301231", "changecode": "Z1000651","salepricereason": "","guid": "6bce055d-f04c-4221-9cc0-0ac7ffcb6ac3",
+            "action_code":"A",
+            "action_date": "2017-05-25 15:26",
+            "action_persion": "admin1"
+        }
+    ],
+    "header": {
+        "destCallType": 0,
+        "destUrl": "http://10.6.2.48:8085/pcm-import/changeprice/pis/importProPriceInfo.htm",
+        "createTime": "2015-11-03 03:26:09.401",
+        "routeKey": "PIS",
+        "sourceSysID": "P112",
+        "serviceID": "P012_08",
+        "messageID": "7341b902-10c3-45ee-a4ff-b9f873122319",
+        "field1": null,
+        "field2": null,
+        "callbackUrl": "http://192.168.6.164:8801/storeMan-sev/store/changeprice/price/returnPriceInfoDt.htm",
+        "bizType": "13",
+        "field3": null,
+        "messageType": null,
+        "version": "1",
+        "token": "",
+        "priority": "2",
+        "count": "13"
+    }
+}                                                   
+
+
+大码商品上传
+http://121.42.8.141/pcm-import/erpProductEfuture/uploadErpProductFromEFuture.htm
+
+{"data":"{\"data\":[{\"counterCode\":\"3101302660\",\"productCategory\":\"08\",\"inputTax\":\"33.33\",\"isAdjustPrice\":\"N\",\"productType\":\"Z003\",\"originLand\":\"原产地1\",\"ACTION_DATE\":\"19901010.101010\",\"manageCategory\":\"00101\",\"skuType\":\"2\",\"brandCode\":\"6000003\",\"statCategory\":\"300\",\"salesUnit\":\"个\",\"isPromotion\":\"N\",\"articleNum\":\"ss111\",\"salesTax\":\"33.33\",\"salesPrice\":\"33.33\",\"serviceFeeType\":\"1\",\"discountLimit\":\"33.33\",\"productCode\":\"456923543\",\"status\":\"T\",\"supplierCode\":\"0007540\",\"supplierBarcode\":\"3101310001\",\"ACTION_CODE\":\"A\",\"formatType\":\"1\",\"commissionRate\":\"33.33\",\"outputTax\":\"33.33\",\"specName\":\"300ml\",\"ACTION_PERSION\":\"123\",\"productName\":\"休闲童鞋\",\"storeCode\":\"31013\"},{\"ACTIONPERSON\":\"123\"}],\"header\":\"\",\"version\":\"1\"}","header":{"callbackUrl":"callBackUrlTest"}}  
+
+商品上下架库存阀值管理 pcm_product_online_limit 
+
+商品与EDI关联关系 pcm_shoppe_product_EDI_relation 
+商品品类关联表 pcm_product_category 
+
+商品属性变更表 pcm_erp_product_change 
+商品属性表 pcm_product_parameters 
+商品文描信息 pcm_product_memo 
+
+商品类型字典表 pcm_product_type_dict 
+商品精包装 pcm_product_desc 
+商品表（SKU） pcm_pro_detail
+ 
+专柜供应商关联关系 pcm_supply_shoppe_relation 
+专柜品牌关联关系 pcm_shoppe_brand_relation 
+
+专柜商品与供应商关联表 pcm_shoppe_product_supply 
+专柜商品与合同关系表 pcm_pro_input 
+
+专柜商品扩展表 pcm_shoppe_product_extend 
+专柜商品表 pcm_shoppe_product 
+ERP商品编码表（大码表） pcm_erp_product 
+
+1.创建集团 编码 1位
+2.创建大区 编码 1位
+3.创建城市 编码 4位
+
+4.创建门店 编码 5位 （由城市编码+1位组成）
+5.创建楼层 编码 8为 （由门店编码+3位组成从000开始）
+建立管理分类，通过接口上传 
+
+
+
+下发搜索
+
+SELECT
+		pro.sid AS sid,
+		sku.product_detail_sid AS skuCode,
+		pro.shoppe_pro_sid AS productCode,
+		pro.rate_code AS erpProductCode,
+		pro.shoppe_pro_name AS productName,
+		sku.pro_type AS productType,
+		pro.supply_product_code AS supProductCode,
+		supply.supply_name AS
+		supplierName,
+		supply.supply_code AS supplierCode,
+		supply.business_pattern AS businessPattern,
+		shoppe.shoppe_code AS
+		counterCode,
+		shoppe.shoppe_name AS counterName,
+		org.organization_code AS
+		storeCode,
+		org.organization_name AS storeName,
+		channel.channel_code AS
+		channelCode,
+		channel.channel_name AS channelName,
+		channel.sid AS
+		channelSid,
+		pro.original_price AS marketPrice,
+		pro.stock_mode AS
+		stockMode,
+		pro.negative_stock AS negativeStock,
+		pro.is_stock AS
+		stockType,
+		pro.sale_status AS isSale,
+		sku.pro_color_sid AS colorSid,
+		sku.pro_color_name AS colorCode,
+		sku.pro_color_name AS colorName,
+		sku.pro_stan_sid AS stanCode,
+		sku.pro_stan_name AS stanName,
+		spu.product_sku AS modelCode,
+		pro.field3 AS articleNum,
+		brand.brand_name AS brandGroupName,
+		brand.brand_sid AS brandGroupCode,
+		pro.sale_unit_code AS unitCode,
+		pro.sale_unit_code AS unitName,
+		sku.selling_status AS isSelling,
+		sku.features AS features,
+		spu.primary_attr AS primaryAttr,
+		shoppe.industry_condition_sid AS
+		industry,
+		pro.category_sid AS managerCategoryCode,
+		mdbrand.brand_sid AS
+		storeBrandCode,
+		mdbrand.brand_name AS storeBrandName,
+		manageCate.`name`
+		AS managerCategoryName,
+		pro.field4 AS field4,
+		exte.xxhc_flag AS xxhcFlag
+		FROM
+		pcm_shoppe_product AS pro
+		JOIN pcm_pro_detail AS sku ON sku.sid =
+		pro.product_detail_sid
+		JOIN pcm_product AS spu ON spu.sid =
+		sku.product_sid
+		JOIN
+		pcm_shoppe_product_supply AS psps ON
+		psps.shoppe_product_sid = pro.sid
+		JOIN pcm_supply_info AS supply ON
+		supply.sid = psps.supply_sid
+		AND
+		supply.`status` = 'Y'
+		JOIN pcm_shoppe AS
+		shoppe ON shoppe.sid =
+		pro.shoppe_sid
+		AND shoppe.shoppe_status = 1
+		JOIN
+		pcm_organization AS org
+		ON org.sid = shoppe.shop_sid
+		AND
+		org.organization_type = 3
+		AND
+		org.organization_status = 0
+		JOIN
+		pcm_channel_sale_config AS sale ON
+		sale.shoppe_pro_sid = shoppe.sid
+		AND
+		sale.sale_stauts = 0
+		JOIN
+		pcm_channel AS channel ON channel.channel_code
+		= sale.channel_sid
+		JOIN
+		pcm_brand AS brand ON brand.sid =
+		spu.brand_root_sid
+		JOIN pcm_brand AS
+		mdbrand ON mdbrand.sid =
+		pro.brand_sid
+		JOIN pcm_shoppe_product_extend
+		AS exte ON
+		exte.shoppe_pro_sid = pro.sid
+		LEFT JOIN pcm_category AS
+		manageCate ON
+		pro.category_sid = manageCate.category_code
+		WHERE
+			
+	       pro.sid IN(47)
+
+
+
+
+
+
+<!-- 下发门店数据查询 -->				
+
+
+	SELECT
+		ps.industry_condition_sid,
+		psp.*,
+		sku.product_detail_sid AS
+		productCode,
+		spu.product_sid AS baseProductCode ,
+		spu.product_sku AS
+		modelNumber,
+		sku.pro_stan_sid AS sizeCode,
+		sku.pro_color_name AS
+		styleCode,
+		input.order_no AS billsNo,
+		input.contract_code AS
+		contractCode,
+		input.procurement_user_code AS procurementUserCode,
+		input.input_user_code AS inputUserCode,
+		sup.supply_code AS
+		supplierCode,
+		sup.business_pattern AS operateMode,
+		sup.shop_sid AS
+		storeCode,
+		ps.shoppe_code AS counterCode,
+		pri.promotion_price AS
+		salesPrice,
+		pri.original_price AS marketPrice,
+		cate.category_code AS
+		statCategory,
+		pbr.brand_sid AS brandCode,
+		erp.pro_status AS
+		productStatus
+		FROM
+		(
+		SELECT
+		chipsp.sid AS sid,
+		chipsp.shoppe_pro_sid AS
+		'code',
+		chipsp.shoppe_pro_name AS productName,
+		chipsp.product_detail_sid AS product_detail_sid,
+		chipsp.supply_sid AS
+		supply_sid,
+		chipsp.shoppe_sid AS shoppe_sid,
+		chipsp.brand_sid AS
+		brand_sid,
+		chipsp.category_sid AS manageCategory,
+		chipsp.discountLimit
+		AS maxDiscountRate,
+		chipsp.sale_status AS sale_status,
+		chipsp.sale_unit_code AS sale_unit_code,
+		IFNULL(chipsp.supply_product_code,"") AS supplierIntBarCode,
+		chipsp.shoppe_pro_alias AS productAbbr,
+		IFNULL(chipsp.input_tax,"0") AS
+		inputTax,
+		IFNULL(chipsp.output_tax,"0") AS outputTax,
+		IFNULL(chipsp.sales_tax,"0") AS salesTax,
+		IFNULL(chipsp.purchase_price,"0") AS purchasePrice,
+		IFNULL(chipsp.buying_price,"0") AS buyingPrice,
+		chipsp.process_type AS
+		processType,
+		chipsp.origin_land AS originLand,
+		chipsp.order_type AS
+		orderType,
+		chipsp.is_promotion AS isPromotion,
+		chipsp.is_adjust_price AS
+		isAdjustPrice,
+		IFNULL(chipsp.erpProductCode,"") AS erpProductCode,
+		chipsp.field1 AS notes,
+		chipsp.field3 AS materialNum
+		FROM
+		pcm_shoppe_product chipsp
+		<where>
+			<if test="sidList != null">
+				and chipsp.sid in
+				<foreach collection="sidList" item="itemSid" index="index"
+					open="(" close=")" separator=",">
+					#{itemSid,jdbcType=VARCHAR}
+				</foreach>
+			</if>
+			<if test="limit != null">
+				limit #{limit,jdbcType=BIGINT}
+			</if>
+		</where>
+		) psp
+		INNER JOIN pcm_shoppe ps
+		ON psp.shoppe_sid = ps.sid AND
+		ps.industry_condition_sid != 2
+		INNER JOIN pcm_pro_detail
+		sku
+		ON
+		psp.product_detail_sid = sku.sid
+		INNER JOIN pcm_product spu
+		ON
+		sku.product_sid = spu.sid
+		INNER JOIN pcm_pro_input input
+		ON psp.sid =
+		input.shoppe_pro_sid
+		INNER JOIN pcm_supply_info sup
+		ON sup.sid =
+		psp.supply_sid
+		left JOIN pcm_price pri
+		ON pri.shoppe_pro_sid =
+		psp.`code`
+		AND pri.channel_sid = '0'
+		AND pri.ifdel = '0'
+		AND NOW()
+		BETWEEN pri.promotion_begin_time AND pri.promotion_end_time
+		LEFT JOIN
+		pcm_product_category ppc ON psp.sid = ppc.product_sid
+		LEFT JOIN
+		pcm_category cate ON ppc.category_sid = cate.sid
+		AND cate.is_leaf = 'Y'
+		AND cate. STATUS = 'Y'
+		AND cate.is_display = 1
+		AND cate.category_type =
+		2
+		INNER JOIN pcm_brand pbr
+		ON psp.brand_sid = pbr.sid
+		LEFT JOIN
+		pcm_erp_product erp
+		ON psp.erpProductCode = erp.product_code
+
+
+发送数据出错
+
+insert into pcm_mq    ( url,             destUrl,             callbackUrl,             serviceID,             count,             sourceSysID,             createDate,                         c1,                             data )     values ( ?,             ?,             ?,             ?,             ?,             ?,             ?,                         ?,                             ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'pcm.pcm_mq' doesn't exist
+
+
+
+
+/data/githome/messenger.git
+
+om/wfj/search/utils/signature/ras/KeyUtils
+a610d72a73874bd58d2fe692aa9dfb21 [2017-06-26 18:30:49.993] ERROR com.wfj.netty.server.servlet.WFJFilterChain [nioEventLoopGroup-6-2] Do filter excurte error: Handler processing failed; nested exception is java.lang.NoClassDefFoundError: com/wfj/search/utils/signature/ras/KeyUtils
+a610d72a73874bd58d2fe692aa9dfb21 [2017-06-26 18:30:49.995] ERROR com.wfj.netty.server.container.handler.HTTPHandler [nioEventLoopGroup-6-2] 服务器内部错误，请联系管理员！
+a610d72a73874bd58d2fe692aa9dfb21 [2017-06-26 18:30:49.995] ERROR com.wfj.netty.server.container.handler.HTTPHandler [nioEventLoopGroup-6-2] Details: Handler processing failed; nested exception is java.lang.NoClassDefFoundError: com/wfj/search/utils/signature/ras/KeyUtils
+
+
+${resources.active}\env-profile.properties
+
+
+

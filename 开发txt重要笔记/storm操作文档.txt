@@ -1,0 +1,71 @@
+启动Storm。
+
+storm nimbus >/dev/null 2>&1 &          //启动主节点
+
+storm supervisor >/dev/null 2>&1&     //启动从节点
+
+storm ui >/dev/null 2>&1 &                    //启动后台UI管理界面
+
+查看Storm是否正常启动。
+
+jps
+
+
+
+1.activate  激活指定的拓扑。
+storm activate topology-name  
+
+2.classpath 打印出Storm客户端运行命令时使用的类路径(classpath)
+storm classpath  
+
+3.deactivate
+禁用指定的拓扑Spout
+storm deactivate topology-name  
+
+4.dev-zookeeper 以dev.zookeeper.path配置的值作为本地目录，以storm.zookeeper.port配置的值作为端口，启动一个新的Zookeeper服务，仅用来开发/测试
+storm dev-zookeeper  
+
+5.drpc (常用！)启动一个DRPC守护进程
+storm drpc  
+
+6.help (常用！)
+打印一条帮助消息或者可用命令的列表
+storm help  
+storm help <command>   注：直接输入不带参数的storm，也可以启动storm help命令。
+
+7.jar (很常用！)
+
+运行类的指定参数的main方法
+storm jar topology-jar-path class ...  
+
+8.kill (常用！)
+
+杀死名为topology-name的拓扑
+storm kill topology-name [-w wait-time-secs]  
+
+注：storm首先会在拓扑的消息超时时间期间禁用spout，以允许所有正在处理的消息完成。然后，Storm将会关闭Worker并清理他们的状态。可以使用-w标记覆盖Storm在禁用与关闭期间等待的时间长度。
+
+9.list (常用！)
+
+列出正在运行的拓扑及其状态
+storm list  
+
+10.localconfvalue
+
+打印出本地Storm配置的conf-name的值
+storm localconfvalue conf-name  
+
+11.logviewer (常用！)
+
+启动Logviewer守护进程
+storm logviewer
+
+注：Logviewer提供一个Web接口查看Storm日志文件。该命令应该使用daemontools或者monit工具监控运行。
+
+12.nimbus (常用！)
+
+启动Nimbus守护进程
+storm nimbus  
+
+13.rebalance (常用！)
+再平衡即动态设置拓扑的进程数量和线程数量等

@@ -1,0 +1,12 @@
+pcm.common_2.search
+tms.common_1.tms
+pcm.common_1.pcmsyn
+pcm.classification.outlets
+
+oms.common_1.oms
+EfutureERP.Inventory.PCM
+saperp.common_1.omssyn
+tms.common_1.edi
+pcm.payment.outlets
+outlets.common_1.pcm
+EfuturePromotion.activity.CRMERP
